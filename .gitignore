@@ -1,0 +1,42 @@
+# ---- virtualenv / caches -------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- raw dataset (1.2 GB, exceeds GitHub's 100 MB file limit) ------------
+# Not redistributed here. See README.md for how to obtain it.
+train.jsonl
+*.jsonl.gz
+
+# ---- secrets -------------------------------------------------------------
+# Any .env variant
+.env
+.env.*
+*.env
+
+# Any filename containing "key" or "secret" (both cases)
+*key*
+*Key*
+*KEY*
+*secret*
+*Secret*
+*SECRET*
+
+# Common credential formats
+*.pem
+*.p12
+*credentials*
+*token*
+
+# ---- OS / editor cruft ---------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

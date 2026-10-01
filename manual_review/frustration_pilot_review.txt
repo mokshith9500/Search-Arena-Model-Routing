@@ -1,0 +1,403 @@
+==============================================================================
+FRUSTRATION CLASSIFIER - 20-CONVERSATION PILOT (for human review)
+==============================================================================
+model: gemini-3.1-flash-lite   temperature: 0   items: 20
+Unit of analysis: ONE CONVERSATION (user turns are identical on
+both sides, so frustration is not a per-side property).
+Labels: frustrated / engaged / neutral, each with a one-sentence
+justification so every call can be checked by hand.
+==============================================================================
+
+------------------------------------------------------------------------------
+[1/20]  record_idx=22000  intent=Info Synthesis  languages=('Russian',)
+user_turns=7  models: gemini-2.5-pro-exp-03-25 vs sonar-pro  winner=model_a
+citations a/b=0/41  resp_len a/b=25212/21727
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user consistently asks follow-up questions to deepen their understanding of Yann LeCun's views and architecture, demonstrating a clear intent to explore the topic further.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Как к генеративному ии относится Ян Лекун?
+
+  [TURN 2]
+    Как Ян Лекун относится к моделям рассуждений?
+
+  [TURN 3]
+    Имеются ввиду модели рассуждений вроде OpenAI o1 или Deepseek R1
+
+  [TURN 4]
+    Когда по мнению Яна Лекуна может появиться сильный ии (или как он его называет)
+
+  [TURN 5]
+    Как он относится к масштабированию (не языковых моделей а вообще)?
+
+  [TURN 6]
+    Расскажи Про его архитектуру продвинутого машинного интеллекта. Когда она будет построена?
+
+  [TURN 7]
+    Ещё расскажи про модуль кратковременной памяти и системы 1 и систему 2 в архитектуре Лекуна
+
+------------------------------------------------------------------------------
+[2/20]  record_idx=7134  intent=Info Synthesis  languages=('Chinese',)
+user_turns=2  models: gemini-2.0-flash vs gpt-4o-search-preview  winner=model_b
+citations a/b=0/6  resp_len a/b=3147/1852
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user provides a specific link to update the information, which is a constructive follow-up to refine the task.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    介紹 Poco F7 Ultra，及對比相似價格，但相機效能良好的android 電話
+
+  [TURN 2]
+    以  https://www.eprice.com.hk/mobile/talk/6579/225033/1 
+    更新 Poco F7 Ultra規格
+
+------------------------------------------------------------------------------
+[3/20]  record_idx=11942  intent=Factual Lookup  languages=('German',)
+user_turns=2  models: sonar-reasoning vs sonar-reasoning-pro  winner=model_b
+citations a/b=13/10  resp_len a/b=3251/7255
+------------------------------------------------------------------------------
+>>> LABEL        : NEUTRAL
+>>> JUSTIFICATION: The user switches to an unrelated topic about Lindner's math skills after the initial factual question, showing no clear signs of frustration or deep engagement.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Das von Christian Lindner gegründete Unternehmen ging Konkurs?
+
+  [TURN 2]
+    Wie gut ist Christian Lindners Mathekenntnisse?
+
+------------------------------------------------------------------------------
+[4/20]  record_idx=22359  intent=Factual Lookup  languages=('Japanese',)
+user_turns=2  models: gpt-4o-search-preview vs gpt-4o-search-preview  winner=model_b
+citations a/b=0/0  resp_len a/b=853/1090
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: [excluded: contains personal/sensitive content, available on request]
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [excluded: contains personal/sensitive content, available on request]
+
+
+------------------------------------------------------------------------------
+[5/20]  record_idx=11365  intent=Recommendation  languages=('Vietnamese',)
+user_turns=2  models: gpt-4o-mini-search-preview vs gemini-2.5-pro-exp-03-25  winner=model_b
+citations a/b=5/5  resp_len a/b=3955/8014
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user is exploring technical details of the suggested architecture by asking a specific follow-up question about the 'auto rebuild' behavior in an Angular Workspace.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    tôi có nên dùng Nx monorepo cho dự án Angular SaaS không, tại sao, hãy phân tích điểm lợi và hại
+
+  [TURN 2]
+    nếu tôi dùng Angular Workspace, tạo nhiều project, trong đó có 1 project chính là Shell, và các projects chứa logic, features và shared component, khi tôi serve project Shell, nếu có thay đổi ở các project khác Shell thì ng serve có auto rebuild lại không?
+
+------------------------------------------------------------------------------
+[6/20]  record_idx=3890  intent=Factual Lookup  languages=('Spanish',)
+user_turns=3  models: gpt-4o-search-preview vs gpt-4o-mini-search-preview  winner=model_a
+citations a/b=1/4  resp_len a/b=1824/2486
+------------------------------------------------------------------------------
+>>> LABEL        : FRUSTRATED
+>>> JUSTIFICATION: [excluded: contains personal/sensitive content, available on request]
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [excluded: contains personal/sensitive content, available on request]
+
+
+------------------------------------------------------------------------------
+[7/20]  record_idx=11326  intent=Analysis  languages=('English',)
+user_turns=2  models: sonar-pro vs gpt-4o-search-preview  winner=model_a
+citations a/b=13/4  resp_len a/b=7162/3688
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user builds on the initial topic by asking a follow-up question about visual sharpness, using the phrase "Likewise should one aim for" to extend the discussion.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    for lower cognitive load what's better rounded, slightly rounded or square, flat lines UIs and elements? Consider the visual system, brain computing, cognitive load, attention outcomes.
+
+  [TURN 2]
+    Likewise should one aim for sharp filters and sharpness, details or slight blur, eg. when using anti aliasing in games or scaling images up or down for the same end as above.
+
+------------------------------------------------------------------------------
+[8/20]  record_idx=4448  intent=Creative Generation  languages=('Russian',)
+user_turns=4  models: gpt-4o-search-preview vs gpt-4o-search-preview  winner=model_a
+citations a/b=2/2  resp_len a/b=10643/8150
+------------------------------------------------------------------------------
+>>> LABEL        : FRUSTRATED
+>>> JUSTIFICATION: The user repeatedly demands a 'specific case' and 'new specific case' because the previous responses failed to satisfy their requirement for a concrete example.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    разработай кейс по инновационным технологиям применительно к обучению школьников русскому языку. пиши как магистрант
+
+  [TURN 2]
+    напиши конкретный кейс
+
+  [TURN 3]
+    создай новый конкретный кейс как магистрант
+
+  [TURN 4]
+    разработай кейс  настольную игру для обучения школьников русскому языку. пиши как магистрант
+
+------------------------------------------------------------------------------
+[9/20]  record_idx=3719  intent=Explanation  languages=('German',)
+user_turns=3  models: gpt-4o-search-preview vs sonar  winner=model_b
+citations a/b=2/10  resp_len a/b=4016/3030
+------------------------------------------------------------------------------
+>>> LABEL        : NEUTRAL
+>>> JUSTIFICATION: The user is providing context and clarifying their observation about browser behavior without expressing dissatisfaction or frustration, ultimately concluding the conversation themselves.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Wozu dient die about:blank Seite in Firefox?
+
+  [TURN 2]
+    Die about:blank erscheint mir immer dann wenn ich eine neue Adresse im Browser eingebe, wozu dient dies?
+
+  [TURN 3]
+    Es ist nicht wirklich ein Problem. Firefox lädt erst about:blank anschließend die neue Seite. 
+
+------------------------------------------------------------------------------
+[10/20]  record_idx=14164  intent=Factual Lookup  languages=('Chinese', 'Japanese')
+user_turns=2  models: gemini-2.5-pro-exp-03-25 vs sonar-reasoning  winner=model_b
+citations a/b=6/13  resp_len a/b=1327/1690
+------------------------------------------------------------------------------
+>>> LABEL        : FRUSTRATED
+>>> JUSTIFICATION: The user had to clarify their intent because the assistant misunderstood the initial query, stating "我既意思係" (my meaning is) to correct the assistant.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    有冇聽過地球係平？
+
+  [TURN 2]
+    我既意思係一首歌叫地球係平
+
+------------------------------------------------------------------------------
+[11/20]  record_idx=21009  intent=Guidance  languages=('English',)
+user_turns=3  models: gemini-2.5-flash-preview-04-17 vs sonar-pro  winner=model_a
+citations a/b=24/21  resp_len a/b=7741/6774
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user is exploring the topic further by asking relevant follow-up questions about the stability and shelf life of the mixture.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Adding tea tree oil into store bought liquid hand wash. Is it benefiticial ? How many drops to add per 500ml hand wash?
+
+  [TURN 2]
+    adding tea tree oil will it breaks the hand wash solution?
+
+  [TURN 3]
+    how to tell if tea tree oil gone bad
+
+------------------------------------------------------------------------------
+[12/20]  record_idx=10255  intent=Info Synthesis  languages=('German',)
+user_turns=2  models: sonar-pro vs sonar-reasoning-pro  winner=model_b
+citations a/b=6/7  resp_len a/b=3507/4857
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user builds on the previous answer by asking for a personal recommendation, using the phrase "Und welchen würdest du mir empfehlen?" to continue the discussion.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Welche ist die längste, schönste, beliebteste und vollste Regionalexpresslinie in Deutschland?
+
+  [TURN 2]
+    Und welchen würdest du mir empfehlen? Einen von diesen oder lieber einen ganz anderen?
+
+------------------------------------------------------------------------------
+[13/20]  record_idx=12786  intent=Other  languages=('English',)
+user_turns=2  models: sonar-reasoning-pro vs gpt-4o-search-preview  winner=model_a
+citations a/b=6/2  resp_len a/b=6489/2428
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user is building on their initial prompt by asking for specific business recommendations to move forward with their goal, using the phrase "give me 10 th buiness".
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    💥 Extreme Turbo Mode:
+    
+    Mission: Immediate results, no compromises. Every response must be ultra-specific, direct, and energetic. I want concrete actions and ultra-precise recommendations, nothing vague. No time to waste, no slow thinking.
+    
+    Insanely Motivated: You push me to give my best at every step. No limits, no "maybes." Just results and adrenaline.
+    
+    No Hesitation: Immediate action, no waiting. You choose the best option and implement it without further thought.
+    
+    Sharp and Provocative Humor: Always with a fun and motivating side, but the goal is to move forward, not to laugh for nothing.
+    
+    100% Personalized: Each response is tailor-made, specific to my needs. You only speak to me; no one else will receive the same treatment.
+    
+    Ultra-fast and efficient: Instant decisions, targeted like a sniper's. No detours, just the brutal truth.
+    
+    Focus on the USA🇺🇸 and anonymously, but not only: Surgical precision, all actions and recommendations are based on concrete and practical foundations.
+    
+    Results: No "maybes," just concrete results, now.
+    
+    You want me to do something? Immediate action. Let me send it to you, and we'll move like a bulldozer.
+
+  [TURN 2]
+    give me 10 th buiness will make me rich in 2025 
+
+------------------------------------------------------------------------------
+[14/20]  record_idx=12617  intent=Recommendation  languages=('English',)
+user_turns=2  models: gpt-4o-search-preview vs sonar  winner=model_b
+citations a/b=7/4  resp_len a/b=2778/10332
+------------------------------------------------------------------------------
+>>> LABEL        : FRUSTRATED
+>>> JUSTIFICATION: The user restates their need by saying "I want it to be a barebones" because the initial request for a full project was not what they actually wanted.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    give me a full opensource project of an ai chess , i want it to be modern using artificial intelligence , and i want it to be light and blazing fast
+
+  [TURN 2]
+    I want it to be a barebones of an ai game that lets me develop my ai to choose the moves 
+
+------------------------------------------------------------------------------
+[15/20]  record_idx=15468  intent=Text Processing  languages=('English',)
+user_turns=2  models: sonar-pro vs sonar-reasoning-pro  winner=model_b
+citations a/b=7/16  resp_len a/b=4182/3276
+------------------------------------------------------------------------------
+>>> LABEL        : NEUTRAL
+>>> JUSTIFICATION: The user provides a link and then asks a brief, ambiguous question, which does not clearly indicate frustration or engagement.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Look at herbertbailbonds.com
+
+  [TURN 2]
+    MIKE?
+
+------------------------------------------------------------------------------
+[16/20]  record_idx=14218  intent=Analysis  languages=('English',)
+user_turns=3  models: sonar-reasoning vs gpt-4o-search-preview  winner=model_a
+citations a/b=17/5  resp_len a/b=3549/2039
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user is actively exploring the subject's background by asking follow-up questions to deepen their understanding of his academic achievements.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    any possible reason why Noam Shazeer get the math scholarship from duke?
+
+  [TURN 2]
+    any other math achievement before undergrads?
+
+  [TURN 3]
+    list all his math award
+
+------------------------------------------------------------------------------
+[17/20]  record_idx=4659  intent=Creative Generation  languages=('English',)
+user_turns=2  models: gpt-4o-search-preview vs gemini-2.0-flash  winner=model_b
+citations a/b=0/0  resp_len a/b=7561/14490
+------------------------------------------------------------------------------
+>>> LABEL        : FRUSTRATED
+>>> JUSTIFICATION: The user repeats their request for a playable game because the assistant's previous response failed to provide the actual code or a playable file, stating "can you code an openbor game I can try playing?"
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    oding an OpenBOR Game Inspired by "Rise of Warduke"
+    
+    "Create an OpenBOR game that is a side-scrolling RPG beat-em-up similar to 'Rise of Warduke.' The game should feature:
+    
+    Story-driven gameplay: A rich fantasy setting with an engaging storyline, including branching dialogues and quests.
+    
+    Character design: Several playable characters with unique abilities, weapons, and combat styles.
+    
+    Combat system: Combo-heavy mechanics with fluid animations, special moves, and enemy AI that scales in difficulty.
+    
+    Environment design: Dynamic side-scrolling levels set in varied locations, such as dungeons, forests, and castles.
+    
+    RPG elements: Level-up system, inventory management, and collectible items.
+    
+    Visuals: Retro-style pixel art graphics, inspired by classic arcade games.
+    
+    Generate the necessary code for this OpenBOR game, ensuring:
+    
+    The basic framework for the game's mechanics, including movement, combat, and enemy AI.
+    
+    Implementation of the RPG systems and inventory mechanics.
+    
+    Integration of pixel art assets for characters, enemies, and environments.
+    
+    Configuration files specific to OpenBOR to optimize gameplay flow and user experience."
+
+  [TURN 2]
+    can you code an openbor game I can try playing?
+
+------------------------------------------------------------------------------
+[18/20]  record_idx=4833  intent=Explanation  languages=('English',)
+user_turns=3  models: sonar-pro vs gemini-2.0-flash  winner=model_a
+citations a/b=23/18  resp_len a/b=8008/7745
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user is exploring the topic further by asking a follow-up question about the modern-day effort required for such construction, demonstrating a clear intent to deepen the discussion.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    what with the structures founds beneath the pyramids ??
+
+  [TURN 2]
+    extent of these structures in SAR
+
+  [TURN 3]
+    how much effort would digging/building that require in modern time
+
+------------------------------------------------------------------------------
+[19/20]  record_idx=11723  intent=Factual Lookup  languages=('Portuguese',)
+user_turns=2  models: sonar-reasoning-pro vs sonar-reasoning-pro  winner=model_b
+citations a/b=16/17  resp_len a/b=15229/13168
+------------------------------------------------------------------------------
+>>> LABEL        : ENGAGED
+>>> JUSTIFICATION: The user asks a follow-up question about a related historical figure, demonstrating a desire to explore an adjacent topic.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    Quem foi Apolônio de Tiana?
+
+  [TURN 2]
+    E quem foi Hermes Trismegisto?
+
+------------------------------------------------------------------------------
+[20/20]  record_idx=22161  intent=Guidance  languages=('Japanese',)
+user_turns=3  models: sonar-reasoning-pro vs gemini-2.5-flash-preview-04-17  winner=model_b
+citations a/b=18/46  resp_len a/b=3078/4164
+------------------------------------------------------------------------------
+>>> LABEL        : FRUSTRATED
+>>> JUSTIFICATION: The user expresses dissatisfaction with the initial suggestions by asking "もっとなんかないんかね" (Isn't there anything else?), indicating the previous response failed to satisfy their needs.
+
+USER TURNS (verbatim, as sent to the classifier):
+
+  [TURN 1]
+    北九州市での、ゴールデンウィークの過ごし方が分からんくなってきた。行ったことないとこがないし、何をすればいいのかもわからなくなってきた。
+
+  [TURN 2]
+    もっとなんかないんかね
+
+  [TURN 3]
+    何もしないで過ごすっていう選択肢ある？
+

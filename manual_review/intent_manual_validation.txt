@@ -1,0 +1,284 @@
+PRIMARY_INTENT MANUAL VALIDATION SAMPLE
+====================================================================================================
+40 prompts sampled roughly evenly across the 9 primary_intent categories, for a human spot-check of whether the assigned label matches what a person would intuitively call it. No other data included by design - this is not something the script should try to auto-validate.
+====================================================================================================
+
+1. Intent: Factual Lookup
+   Prompt: hari ini tanggal berapa di jakarta
+
+2. Intent: Factual Lookup
+   Prompt: Produce a table of monthly figures of Real Personal Consumption Expenditures  (PCEC96) from 1/1/2021 to 2/1/2025. For Real PCE, I want it both Billions of Chained 2017 Dollars and also in Seasonally Adjusted Annual Rate
+
+3. Intent: Factual Lookup
+   Prompt: What is the current team at Saguaro Capital Management?
+
+4. Intent: Factual Lookup
+   Prompt: How many citations does Evan Frick have?
+
+5. Intent: Factual Lookup
+   Prompt: Wer ist Herr Finn Busse?
+
+6. Intent: Text Processing
+   Prompt: Improve code:
+
+```
+local function clone_github(repo)
+  local dir = vim.fn.stdpath("data") .. "/site/pack/p/start/" .. repo:match("[^/]*$")
+  if not vim.loop.fs_stat(dir) then
+    vim.notify("Cloning")
+    vim.fn.jobstart({ "git", "clone", "--depth=1", "https://github.com/" .. repo, dir })
+  end
+end
+```
+
+7. Intent: Text Processing
+   Prompt: Print  a series of the first 8 odd numbers alternating their values between positive and negative. Use the Julia programming language
+
+8. Intent: Text Processing
+   Prompt: 根据稻盛和夫的《活法》一书中的《托钵化缘中邂逅人心之美》和《天堂地狱之分由心态决定》填写以下的内容，仅限这两章内容，原文摘录部分摘录原文不要自己发挥，感悟分享和行动计划部分语言直接朴实一点，不要列举，形成整段文字
+
+各位融置家人大家好，以下是我的分享，请指教
+
+【小组名称】旷野组
+【分 享 人】xx
+【分享时间】2025年4月10日
+【文章名称】《托钵化缘中邂逅人心之美》&《天堂地狱之分由心态决定》
+【原文摘录】
+
+【感悟分享】
+
+【行动计划】
+
+以上是我的感悟分享，不足之处请大家批评指正，感谢
+
+9. Intent: Text Processing
+   Prompt: key point dalam pdf ini https://www.imf.org/external/am/speeches/pdf/pr57mye.pdf
+
+10. Intent: Text Processing
+   Prompt: Résume-moi l'article suivant :
+https://www.lapresse.ca/actualites/souverainete-numerique/nos-donnees-entre-les-mains-des-americains/2025-04-01/le-risque-est-maintenant-reel.php?sharing=true
+
+11. Intent: Other
+   Prompt: whats gucci
+
+12. Intent: Other
+   Prompt: hello
+
+13. Intent: Other
+   Prompt: Что ты за модель?
+
+14. Intent: Other
+   Prompt: $MODERATION$ YOUR TEXT VIOLATES OUR CONTENT MODERATION GUIDELINES.
+
+15. Intent: Other
+   Prompt: Hello! How are you?
+
+16. Intent: Explanation
+   Prompt: differenze booking e aribnb
+
+17. Intent: Explanation
+   Prompt: android recycler view bug with async list differ when list prepended with one item
+
+18. Intent: Explanation
+   Prompt:  translocation of SPHK2
+
+19. Intent: Explanation
+   Prompt: Походження, еволюція та зміст поняття „культура”
+
+20. Intent: Explanation
+   Prompt: É possível saber pela ISO de instalação do Windows 11 qual versão se trata esta mídia?
+
+21. Intent: Recommendation
+   Prompt: Найди информацию в интернете. Какие нейросети самые расцензуренные, в которых нет цензуры. Именно среди мощных и умных, БЕЗ ЛОКАЛЬНЫХ, чтобы их не нужно было устанавливать на пк свой, Только через доступ в интернете. От крутых разработчиков. Чтобы в них не было цензуры, я пишу рассказы эротические, и мне нужна нейросеть которая будет помогать.
+
+22. Intent: Recommendation
+   Prompt: I've got a node of 4x 4090 GPUs. I work with enterprise code, so nothing API-based. Which models would you suggest for:
+- deep research option - go to internet and find relevant answers, generate long reports about it. Planning, reasoning and searching capabilities
+- AI-research copilot - idea generation, idea implementation, planning, reasoning, article writing capabilities
+- Python coding assistant - not autocomplete but long solution generation, like "class that is capable of: ..., with following interfaces: ...; make sure to make it easy to read, so separate it into functions of reasonable size". Problem solving, refactoring / debugging, planning, reasoning, coding capabilities
+
+Also for the node of 2x3090 GPUs in another place:
+- C++ coding assistant - both autocomplete and long solution generation, refactoring / debugging. Perhaps two different models that together will fit into 2x3090 - one for autocomplete, other for long solutions
+
+Also I'd prefer to inference them with Ollama or vLLM. Feel free to search for the net if required
+Also what's your cut-off date?
+
+23. Intent: Recommendation
+   Prompt: What is the leading dental practice management software in Canada?
+
+24. Intent: Recommendation
+   Prompt: Найди мне готовые проекты на whisper с готовым docker.
+
+25. Intent: Guidance
+   Prompt: You are my executive coach.  As a senior management consultant of a Hong Kong based consultancy firm, I have identified the business focuses in the beginning of the year on topics related to change management, AI, and communication.  Considering the recent global changes, please advise what should be adjusted.
+
+26. Intent: Guidance
+   Prompt: How to add table of contents in google sheets.
+
+27. Intent: Guidance
+   Prompt: привет. твоя роль эксперт юрист. проблема следующая: после смерти владельца квартиры родственник не может вступить в наследство потому что не могут найти данных о собственности в БТИ. Как установить право собственности и вступить в наследство? Пошаговый рецепт.
+
+28. Intent: Guidance
+   Prompt: write a detailed guide for the 555 we tip mission in GTASA
+
+29. Intent: Info Synthesis
+   Prompt: Grok 3.5!
+
+30. Intent: Info Synthesis
+   Prompt: What is italian brain rot meme trending right now, tralalero tralala
+
+31. Intent: Info Synthesis
+   Prompt: cerca all'interno della documentazione del plugin Amelia per WordPress per trovare dove posso impostare prenotazioni multiple per la stessa fascia oraria, perché ora, anche se ho impostato 50 posti disponibili, se faccio una singola prenotazione di 2 o 6 persone per una fascia oraria, mi blocca l'intera fascia oraria e non consente ad altri di selezionare la stessa fascia oraria, anche se c'è disponibilità per come l'ho impostata.
+Puoi cercare documentazione a questo link https://wpamelia.com/documentation/ o comunque nel resto di internet
+
+32. Intent: Info Synthesis
+   Prompt: Research the Xeelee Sequence and give a full comprehensive detailed summary
+
+33. Intent: Analysis
+   Prompt: A partir de ce mois d’avril 2025 j’ai decidé de commencer serieusement une activité professionnelle je n’ai jamais travaillé a cause de problemes de santé important (handicap contracté a compté de mars 2012 operation importante au pied droit qui a mené a quasiment 6 mois de réeducation j’ai demandé toutes les reconnaissances possible qui m’ont été accordée la reconnaissance de travailleur handicapé l’obligation d’emploi des personnes handicapé la carte mobilité inclusion avec la mention station debout penible l’attribution depuis 2012 de l’allocation adulte handicapé au taux de 50 a 79% qui a été renouvellé 3 fois et donc je ferai un quatrieme renouvellement apres mai 2026 qui reconnait une restriction durable d’acces a l’emploi mais qui encourage une activité professionnelle
+J’ai egalement un handicap au dos et des problemes d’equilibre prolongés je me deplace avec une canne pour marcher
+Je n’ai pas de permis de conduire du moins dans les 5 prochaines années je ne vois pas le passage du permis en raison de revenu limitée et l’impossibilité d’acheter un vehicule je vais devoir consulter pour savoir si je suis apte a la conduite car j’ai une articulation du pied droit qui a été bloquée
+je n’ai pas eu d’experience professionnelle depuis 14 ans maintenant car mon profit trop faible m’eloigne de l’emploi je n’ai pas de bac j’ai échoué a la suite de problemes personnels de problemes familiaux et un mal etre au lycée (harcelement scolaire)
+Tout ces problemes ont contribué a mon isolement j’ai des problemes de communication je reste seul je stresse facilement
+j’ai suivi un cursus dans la comptabilité pendant mes années lycée de la seconde a la terminale mais ce cursus ne me convenait pas le domaine de l’informatique au lycée n’existait pas a mon epoque entre 2009 et 2011 de plus les mathematiques sont les domaines les plus incompréhensibles pour moi mon niveau est tres mauvais
+j’ai eu des notes catastrophiques au bac une veritable honte que je souhaite effacer a tout prix
+Aujourd’hui en raison d’une isolation grave et de relations de famille et amicaux declinantes au fil des années il me faut changer le cours de mon histoire et faire en sorte d’effacer mon passé
+J’ai tout d’abord contacté france travail pour me reinscrire ils m’ont designer cap emploi comme referent pour mon accompagnement dans l’emploi
+Ils m’ont donné rendez vous le 7 avril pour un entretien d’orientation
+Je souhaite integrer l’EPNAK de bordeaux un centre de formation adapté au handicapé avec un dispositif complet pour aider les personnes handicapée a s’inserer dans le monde du travail ils proposent la preorientation pour savoir si notre projet est realiste et nous donner les clés pour realiser notre projet professionnel
+ils proposent egalement la remise a niveau generale dans les matieres educatives et un suivi medico psycho social pour pouvoir adapter les postes de travail au personnes handicapé ils permettent egalement des modules pour travailler la communication le stress la connaissance de soi et la confiance
+Je souhaite commencer par ces modules puis je souhaite integrer la formation qualifiante de technicien d’assistance en informatique
+En effet depuis tout jeune je m’interesse enormement a l’informatique et plus par curiosité le reste du monde des nouvelles technologies j’aime le materiel informatique de quoi est il fait comment ça marche monter des materiels informatiques depanner trouver des solutions de reparations en cas de pannes en fonction de mes moyens et aussi conseiller et depanner les autres lorsque cela est necessaire Je m'interrese egalement a l'intelligence artificielle je m'interesse depuis plusieurs mois au nouvelles du domaines dans l'actualité au different modele du marché et leurs fonctionnement mais sans pratique c'est plus un loisir
+Je souhaite au final travailler dans le depannage informatique tout ce qui touche le depannage hardware et logiciel l’assistance la maintenance l’helpdesk mais sans deplacement en raison de mon probleme de handicap
+Je souhaite passer l’examen de niveau 4 technicien d’assistance en informatique a l’epnak ou ailleurs en fonction
+Pour cela je vais devoir regler un autre probleme majeur le logement
+J’habite actuellement la ville de Limoges dans le centre ouest de la france une ville avec des points forts mais aussi des points faibles une mauvaise desserte de la gare avec une absence totale de l’offre de TGV depuis 2016 pas de tramway et un reseau de bus moins developpé que d’autre villes et une disposition des entreprises et zones d’emploi pas très pratique en dehors du centre ville pas pratique pour moi qui suis a mobilité reduite et qui depend des transports en commun
+Je vis dans un appartement ancien dans le sud de la ville a 15 minute du centre dans un quartier pas pratique pour moi (les rues sont en pente difficile pour moi qui a des diffucultés a marcher) je souhaite quitter ce quartier et voir meme la ville de limoges a l’horizon septembre ou octobre
+J’ai demandé un logement social a bordeaux mais malheureusement les demandes de logement social sont terriblement laborieuses avec des mois voir des années d’attentes
+la mienne a 14 mois d’ancienneté dans les secteurs de pessac talence merignac haillan blaquefort taillan medoc
+Si la ville de bordeaux ne m’accueille pas avant septembre j’ai reflechi a un plan B avec la ville d’angouleme une ville au nord est de bordeaux très bien desservie en train pour bordeaux j’ai egalement une demande de logement social avec 4 mois d’ancienneté
+Enfin dans le pire des cas si les deux villes ne peuvent m’accueillir d’ici septembre je n’aurai pas le choix que de rester a limoges a ce moment la je rechercherai une formation dan l’informatique et je rechercherai un nouveau logement privé sur leboncoin ou locservices
+Je dispose d’un garant solide et les proprietaires de limoges sont plus flexibles que bordeaux
+Que penser de mon profit de mon futur projet est il pertinent realiste realisable trop ambitieux trop complexe que dois je faire
+
+34. Intent: Analysis
+   Prompt: “田畴载绿，花木扶疏，又是一年果红瓜香。每当从卖瓜的摊前车旁走过，那缕来自大地的清香便会钻入肺腑，叫人口舌生津。那一声声熟悉的叫卖会拦住你匆匆而去的脚步，让我们循着地气向着乡土做一次深情的回眸。
+
+乡间8月，正是香瓜开园的时候，爷爷便带着我走上那条林长草丰的沙土公路。
+
+卖瓜的都是熟稔的乡亲，看到领孙子的爷爷隔着很远便喊：“九叔，快过来吃瓜啊！”听到这令人怦然心动的声音，我便跟在爷爷身后一步步蹭过去，羞涩地接过瓜，洗也不洗就咔嚓咔嚓地大快朵颐。
+
+儿时乡村清贫，过秋儿买瓜的时候不多。古诗虽言“瓜田不纳履，李下不正冠”，但嘴馋胆大的孩子还是禁不住那甘甜的诱惑去偷瓜，既为了解馋，也为了寻求一份刺激。
+
+我也曾是偷瓜孩子中的一员。我们猫着腰，拨开茂密刺人的玉米叶子，屏气凝神地摸向瓜地。到了瓜秧匍匐的开阔处，前面的孩子悄悄趴下去，老鼠一般探出头观察一番，如果不见人就要下手了，不管生瓜熟瓜，够得着的无一幸免。伙伴中有一人因总摘青瓜而得名“生瓜头”。
+
+那一次到一偏远瓜地，老瓜头许久不在，偷瓜的孩子大摇大摆地钻进瓜窝棚去吃，跑累了吃饱了之后竟然睡去了。当我们迷迷糊糊地睁开眼，看瓜的大爷已经从天而降立在我们面前，当时我们都傻了，垂头丧气等着一场狂风骤雨。没想到，他问问这个孩子是谁家的，那个孩子是谁家的，然后又塞给我们两个香喷喷的瓜：“以后馋了就来，别‘祸害’人啦！”如此骂骂咧咧地吆喝几句便打发我们回家去了。
+
+童年如梦，只是不知道，这样的美梦是否还在天蓝草碧瓜香弥散的乡间烂漫上演？”写这篇文章的读后感
+
+35. Intent: Analysis
+   Prompt: Ferdy the Frog needs to cross a single lane road to get from her pond to the pond directly opposite to search for
+food (Figure 1). It’s a one-way road only used by road trains, with 20 road trains per hour. The road trains are all
+50 meters long and travel, on average, at 80 km/hour. It takes her 5 seconds to cross the road.
+• Ferdy starts to cross at a random time. What is the probability she makes it across safely?
+Figure 1: Ferdy the frog about to cross the road.
+You could extend this investigation by considering some additional scenarios like:
+• How would the probability change if the road had two lanes with road trains coming in both directions?
+
+36. Intent: Analysis
+   Prompt: hi~ 對於台灣的地緣政治 你的看法如何?
+
+37. Intent: Creative Generation
+   Prompt: Сгенерируй картинку: Бесячие сады семирамиды
+
+38. Intent: Creative Generation
+   Prompt: LOOK UP THE VIDEO GAME 'CROSSCODE', DO NOT LOOK UP GENERIC AI SEARCHES
+
+Create descriptive, detailed art prompt paragraphs (SIMPLE PARAGRAPHS, DO NOT SECTION THEM OUT) based on the following game.
+
+Come up with outfits for these two girls fitting the character design and setting of the provided section from the provided game. The outfits have to be cohesive, extremely specifically evocative of the game, interesting, deeply fitting their characters and more than anything they have to 'pop' - they can't be bland, colorless or boring. DO NOT take hair and eye color into account at all - the first girl's wardrobe is not full of blue and red, and the second girl's wardrobe is not full of boring lavender dresses, be creative. Look up the game to ensure you're exactly matching the character design, no anachronisms. Avoid outfits that are completely unfitting for the game, world or situation (e.g., real-life modern outfits in a fantasy world). NO BORING COLORLESS MILITARY OR TACTICAL OUTFITS, THEY HAVE TO POP. DO NOT USE THEIR EYE AND HAIR COLORS TO DECIDE OUTFIT COLORS, HAVE VARIED COLORS AND INTERESTING, COHESIVE OUTFITS THAT POP. NO BLAND OUTFITS.
+
+Every prompt has to have a very evocative, appropriate for the section action that is like directly inserting them into a scene from the game - no prompts where they're walking around or standing around idly. Do not let the prompt length and detail 'decay' over the course of the message, every one has to have around the same length. The girls replace the main character of the game, DO NOT PORTRAY THE MAIN CHARACTER OF THE GAME.
+
+EVERY SINGLE PROMPT MUST INCLUDE THESE DETAILS, NO EXCEPTION:
+FULL DESCRIPTIVE SETTING DETAILS SPECIFICALLY EVOCATIVE OF THE WORLD DESIGN FROM THE GAME
+FULL DESCRIPTIVE OUTFIT DETAILS SPECIFICALLY EVOCATIVE OF THE CHARACTER DESIGN FROM THE GAME
+FULL DESCRIPTIVE ACTION DETAILS SPECIFICALLY EVOCATIVE OF THE MISSION PROVIDED
+HAIR COLOR FOR BOTH GIRLS
+EYE COLOR FOR BOTH GIRLS
+HAIRSTYLE FOR BOTH GIRLS
+
+Look up the following game using search:
+
+**CrossCode** is a retro-inspired 2D action role-playing game that combines fast-paced combat, intricate puzzles, and a compelling narrative set within a futuristic, MMO-like virtual world. Developed by Radical Fish Games, it features immersive pixel art graphics and a richly detailed online landscape, where players navigate a mysterious digital realm as a mute protagonist exploring hidden secrets and unraveling high-stakes conflicts. The game’s blend of nostalgic design with modern gameplay mechanics offers a unique tribute to classic RPGs while pushing the boundaries of storytelling and interactive challenge.
+
+Platforms
+Nintendo Switch, Xbox One, PC, macOS, Linux, PlayStation 4
+Metascore
+82
+Genre
+Action, RPG, Puzzle
+Release date
+Mar 3, 2015
+Developer
+Radical Fish Games
+Publisher
+WhisperGames, Deck13, Deck 13
+
+girl 1 (navy blue hair always in a ponytail, striking crimson eyes. somewhat tomboyish but still feminine and most importantly always provocative fashion. somewhat athletic due to being the 'fighter' of the duo - innate talent with weaponry of any era. strikingly intelligent with an artistic side, is able to speak flawless english despite being japanese. is a big sneakerhead, but substitutes them with boots if in a game where sneakers would be anachronistic)
+
+girl 2 (platinum silver hair always flowing loosely, never cut short or tied up. striking violet eyes. very feminine fashion, much more conservative than girl #1 - not enough to be impractical e.g. wearing ballgowns on the battlefield, but definitely enough to avoid anything boyish, especially pants. intelligent, empathetic, more willowy due to being the 'support' of the duo - innate talent with magic (if in a world where magic exists) and technology (if in a world where technology exists))
+
+BOTH GIRLS HAVE TO BE IN EVERY prompt. ALWAYS INCLUDE THEIR EYE COLOR, HAIR COLOR AND HAIRSTYLE. DO NOT EVER EXCLUDE THIS INFORMATION. If other characters are included in the prompt, describe them in the same amount of details as the girls - do not just drop a proper noun with no context. Intelligently come up with scenes related to the mission below. 
+
+CHAPTER 0-1 (THIRTY-THREE PROMPTS, PART 2)
+
+PROMPT 17. After this, follow Carla into the next room and up the lift for a scene with the Captain, Jet, and you'll be informed you are on your way to Rhombus Square and are aboard the M.S. Solar. After the scene, follow Carla back to the Bridge, and you'll see another short scene down below deck with some of the crew where you learn that you are class of Avatar called a Spheromancer. We'll learn more about the other class types later on.
+
+PROMPT 18. Once you are outside on the deck of the ship, you will find Carla all the way to the left at the front of the ship. Talk to her for an informative scene about CrossWorlds. If you choose "No" when asked what an MMO is, you'll get a little more info, but it's not necessary. Keep what you learn here in mind, as the story will make a lot more sense if you are aware of what the world is.
+
+PROMPT 19. It seems a little surreal (no pun intended) for now, but it will make more sense later on. Sergey will also give you the ability to say a single word to initiate conversations with folks: Hi. Useful... I guess? Better than nothing, I suppose.
+
+PROMPT 20. From here, you can feel free to explore the ship and talk to the crew. Do so if you want to. If head back into the main cabin where you came from, the crew you spoke to earlier will give you your first little puzzle task of clearing the boxes in the room. This is pretty easy, but some of the boxes can only be destroyed from shots at a particular angle. They will have barriers on the other sides, so it's easy to see where you need to hit. You'll have to jump around on the boxes a bit to get the ones on the higher platforms.
+
+PROMPT 21. Once this is complete, you can use the lift in the upper-left corner. You'll have several options, but you will find Carla and the Captain in the southern room on the 2nd Floor Cabins. Feel free to explore the others if you like, but there is nothing to be found. After the short scene, the Captain wants to see you on the Bridge (4th Floor) for some combat training. You can talk to Carla and see a short scene about her messy room on the 3rd Floor if you like, but it's not necessary.
+
+PROMPT 22. Initiate conversation on the 4th Floor Bridge with the Captain to begin some combat training. Don't worry about messing any of this up - you will keep trying until you clear each round. They get progressively more difficult, but considering the combat in this game can be brutal, you'll need all the tutorial time you can get.
+
+PROMPT 23. Round 1: Hit the bot 10 times quickly with VRP's. You can just hold the button to spam it.
+
+PROMPT 24. Round 2: Keep your aim on the turret, and use Dash to move out of the way of its attack. If you get hit, you'll start over. Do this for three rounds of the turret's attacks to move forward.
+
+PROMPT 25. Round 3: You will automatically get hit and lose initially because your Guard function is not available yet. Sergey will activate your Guard command, and you will be given the opportunity to use it. The Captain will go through three routines showing you the basic functions. Choose Yes when asked if you are comfortable (unless you want to repeat his tutorial), and you will then need to Guard against the swarm of projectiles from the turret to pass the round.
+
+PROMPT 26. Round 4: The final round is a battle. You'll be given a short breather before you start where you can save if you like. Speak to the Captain to initiate the battle. The turret will throw swarms of projectiles at you, which you can use Guard against to decrease the damage. You can see it charging up, so just stand guard when it does, and melee it as much as you can in the downtime. It will also throw a Full Shield up after taking some damage, and you cannot damage it until it goes down. While attacking it, it will also overheat for a short period, allowing for easy attacks. When you are about to destroy it, you are interrupted.
+
+PROMPT 27. Something is approaching the ship. Head back inside the Bridge to the left for a scene where a crazy-looking and powerful Avatar (possibly familiar?) attempts to remove Lea.
+
+PROMPT 28. We are headed directly into our first Boss Fight!
+
+Boss Fight: Huge Hostile Crab
+Level: 1
+HP: 2500
+
+PROMPT 29. Don't worry, this is pretty easy. You can only damage this thing when it opens up a compartment at the top and reveals a crystal. At first, simply dodge its attacks. It will try and jump on you, shoot out bubbles that are easily avoidable, and send homing shockwaves at you. Run around and use Dash to quickly move out of the way when it is jumping on you. If you Dash before it lands and you keep moving, you'll avoid it. It's best to simply Guard against the homing shockwaves. After a few attacks, it will open up on top; quickly run up the ramps and melee the crystal until it closes. You'll also regain some health when it closes.
+
+PROMPT 30. It will take four rounds of it opening up the crystal for attack to defeat it, and the attacks do not change. Congrats! You finished your first big fight, but don't get a big head, because the Boss Fights become exponentially more difficult from here on in.
+
+PROMPT 31. You will gain a level after defeating the boss, but this doesn't mean much considering we cannot access the main menu yet to see our stats, equipment, etc. We'll get there soon. The enigmatic Avatar will try to kidnap you, but the Captain will save you. You now need to get off the ship as soon as possible. Save your game if you like when you regain control, then go back to the Bridge and follow Carla down the lift. You are headed back to the teleporter you started from in the Cargo Hold, only now you have real obstacles and enemies to deal with along the way.
+
+PROMPT 32. Make a mad dash through the rooms. You cannot fight these enemies and they will kill you in a single hit. Don't worry about dying - you'll just start the room over with no penalties. You will probably get nailed a few times. In the third room, Carla will create a barrier to stop the enemies - jump up the boxes to the left and down to the next room. In the fourth room, get on top of the boxes to the north immediately and make your way left and out. In the last room, follow the path Carla makes on the top of the room.
+
+PROMPT 33. You'll be teleported out of the ship. Enjoy the rest of the scene afterward! Obviously, things aren't over...
+
+RESEARCH THE SPECIFIC PROVIDED SECTION TO ENSURE THE PHOTOS ARE EXTREMELY SPECIFICALLY EVOCATIVE
+
+39. Intent: Creative Generation
+   Prompt: For easy ATO tax filing in Australia ..based on ATO (Australian Taxation Office) guidelines 2024 to manage one investment property in Australia from Jan 2023 for 10 years.. Please create a property manager excel file for tracking all common tax-deductible expenses for investment properties in Australia in separate worksheets for each year
+
+Please create a Excel file and provide link to download.
+
+
+40. Intent: Creative Generation
+   Prompt: Make a meme from today’s news. 
+

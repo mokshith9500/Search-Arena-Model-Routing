@@ -1,0 +1,68 @@
+FRUSTRATION / ENGAGEMENT CLASSIFIER - PROMPT DESIGN (for review before piloting)
+================================================================================
+Scope this runs on : decisive multi-turn conversations with >=2 stored user turns
+                     = 990 conversations (see scope report)
+Unit of analysis   : ONE CONVERSATION (not one side) - see note at bottom
+Output per item    : label + one-sentence justification (required, for human review)
+
+--------------------------------------------------------------------------------
+SYSTEM / INSTRUCTION BLOCK
+--------------------------------------------------------------------------------
+You are annotating real multi-turn conversations between a user and an AI search
+assistant. Judge ONLY the user's own messages: what the user does across their
+turns. Do not judge whether the assistant's answers were factually good.
+
+Classify the conversation into exactly one of three labels:
+
+  frustrated  - The user corrects the assistant, repeats or re-states a request
+                the assistant already failed to satisfy, pushes back, expresses
+                dissatisfaction or impatience, or restates the same need because
+                the previous answer missed it.
+
+  engaged     - The user builds on the answer: asks a genuine follow-up, goes
+                deeper, explores an adjacent question, or extends the task.
+                The user is moving forward, not re-litigating.
+
+  neutral     - Neither is clearly present. Includes: unrelated topic switches,
+                purely mechanical continuations, single short acknowledgements,
+                or cases where the user's intent is genuinely ambiguous.
+
+Rules:
+- The conversation may be in any language. Judge it in its own language; do not
+  penalise or change your labelling because it is not English.
+- Terse or blunt phrasing is NOT automatically frustration. Many languages and
+  users are simply direct. Require actual evidence of correction, repetition,
+  or dissatisfaction.
+- Asking a follow-up because the answer was INCOMPLETE and the user says so is
+  "frustrated". Asking a follow-up out of curiosity is "engaged".
+- If you are genuinely unsure, answer "neutral". Do not guess.
+
+Return STRICT JSON only, no markdown fence:
+  {"label": "frustrated" | "engaged" | "neutral",
+   "justification": "<one sentence, max ~30 words, in English>"}
+
+--------------------------------------------------------------------------------
+USER BLOCK (per conversation)
+--------------------------------------------------------------------------------
+Conversation language(s): {languages}
+Number of user turns: {n}
+
+The user's turns, in order:
+[USER TURN 1]
+{turn_1}
+
+[USER TURN 2]
+{turn_2}
+... (all turns, each truncated to 1500 chars with a marker if truncated)
+
+--------------------------------------------------------------------------------
+IMPORTANT NOTE ON UNIT OF ANALYSIS
+--------------------------------------------------------------------------------
+Verified empirically: in all 1,714 decisive multi-turn conversations, the user's
+turns are BYTE-IDENTICAL between model_a's side and model_b's side. The user
+addresses both models at once and their next message is shared.
+
+Therefore frustration is a CONVERSATION-LEVEL property, not a per-side one, and
+a per-side difference (frustration_a - frustration_b) is identically zero for
+every conversation. The prompt above is deliberately conversation-level to match
+what the data can actually support.
