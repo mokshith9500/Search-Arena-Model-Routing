@@ -3,7 +3,7 @@ gemini-2.0-flash,0.25,cheap,75.0,95.0,False,
 gpt-4o-mini-search-preview,0.38,cheap,62.0,92.4,False,
 sonar,1.0,cheap,0.0,80.0,True,cheap/mid 0.0%
 gemini-2.5-flash-preview-04-17,1.4,mid,39.99999999999999,72.0,False,
-sonar-reasoning,,mid,,,True,price not published in source dict
+sonar-reasoning,3.0,mid,200.0,40.0,False,
 sonar-reasoning-pro,5.0,expensive,400.0,0.0,True,mid/expensive 0.0%
 gemini-2.5-pro-exp-03-25,5.63,expensive,463.0,12.599999999999998,True,mid/expensive 12.6%
 gpt-4o-search-preview,6.25,expensive,525.0,25.0,False,

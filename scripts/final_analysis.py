@@ -57,14 +57,14 @@ from intent_complexity_analysis_v2 import (
 # SETTINGS
 # ============================================================
 
-DERIVED_CSV = "final_analysis_derived.csv"
-BY_INTENT_CSV = "final_analysis_by_intent.csv"
-STRATIFIED_CSV = "final_analysis_stratified_9x2.csv"
-VOTE_PRESENCE_CSV = "final_analysis_vote_presence.csv"
-SIGNIFICANCE_CSV = "final_analysis_significance_test.csv"
-CITATION_LENGTH_DIAG_CSV = "final_analysis_citation_length_correlation.csv"
-COST_TIER_CSV = "final_analysis_cost_tier_comparison.csv"
-SUMMARY_MD = "final_analysis_summary.md"
+DERIVED_CSV = "outputs/final_analysis_derived.csv"
+BY_INTENT_CSV = "outputs/final_analysis_by_intent.csv"
+STRATIFIED_CSV = "outputs/final_analysis_stratified_9x2.csv"
+VOTE_PRESENCE_CSV = "outputs/final_analysis_vote_presence.csv"
+SIGNIFICANCE_CSV = "outputs/final_analysis_significance_test.csv"
+CITATION_LENGTH_DIAG_CSV = "outputs/final_analysis_citation_length_correlation.csv"
+COST_TIER_CSV = "outputs/final_analysis_cost_tier_comparison.csv"
+SUMMARY_MD = "outputs/final_analysis_summary.md"
 
 INTENT_ORDER = [
     "Factual Lookup",
@@ -105,7 +105,7 @@ MODEL_BLENDED_PRICE_USD_PER_MILLION = {
     "gpt-4o-mini-search-preview": 0.38,  # + $25-30 / 1,000 calls search fee, not reflected here
     "sonar": 1.00,
     "gemini-2.5-flash-preview-04-17": 1.40,
-    "sonar-reasoning": None,  # not independently published; treated as unknown, placed in mid tier
+    "sonar-reasoning": 3.00,  # $1.00/Mtok input, $5.00/Mtok output, 50/50 blended; user-supplied verified price
     "sonar-reasoning-pro": 5.00,
     "gemini-2.5-pro-exp-03-25": 5.63,
     "gpt-4o-search-preview": 6.25,  # + $30-50 / 1,000 calls search fee, not reflected here

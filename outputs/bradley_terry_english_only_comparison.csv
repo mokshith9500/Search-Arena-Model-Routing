@@ -1,0 +1,17 @@
+section,coefficient,pooled_value,pooled_significant,english_only_value,english_only_significant,significance_changed,conclusion_changed,note
+by_intent,beta_citation[Factual Lookup],0.3445182320370555,True,0.3705193365635172,True,False,False,same significance
+by_intent,beta_citation[Text Processing],0.6860545910887494,True,0.6920159299375803,False,True,True,"LOST significance (pooled sig, EN-only not)"
+by_intent,beta_citation[Other],-0.0622730031239838,False,-0.2593750143156218,False,False,False,same significance
+by_intent,beta_citation[Explanation],0.4548634700474274,True,0.5801903008017365,True,False,False,same significance
+by_intent,beta_citation[Recommendation],0.4706261410894421,True,0.49902264134037905,True,False,False,same significance
+by_intent,beta_citation[Guidance],0.197525790400015,False,0.18266965592908113,False,False,False,same significance
+by_intent,beta_citation[Info Synthesis],0.3956457138168004,True,0.39534568294061423,True,False,False,same significance
+by_intent,beta_citation[Analysis],0.3115707579633516,True,0.4505865905025964,True,False,False,same significance
+by_intent,beta_citation[Creative Generation],0.4209820664025407,True,0.5701790842033411,True,False,False,same significance
+cost_tier,tier: mid vs cheap,0.2702074488812757,True,0.3065027910304724,True,False,False,
+cost_tier,tier: expensive vs cheap,0.291934437445884,True,0.29873707247556774,True,False,False,
+cost_tier,tier: expensive - mid (contrast),0.0217269885646083,False,-0.007765718554904655,False,False,False,
+family_tier_joint,joint: tier mid vs cheap,0.1239804086075117,True,0.1462392531412085,True,False,False,
+family_tier_joint,joint: tier expensive vs cheap,0.3358589411456502,True,0.32216096641434344,True,False,False,
+family_tier_joint,joint: family OpenAI vs Gemini,-0.3976585697122794,True,-0.33628030934890873,True,False,False,
+family_tier_joint,joint: family Sonar vs Gemini,0.3173129950249769,True,0.37579687015478197,True,False,False,

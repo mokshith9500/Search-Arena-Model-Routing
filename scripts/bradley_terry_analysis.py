@@ -60,18 +60,18 @@ RIDGE = 1e-6          # numerical stabiliser only; see NOTE in fit_bt
 MIN_N_FOR_FIT = 30    # below this a per-intent fit is not attempted
 LOW_POWER_N = 250     # flag thin cells
 
-BY_INTENT_CSV = "bradley_terry_by_intent.csv"
-COST_TIER_CSV = "bradley_terry_cost_tier.csv"
-SUMMARY_MD = "bradley_terry_summary.md"
-MODEL_STRENGTH_CSV = "bradley_terry_model_strengths.csv"
-BOUNDARY_CSV = "bradley_terry_tier_boundary_check.csv"
+BY_INTENT_CSV = "outputs/bradley_terry_by_intent.csv"
+COST_TIER_CSV = "outputs/bradley_terry_cost_tier.csv"
+SUMMARY_MD = "outputs/bradley_terry_summary.md"
+MODEL_STRENGTH_CSV = "outputs/bradley_terry_model_strengths.csv"
+BOUNDARY_CSV = "outputs/bradley_terry_tier_boundary_check.csv"
 
 # Existing OLS outputs, read back for the Step 5 comparison only.
-OLS_BY_INTENT_CSV = "final_analysis_by_intent.csv"
-OLS_COST_TIER_CSV = "final_analysis_cost_tier_comparison.csv"
+OLS_BY_INTENT_CSV = "outputs/final_analysis_by_intent.csv"
+OLS_COST_TIER_CSV = "outputs/final_analysis_cost_tier_comparison.csv"
 
-TAU2_SUMMARY_MD = "tau2_analysis_summary.md"
-TAU2_SUMMARY_CSV = "tau2_precomputed_summary.csv"
+TAU2_SUMMARY_MD = "outputs/tau2_analysis_summary.md"
+TAU2_SUMMARY_CSV = "outputs/tau2_precomputed_summary.csv"
 
 
 # ============================================================

@@ -42,9 +42,9 @@ from inspect_search_arena import (
 # SETTINGS
 # ============================================================
 
-DERIVED_CSV = "intent_complexity_derived_v2.csv"
-STRATIFIED_CSV = "intent_complexity_stratified_summary.csv"
-SUMMARY_MD = "intent_complexity_summary_v2.md"
+DERIVED_CSV = "outputs/intent_complexity_derived_v2.csv"
+STRATIFIED_CSV = "outputs/intent_complexity_stratified_summary.csv"
+SUMMARY_MD = "outputs/intent_complexity_summary_v2.md"
 
 COMPLEXITY_TIERS = {
     "Factual Lookup": "Low",
