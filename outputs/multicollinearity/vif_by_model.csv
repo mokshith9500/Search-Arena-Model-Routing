@@ -1,0 +1,138 @@
+scope,predictor,n_conversations,n_design_columns,design_rank,full_rank,scaled_condition_number,vif,auxiliary_r_squared,vif_method,flag
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],8613,10,10,True,4.671068089027532,1.6017689119233625,0.3756902181356323,uncentered (no intercept in model),OK
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],8613,10,10,True,4.671068089027532,2.0754557149950505,0.5181781076921774,uncentered (no intercept in model),OK
+pooled_model_identity,theta[gpt-4o-mini-search-preview],8613,10,10,True,4.671068089027532,1.7532766952093302,0.42963937025318966,uncentered (no intercept in model),OK
+pooled_model_identity,theta[gpt-4o-search-preview],8613,10,10,True,4.671068089027532,3.5933590191062343,0.7217088538376198,uncentered (no intercept in model),OK
+pooled_model_identity,theta[sonar],8613,10,10,True,4.671068089027532,1.8502407537604852,0.45952979472127087,uncentered (no intercept in model),OK
+pooled_model_identity,theta[sonar-pro],8613,10,10,True,4.671068089027532,2.685083216217053,0.6275720640759599,uncentered (no intercept in model),OK
+pooled_model_identity,theta[sonar-reasoning],8613,10,10,True,4.671068089027532,2.049734179359858,0.5121318607702074,uncentered (no intercept in model),OK
+pooled_model_identity,theta[sonar-reasoning-pro],8613,10,10,True,4.671068089027532,2.0882004132004783,0.5211187615525126,uncentered (no intercept in model),OK
+pooled_model_identity,beta_citation,8613,10,10,True,4.671068089027532,1.410492692940401,0.2910278762838978,uncentered (no intercept in model),OK
+pooled_model_identity,beta_length,8613,10,10,True,4.671068089027532,1.234989270076319,0.1902763657710137,uncentered (no intercept in model),OK
+pooled_cost_tier,tier[mid] vs cheap,8613,4,4,True,1.9941998868059576,1.5154552945870459,0.3401322997967452,uncentered (no intercept in model),OK
+pooled_cost_tier,tier[expensive] vs cheap,8613,4,4,True,1.9941998868059576,1.4420295967216488,0.30653295724759844,uncentered (no intercept in model),OK
+pooled_cost_tier,beta_citation,8613,4,4,True,1.9941998868059576,1.2269110759489086,0.1849450057115286,uncentered (no intercept in model),OK
+pooled_cost_tier,beta_length,8613,4,4,True,1.9941998868059576,1.135414327501062,0.11926424056942808,uncentered (no intercept in model),OK
+pooled_model_family,family[openai] vs gemini,8613,4,4,True,2.6647314333350534,2.1446445229021993,0.5337222605792176,uncentered (no intercept in model),OK
+pooled_model_family,family[sonar] vs gemini,8613,4,4,True,2.6647314333350534,1.8357783435328825,0.45527192674277894,uncentered (no intercept in model),OK
+pooled_model_family,beta_citation,8613,4,4,True,2.6647314333350534,1.315118350514756,0.23961216143886532,uncentered (no intercept in model),OK
+pooled_model_family,beta_length,8613,4,4,True,2.6647314333350534,1.1785867052311934,0.15152614944537446,uncentered (no intercept in model),OK
+pooled_tier_plus_family,tier[mid] vs cheap,8613,6,6,True,3.0498218664980854,1.5606456981599939,0.3592395755301776,uncentered (no intercept in model),OK
+pooled_tier_plus_family,tier[expensive] vs cheap,8613,6,6,True,3.0498218664980854,1.5471735163628575,0.35366008438999763,uncentered (no intercept in model),OK
+pooled_tier_plus_family,family[openai] vs gemini,8613,6,6,True,3.0498218664980854,2.353753082060414,0.5751465998614322,uncentered (no intercept in model),OK
+pooled_tier_plus_family,family[sonar] vs gemini,8613,6,6,True,3.0498218664980854,1.9347549369385975,0.4831386751325103,uncentered (no intercept in model),OK
+pooled_tier_plus_family,beta_citation,8613,6,6,True,3.0498218664980854,1.3651326351903421,0.2674704462980121,uncentered (no intercept in model),OK
+pooled_tier_plus_family,beta_length,8613,6,6,True,3.0498218664980854,1.2075411233637607,0.17187085337982388,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],1974,10,10,True,5.140795384475031,1.6327060040606056,0.38751986119181303,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],1974,10,10,True,5.140795384475031,2.290715560490114,0.5634551852496068,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],1974,10,10,True,5.140795384475031,1.8431619689437995,0.457454083336454,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[gpt-4o-search-preview],1974,10,10,True,5.140795384475031,3.8317078580578534,0.7390197695012004,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[sonar],1974,10,10,True,5.140795384475031,2.015496060679682,0.5038442299595605,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[sonar-pro],1974,10,10,True,5.140795384475031,2.762536608894548,0.6380138468463017,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[sonar-reasoning],1974,10,10,True,5.140795384475031,2.2401484313203213,0.5536010087462776,uncentered (no intercept in model),OK
+intent_Factual Lookup,theta[sonar-reasoning-pro],1974,10,10,True,5.140795384475031,2.309186855205326,0.5669471278403397,uncentered (no intercept in model),OK
+intent_Factual Lookup,beta_citation,1974,10,10,True,5.140795384475031,1.7844603564879609,0.4396064914727924,uncentered (no intercept in model),OK
+intent_Factual Lookup,beta_length,1974,10,10,True,5.140795384475031,1.6253816170888573,0.38475986839875065,uncentered (no intercept in model),OK
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],184,10,10,True,4.326700365102542,1.2684452933874306,0.21163332371279286,uncentered (no intercept in model),OK
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],184,10,10,True,4.326700365102542,2.085412736150281,0.5204786166953106,uncentered (no intercept in model),OK
+intent_Text Processing,theta[gpt-4o-mini-search-preview],184,10,10,True,4.326700365102542,1.3264993996386376,0.24613610811100395,uncentered (no intercept in model),OK
+intent_Text Processing,theta[gpt-4o-search-preview],184,10,10,True,4.326700365102542,3.6787229736703746,0.7281665384544384,uncentered (no intercept in model),OK
+intent_Text Processing,theta[sonar],184,10,10,True,4.326700365102542,1.6963165482070075,0.41048738747671143,uncentered (no intercept in model),OK
+intent_Text Processing,theta[sonar-pro],184,10,10,True,4.326700365102542,2.4872886613985554,0.597955791975621,uncentered (no intercept in model),OK
+intent_Text Processing,theta[sonar-reasoning],184,10,10,True,4.326700365102542,1.6992749036434451,0.41151370042841073,uncentered (no intercept in model),OK
+intent_Text Processing,theta[sonar-reasoning-pro],184,10,10,True,4.326700365102542,1.7860126164859582,0.4400935409025639,uncentered (no intercept in model),OK
+intent_Text Processing,beta_citation,184,10,10,True,4.326700365102542,1.7074732823383805,0.41433929869139596,uncentered (no intercept in model),OK
+intent_Text Processing,beta_length,184,10,10,True,4.326700365102542,1.4693597538541323,0.3194314752551246,uncentered (no intercept in model),OK
+intent_Other,theta[gemini-2.5-flash-preview-04-17],451,10,10,True,4.903290408519664,1.2991783904410172,0.23028276381618273,uncentered (no intercept in model),OK
+intent_Other,theta[gemini-2.5-pro-exp-03-25],451,10,10,True,4.903290408519664,2.213050594318714,0.5481350482600018,uncentered (no intercept in model),OK
+intent_Other,theta[gpt-4o-mini-search-preview],451,10,10,True,4.903290408519664,1.745980999357752,0.42725608104106305,uncentered (no intercept in model),OK
+intent_Other,theta[gpt-4o-search-preview],451,10,10,True,4.903290408519664,3.540473872975536,0.7175519334761915,uncentered (no intercept in model),OK
+intent_Other,theta[sonar],451,10,10,True,4.903290408519664,2.1377759668633995,0.5322241359709801,uncentered (no intercept in model),OK
+intent_Other,theta[sonar-pro],451,10,10,True,4.903290408519664,2.6149186865601077,0.6175789307944075,uncentered (no intercept in model),OK
+intent_Other,theta[sonar-reasoning],451,10,10,True,4.903290408519664,2.282094665849873,0.5618060832600953,uncentered (no intercept in model),OK
+intent_Other,theta[sonar-reasoning-pro],451,10,10,True,4.903290408519664,2.0772851016651934,0.518602430066831,uncentered (no intercept in model),OK
+intent_Other,beta_citation,451,10,10,True,4.903290408519664,2.589319885596406,0.6137982002290664,uncentered (no intercept in model),OK
+intent_Other,beta_length,451,10,10,True,4.903290408519664,2.5043184542347756,0.6006897611966997,uncentered (no intercept in model),OK
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],901,10,10,True,5.28652918213458,1.895796607399246,0.4725172541732455,uncentered (no intercept in model),OK
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],901,10,10,True,5.28652918213458,2.3588448978638192,0.5760636907896722,uncentered (no intercept in model),OK
+intent_Explanation,theta[gpt-4o-mini-search-preview],901,10,10,True,5.28652918213458,2.026084391147613,0.506437143304983,uncentered (no intercept in model),OK
+intent_Explanation,theta[gpt-4o-search-preview],901,10,10,True,5.28652918213458,4.100646968177814,0.7561360420050094,uncentered (no intercept in model),OK
+intent_Explanation,theta[sonar],901,10,10,True,5.28652918213458,1.8434676407565898,0.45754404477119903,uncentered (no intercept in model),OK
+intent_Explanation,theta[sonar-pro],901,10,10,True,5.28652918213458,2.887644611658878,0.6536969972127126,uncentered (no intercept in model),OK
+intent_Explanation,theta[sonar-reasoning],901,10,10,True,5.28652918213458,2.3324368669578344,0.5712638510536465,uncentered (no intercept in model),OK
+intent_Explanation,theta[sonar-reasoning-pro],901,10,10,True,5.28652918213458,2.2304072575831344,0.5516513871625407,uncentered (no intercept in model),OK
+intent_Explanation,beta_citation,901,10,10,True,5.28652918213458,1.804016766046332,0.44568142668009036,uncentered (no intercept in model),OK
+intent_Explanation,beta_length,901,10,10,True,5.28652918213458,1.623670980615898,0.38411167537115454,uncentered (no intercept in model),OK
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],1026,10,10,True,4.867993902589554,1.6858326820864598,0.40682132300202145,uncentered (no intercept in model),OK
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],1026,10,10,True,4.867993902589554,2.4440695191298136,0.5908463355182958,uncentered (no intercept in model),OK
+intent_Recommendation,theta[gpt-4o-mini-search-preview],1026,10,10,True,4.867993902589554,1.6655944434985466,0.39961375117251186,uncentered (no intercept in model),OK
+intent_Recommendation,theta[gpt-4o-search-preview],1026,10,10,True,4.867993902589554,3.53054424301169,0.7167575503466963,uncentered (no intercept in model),OK
+intent_Recommendation,theta[sonar],1026,10,10,True,4.867993902589554,1.677062585101252,0.4037193311186861,uncentered (no intercept in model),OK
+intent_Recommendation,theta[sonar-pro],1026,10,10,True,4.867993902589554,2.8364950465997443,0.6474522311615694,uncentered (no intercept in model),OK
+intent_Recommendation,theta[sonar-reasoning],1026,10,10,True,4.867993902589554,1.877977006929993,0.4675121173955471,uncentered (no intercept in model),OK
+intent_Recommendation,theta[sonar-reasoning-pro],1026,10,10,True,4.867993902589554,2.243312102182991,0.5542305508774774,uncentered (no intercept in model),OK
+intent_Recommendation,beta_citation,1026,10,10,True,4.867993902589554,1.4337504723133632,0.30252856455105803,uncentered (no intercept in model),OK
+intent_Recommendation,beta_length,1026,10,10,True,4.867993902589554,1.7714412786953033,0.43548792047088514,uncentered (no intercept in model),OK
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],680,10,10,True,4.7642606087585335,1.834602485980226,0.454922792462204,uncentered (no intercept in model),OK
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],680,10,10,True,4.7642606087585335,1.8474847697634524,0.4587235487045246,uncentered (no intercept in model),OK
+intent_Guidance,theta[gpt-4o-mini-search-preview],680,10,10,True,4.7642606087585335,1.8693056016420782,0.465041992533721,uncentered (no intercept in model),OK
+intent_Guidance,theta[gpt-4o-search-preview],680,10,10,True,4.7642606087585335,3.852752100014424,0.7404452780659685,uncentered (no intercept in model),OK
+intent_Guidance,theta[sonar],680,10,10,True,4.7642606087585335,1.9796053238434184,0.4948488024580109,uncentered (no intercept in model),OK
+intent_Guidance,theta[sonar-pro],680,10,10,True,4.7642606087585335,2.6951059775670627,0.6289570768928634,uncentered (no intercept in model),OK
+intent_Guidance,theta[sonar-reasoning],680,10,10,True,4.7642606087585335,1.923671395779021,0.4801606957434462,uncentered (no intercept in model),OK
+intent_Guidance,theta[sonar-reasoning-pro],680,10,10,True,4.7642606087585335,2.1307116183066026,0.5306732307609245,uncentered (no intercept in model),OK
+intent_Guidance,beta_citation,680,10,10,True,4.7642606087585335,1.6709472628264213,0.4015370668799615,uncentered (no intercept in model),OK
+intent_Guidance,beta_length,680,10,10,True,4.7642606087585335,1.463637866975776,0.3167708880979979,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],1892,10,10,True,4.950561114827146,1.5852253618632792,0.3691748668311762,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],1892,10,10,True,4.950561114827146,2.0850282533959583,0.5203901921370777,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],1892,10,10,True,4.950561114827146,1.8220815039666616,0.4511771302090464,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[gpt-4o-search-preview],1892,10,10,True,4.950561114827146,3.8381825063190984,0.739460018288963,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[sonar],1892,10,10,True,4.950561114827146,1.8984453458790858,0.4732532057503376,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[sonar-pro],1892,10,10,True,4.950561114827146,2.7723701755164347,0.6392978077634525,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[sonar-reasoning],1892,10,10,True,4.950561114827146,2.161012307677438,0.5372539080655415,uncentered (no intercept in model),OK
+intent_Info Synthesis,theta[sonar-reasoning-pro],1892,10,10,True,4.950561114827146,2.0451286247784144,0.5110331996314668,uncentered (no intercept in model),OK
+intent_Info Synthesis,beta_citation,1892,10,10,True,4.950561114827146,1.5694273337549245,0.36282491167816244,uncentered (no intercept in model),OK
+intent_Info Synthesis,beta_length,1892,10,10,True,4.950561114827146,1.4685431842035657,0.31905305151626884,uncentered (no intercept in model),OK
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],901,10,10,True,4.554158364749862,1.511209109542932,0.33827820803538444,uncentered (no intercept in model),OK
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],901,10,10,True,4.554158364749862,2.0764388612573685,0.5184062393272397,uncentered (no intercept in model),OK
+intent_Analysis,theta[gpt-4o-mini-search-preview],901,10,10,True,4.554158364749862,1.6987576691854793,0.4113345192551918,uncentered (no intercept in model),OK
+intent_Analysis,theta[gpt-4o-search-preview],901,10,10,True,4.554158364749862,3.233166763712663,0.6907057157634224,uncentered (no intercept in model),OK
+intent_Analysis,theta[sonar],901,10,10,True,4.554158364749862,1.8024577763850629,0.44520198303587455,uncentered (no intercept in model),OK
+intent_Analysis,theta[sonar-pro],901,10,10,True,4.554158364749862,2.5584599783169435,0.6091398698924188,uncentered (no intercept in model),OK
+intent_Analysis,theta[sonar-reasoning],901,10,10,True,4.554158364749862,1.9053222557575742,0.47515440132074116,uncentered (no intercept in model),OK
+intent_Analysis,theta[sonar-reasoning-pro],901,10,10,True,4.554158364749862,1.9983680326917388,0.499591674986398,uncentered (no intercept in model),OK
+intent_Analysis,beta_citation,901,10,10,True,4.554158364749862,1.4329115995477417,0.3021202422287447,uncentered (no intercept in model),OK
+intent_Analysis,beta_length,901,10,10,True,4.554158364749862,1.5641610995816773,0.36067966383549477,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],604,10,10,True,4.511139975350712,1.7384758482073293,0.4247834958241302,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],604,10,10,True,4.511139975350712,2.1596617375681904,0.5369645243027669,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],604,10,10,True,4.511139975350712,1.6559740760063142,0.3961258123003448,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[gpt-4o-search-preview],604,10,10,True,4.511139975350712,3.5739309285508853,0.7201960474357942,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[sonar],604,10,10,True,4.511139975350712,1.6610440415344094,0.39796900323230566,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[sonar-pro],604,10,10,True,4.511139975350712,2.8237053954588665,0.6458554063011609,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[sonar-reasoning],604,10,10,True,4.511139975350712,2.0121639526031743,0.5030226047403934,uncentered (no intercept in model),OK
+intent_Creative Generation,theta[sonar-reasoning-pro],604,10,10,True,4.511139975350712,2.229083432225129,0.5513851184108556,uncentered (no intercept in model),OK
+intent_Creative Generation,beta_citation,604,10,10,True,4.511139975350712,1.2577739575743474,0.20494458167306284,uncentered (no intercept in model),OK
+intent_Creative Generation,beta_length,604,10,10,True,4.511139975350712,1.1086375988234065,0.09799198488189753,uncentered (no intercept in model),OK
+frustration_direct_effect,frustrated_vs_engaged,838,4,4,True,1.9364830523840721,1.0008612235301524,0.0008604824624085516,centered (intercept in model),OK
+frustration_direct_effect,beta_citation,838,4,4,True,1.9364830523840721,1.1028915851071646,0.09329256519548745,centered (intercept in model),OK
+frustration_direct_effect,beta_length,838,4,4,True,1.9364830523840721,1.1032383483126347,0.09357755599280437,centered (intercept in model),OK
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],280,10,10,True,4.373641459040765,1.4815948318128,0.32505164129355557,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],280,10,10,True,4.373641459040765,1.9201315285929408,0.47920234363695224,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],280,10,10,True,4.373641459040765,1.7223469687772017,0.4193968938152105,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[gpt-4o-search-preview],280,10,10,True,4.373641459040765,3.3648374852799154,0.7028088267636463,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[sonar],280,10,10,True,4.373641459040765,1.9243837558787062,0.4803531276206481,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[sonar-pro],280,10,10,True,4.373641459040765,2.432259423218354,0.5888596461158716,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[sonar-reasoning],280,10,10,True,4.373641459040765,2.020827540059871,0.5051532205611307,uncentered (no intercept in model),OK
+frustration_group_frustrated,theta[sonar-reasoning-pro],280,10,10,True,4.373641459040765,1.6656642897266942,0.3996389271429466,uncentered (no intercept in model),OK
+frustration_group_frustrated,beta_citation,280,10,10,True,4.373641459040765,1.3970839748931096,0.28422341249994687,uncentered (no intercept in model),OK
+frustration_group_frustrated,beta_length,280,10,10,True,4.373641459040765,1.2669150185799876,0.21068107541984726,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],558,10,10,True,4.771222908238278,1.7502575237391365,0.4286555055831641,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],558,10,10,True,4.771222908238278,2.458257898077183,0.593207856351367,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],558,10,10,True,4.771222908238278,1.5536379292452993,0.356349390565044,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[gpt-4o-search-preview],558,10,10,True,4.771222908238278,3.329129722622135,0.6996211973343093,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[sonar],558,10,10,True,4.771222908238278,1.812734386416944,0.44834719995762706,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[sonar-pro],558,10,10,True,4.771222908238278,2.777933075508975,0.6400201254608053,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[sonar-reasoning],558,10,10,True,4.771222908238278,2.0608942821641874,0.5147737520287166,uncentered (no intercept in model),OK
+frustration_group_engaged,theta[sonar-reasoning-pro],558,10,10,True,4.771222908238278,2.244004878906921,0.5543681703191703,uncentered (no intercept in model),OK
+frustration_group_engaged,beta_citation,558,10,10,True,4.771222908238278,1.61009350069816,0.3789180568914877,uncentered (no intercept in model),OK
+frustration_group_engaged,beta_length,558,10,10,True,4.771222908238278,1.5582986218139199,0.35827447576385496,uncentered (no intercept in model),OK
