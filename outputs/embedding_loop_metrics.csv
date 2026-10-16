@@ -1,0 +1,987 @@
+idx,keyword_label,intent,languages,winner,model_a,model_b,n_turns,mean_cos_consecutive,mean_cos_first_to_later,embedding_variance
+11723,engaged,Factual Lookup,"('Portuguese',)",model_b,sonar-reasoning-pro,sonar-reasoning-pro,2,0.512496829032898,0.512496829032898,0.2437516152858734
+11942,neutral,Factual Lookup,"('German',)",model_b,sonar-reasoning,sonar-reasoning-pro,2,0.417175829410553,0.417175829410553,0.2914121150970459
+14164,frustrated,Factual Lookup,"('Chinese', 'Japanese')",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.6560540795326233,0.6560540795326233,0.17197294533252716
+2572,engaged,Factual Lookup,"('English',)",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.4947664141654968,0.4947664141654968,0.2526167929172516
+8974,neutral,Factual Lookup,"('English',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,3,0.3312433660030365,0.2722751572728157,0.49486446380615234
+14884,frustrated,Factual Lookup,"('English',)",model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.7817975878715515,0.7817975878715515,0.10910119861364365
+22681,engaged,Factual Lookup,"('English',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,3,0.15930208563804626,0.3331724852323532,0.466490775346756
+14266,frustrated,Factual Lookup,"('English',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,8,0.34046924114227295,0.21397407140050614,0.5826219320297241
+23106,engaged,Factual Lookup,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,9,0.45006950153037906,0.3414956694468856,0.5094360709190369
+11202,frustrated,Factual Lookup,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.6442261338233948,0.6442261338233948,0.1778869330883026
+3754,neutral,Factual Lookup,"('English',)",model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,4,0.4868934452533722,0.23425321032603583,0.4897063374519348
+13073,engaged,Factual Lookup,"('English',)",model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.5325828790664673,0.5325828790664673,0.23370862007141113
+22180,engaged,Factual Lookup,"('English',)",model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,5,0.5044442713260651,0.4081410989165306,0.4615982174873352
+1394,engaged,Factual Lookup,"('English',)",model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,4,0.6116305987040201,0.6764026284217834,0.307086706161499
+12186,engaged,Factual Lookup,"('English',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,2,0.06611302495002747,0.06611302495002747,0.46694350242614746
+13118,engaged,Factual Lookup,"('English',)",model_a,sonar-pro,sonar-reasoning,2,0.7436908483505249,0.7436908483505249,0.12815457582473755
+1750,frustrated,Factual Lookup,"('English',)",model_b,sonar-pro,sonar,5,0.3278871923685074,0.07791061233729124,0.6018730401992798
+16701,frustrated,Factual Lookup,"('English',)",model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.2975941300392151,0.2975941300392151,0.35120293498039246
+12434,frustrated,Factual Lookup,"('English',)",model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.8430728912353516,0.8430728912353516,0.078463613986969
+4109,frustrated,Factual Lookup,"('English',)",model_a,sonar,gpt-4o-search-preview,2,0.48662859201431274,0.48662859201431274,0.256685733795166
+9406,neutral,Factual Lookup,"('English',)",model_a,gpt-4o-mini-search-preview,gemini-2.0-flash,2,0.504006028175354,0.504006028175354,0.2479970008134842
+22591,neutral,Factual Lookup,"('English',)",model_b,gemini-2.5-flash-preview-04-17,sonar-pro,2,0.10868460685014725,0.10868460685014725,0.4456577003002167
+1743,neutral,Factual Lookup,"('English',)",model_b,sonar-pro,gpt-4o-mini-search-preview,2,0.2359703630208969,0.2359703630208969,0.38201481103897095
+14735,frustrated,Factual Lookup,"('English',)",model_a,sonar-pro,gpt-4o-search-preview,2,0.5684868097305298,0.5684868097305298,0.21575653553009033
+1241,engaged,Factual Lookup,"('English',)",model_a,sonar-reasoning,sonar-pro,2,0.08514974266290665,0.08514974266290665,0.4574251174926758
+16527,engaged,Factual Lookup,"('English',)",model_a,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.389742374420166,0.389742374420166,0.305128812789917
+5177,neutral,Factual Lookup,"('English',)",model_a,sonar,gemini-2.5-pro-exp-03-25,2,0.056413520127534866,0.056413520127534866,0.4717932641506195
+21724,engaged,Factual Lookup,"('English',)",model_b,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,-0.050795502960681915,-0.050795502960681915,0.525397777557373
+11164,engaged,Factual Lookup,"('English',)",model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.3450945317745209,0.3450945317745209,0.32745271921157837
+11286,engaged,Factual Lookup,"('English',)",model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.16200177371501923,0.16200177371501923,0.4189991354942322
+6906,frustrated,Factual Lookup,"('English',)",model_b,gpt-4o-mini-search-preview,gemini-2.5-pro-exp-03-25,2,0.3235757052898407,0.3235757052898407,0.33821219205856323
+5594,engaged,Factual Lookup,"('English',)",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,6,0.26154092624783515,0.19270324632525443,0.6928384900093079
+11736,engaged,Factual Lookup,"('English',)",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,5,0.42979154735803604,0.4680028613656759,0.45830005407333374
+7515,frustrated,Factual Lookup,"('English',)",model_a,sonar,gpt-4o-search-preview,2,0.8670750260353088,0.8670750260353088,0.06646248698234558
+1170,engaged,Factual Lookup,"('English',)",model_b,gpt-4o-mini-search-preview,sonar-pro,2,0.38112562894821167,0.38112562894821167,0.3094371557235718
+16486,engaged,Factual Lookup,"('English',)",model_b,gemini-2.5-flash-preview-04-17,sonar-reasoning,6,0.3254159018397331,0.3078993707895279,0.580984890460968
+2942,frustrated,Factual Lookup,"('French',)",model_b,sonar-pro,gpt-4o-search-preview,3,0.5786987841129303,0.6275210976600647,0.28866538405418396
+15165,frustrated,Factual Lookup,"('Vietnamese',)",model_a,gemini-2.0-flash,gpt-4o-search-preview,5,0.43362882360816,0.5669924840331078,0.4472358226776123
+3546,engaged,Factual Lookup,"('Japanese',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.1249779760837555,0.1249779760837555,0.43751096725463867
+13933,engaged,Factual Lookup,"('English', 'Spanish')",model_b,sonar,sonar-reasoning,2,0.20786523818969727,0.20786523818969727,0.39606738090515137
+13582,frustrated,Factual Lookup,"('Italian',)",model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.6945807933807373,0.6945807933807373,0.15270957350730896
+9578,engaged,Factual Lookup,"('Hungarian',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.6688832640647888,0.6688832640647888,0.1655583679676056
+17823,engaged,Factual Lookup,"('Spanish',)",model_b,gemini-2.5-pro-exp-03-25,sonar,4,0.49492072065671283,0.3305213501056035,0.4685652256011963
+6249,neutral,Factual Lookup,"('Indonesian',)",model_a,sonar-pro,gpt-4o-search-preview,2,0.4055705666542053,0.4055705666542053,0.29721468687057495
+23812,neutral,Factual Lookup,"('German',)",model_a,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.12846559286117554,0.12846559286117554,0.4357672333717346
+18820,neutral,Factual Lookup,"('Vietnamese',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,8,0.43363045368875774,0.37956835542406353,0.5267902612686157
+304,engaged,Factual Lookup,"('Turkish',)",model_a,gpt-4o-search-preview,sonar-pro,3,0.5942006707191467,0.48779505491256714,0.30269768834114075
+1055,neutral,Factual Lookup,"('Japanese', 'German')",model_b,gpt-4o-search-preview,sonar-reasoning,2,0.06717812269926071,0.06717812269926071,0.4664109945297241
+22210,engaged,Factual Lookup,"('Italian',)",model_b,gemini-2.5-flash-preview-04-17,sonar-reasoning-pro,2,0.5977931022644043,0.5977931022644043,0.20110343396663666
+546,neutral,Factual Lookup,"('Chinese',)",model_b,gpt-4o-mini-search-preview,sonar,3,0.1767985075712204,0.16026125848293304,0.5696722865104675
+7756,engaged,Factual Lookup,"('Russian',)",model_a,gpt-4o-search-preview,sonar,2,0.32655587792396545,0.32655587792396545,0.33672207593917847
+19729,engaged,Factual Lookup,"('Chinese',)",model_b,sonar,gemini-2.0-flash,2,0.5800570845603943,0.5800570845603943,0.20997145771980286
+8917,frustrated,Factual Lookup,"('French',)",model_b,gemini-2.0-flash,sonar-reasoning,15,0.37865270621010233,0.2691737413406372,0.6272796392440796
+4345,engaged,Factual Lookup,"('Czech',)",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.4781683683395386,0.4781683683395386,0.2609158754348755
+20377,engaged,Factual Lookup,"('German',)",model_b,sonar-pro,gemini-2.0-flash,2,0.19308283925056458,0.19308283925056458,0.40345853567123413
+182,engaged,Factual Lookup,"('Czech',)",model_a,sonar-pro,sonar-reasoning,2,0.5010751485824585,0.5010751485824585,0.24946239590644836
+5426,engaged,Factual Lookup,"('German',)",model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.16172541677951813,0.16172541677951813,0.41913729906082153
+3541,frustrated,Factual Lookup,"('Vietnamese', 'English')",model_a,sonar-pro,sonar-reasoning,2,0.9687080383300781,0.9687080383300781,0.01564594730734825
+4410,engaged,Factual Lookup,"('Japanese',)",model_a,sonar,gemini-2.0-flash,2,0.15058143436908722,0.15058143436908722,0.4247092604637146
+15492,neutral,Factual Lookup,"('Italian',)",model_a,gemini-2.0-flash,sonar,2,0.6558600664138794,0.6558600664138794,0.17206993699073792
+19527,engaged,Factual Lookup,"('German', 'French')",model_b,sonar,gpt-4o-search-preview,4,0.19805933038393655,0.24797906478246054,0.5702457427978516
+16097,frustrated,Factual Lookup,"('English', 'German')",model_a,sonar-reasoning-pro,sonar-reasoning,2,0.658059298992157,0.658059298992157,0.17097032070159912
+3719,neutral,Explanation,"('German',)",model_b,gpt-4o-search-preview,sonar,3,0.5436019897460938,0.6787335276603699,0.24449384212493896
+4833,engaged,Explanation,"('English',)",model_a,sonar-pro,gemini-2.0-flash,3,0.21087666228413582,0.3486631512641907,0.4967125952243805
+15018,engaged,Explanation,"('English',)",model_b,sonar-reasoning,sonar,3,0.507311999797821,0.4062938913702965,0.3982442319393158
+17164,engaged,Explanation,"('English',)",model_a,sonar-pro,gemini-2.0-flash,2,0.07855473458766937,0.07855473458766937,0.4607226252555847
+17724,engaged,Explanation,"('English',)",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,3,0.15806220099329948,0.1907514650374651,0.5928587317466736
+23844,engaged,Explanation,"('English',)",model_a,sonar-pro,gemini-2.5-flash-preview-04-17,5,0.35720167588442564,0.415121428668499,0.5314307808876038
+158,frustrated,Explanation,"('English',)",model_a,sonar-reasoning,gpt-4o-search-preview,2,0.9999998807907104,0.9999998807907104,0.0
+21659,engaged,Explanation,"('English',)",model_a,gemini-2.5-flash-preview-04-17,gemini-2.5-pro-exp-03-25,4,0.6194809079170227,0.6268521944681803,0.28835153579711914
+19457,engaged,Explanation,"('English',)",model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.6826839447021484,0.6826839447021484,0.15865802764892578
+20363,engaged,Explanation,"('English',)",model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.3015276789665222,0.3015276789665222,0.3492361307144165
+20105,engaged,Explanation,"('English',)",model_a,sonar-pro,sonar-reasoning,2,0.4314965605735779,0.4314965605735779,0.28425174951553345
+13854,engaged,Explanation,"('English',)",model_b,gemini-2.0-flash,sonar-reasoning-pro,2,0.1144188866019249,0.1144188866019249,0.44279056787490845
+8145,engaged,Explanation,"('English',)",model_a,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.794681191444397,0.794681191444397,0.10265940427780151
+12625,engaged,Explanation,"('English',)",model_b,gpt-4o-search-preview,sonar-reasoning-pro,3,0.3024221137166023,0.33027075603604317,0.5159028768539429
+2531,neutral,Explanation,"('English',)",model_a,sonar-pro,sonar-pro,2,0.05951812490820885,0.05951812490820885,0.4702409505844116
+17270,engaged,Explanation,"('Italian', 'Vietnamese')",model_b,gpt-4o-search-preview,sonar,4,0.3103884160518646,0.1384557286898295,0.5844353437423706
+20676,frustrated,Explanation,"('German',)",model_b,gpt-4o-search-preview,sonar-reasoning,2,0.29459965229034424,0.29459965229034424,0.35270020365715027
+7015,engaged,Explanation,"('Korean',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.1838780641555786,0.1838780641555786,0.4080609977245331
+6054,engaged,Explanation,"('Chinese',)",model_b,gemini-2.5-pro-exp-03-25,sonar-pro,5,0.4411429241299629,0.4200640618801117,0.501742422580719
+15974,neutral,Explanation,"('Russian',)",model_a,sonar-pro,gpt-4o-mini-search-preview,10,0.611921540564961,0.5806715654002296,0.43894416093826294
+1233,neutral,Explanation,"('Chinese',)",model_b,gpt-4o-search-preview,sonar-reasoning,2,0.053014084696769714,0.053014084696769714,0.47349298000335693
+15957,frustrated,Explanation,"('Russian',)",model_a,sonar-reasoning,gpt-4o-search-preview,5,0.3957464061677456,0.3966566175222397,0.5617046356201172
+19068,frustrated,Explanation,"('Portuguese',)",model_b,sonar-reasoning-pro,sonar-reasoning-pro,2,0.4054372310638428,0.4054372310638428,0.2972813844680786
+6437,engaged,Explanation,"('German',)",model_b,sonar-reasoning,gemini-2.5-pro-exp-03-25,3,0.536406546831131,0.2899341285228729,0.36675599217414856
+5576,engaged,Explanation,"('Chinese',)",model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.505605161190033,0.505605161190033,0.24719735980033875
+7701,frustrated,Explanation,"('English', 'Chinese')",model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.5722659826278687,0.5722659826278687,0.21386703848838806
+11175,engaged,Explanation,"('Chinese',)",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,3,0.37581518292427063,0.4731731116771698,0.3687632381916046
+22055,neutral,Explanation,"('English', 'Chinese')",model_a,gemini-2.5-flash-preview-04-17,gemini-2.5-pro-exp-03-25,2,0.3290885090827942,0.3290885090827942,0.3354557156562805
+13395,engaged,Explanation,"('Russian',)",model_b,gemini-2.5-pro-exp-03-25,gemini-2.5-pro-exp-03-25,2,0.44965052604675293,0.44965052604675293,0.27517473697662354
+7134,engaged,Info Synthesis,"('Chinese',)",model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.7334878444671631,0.7334878444671631,0.13325607776641846
+10255,engaged,Info Synthesis,"('German',)",model_b,sonar-pro,sonar-reasoning-pro,2,0.16391101479530334,0.16391101479530334,0.4180445075035095
+22000,engaged,Info Synthesis,"('Russian',)",model_a,gemini-2.5-pro-exp-03-25,sonar-pro,7,0.3971821914116542,0.39127390335003537,0.5393714308738708
+2022,frustrated,Info Synthesis,"('English',)",model_b,sonar-pro,gpt-4o-search-preview,2,0.3066895604133606,0.3066895604133606,0.3466551899909973
+8517,frustrated,Info Synthesis,"('English',)",model_a,gpt-4o-search-preview,sonar-pro,2,0.23459172248840332,0.23459172248840332,0.38270413875579834
+8391,engaged,Info Synthesis,"('English',)",model_a,sonar-reasoning,sonar-pro,2,0.3713538348674774,0.3713538348674774,0.3143231272697449
+5732,engaged,Info Synthesis,"('English',)",model_a,gemini-2.5-pro-exp-03-25,sonar,4,0.6507810552914938,0.565392384926478,0.34379589557647705
+5973,engaged,Info Synthesis,"('English',)",model_a,gemini-2.0-flash,sonar,2,0.3651643693447113,0.3651643693447113,0.31741780042648315
+1455,engaged,Info Synthesis,"('English',)",model_a,gpt-4o-search-preview,sonar-pro,3,0.43617498874664307,0.3847300410270691,0.36821794509887695
+9303,engaged,Info Synthesis,"('English',)",model_b,sonar-reasoning,gemini-2.0-flash,2,0.7364858388900757,0.7364858388900757,0.13175708055496216
+10668,neutral,Info Synthesis,"('English',)",model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.20171931385993958,0.20171931385993958,0.3991403579711914
+8938,frustrated,Info Synthesis,"('English',)",model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,3,0.11802169494330883,0.04561212472617626,0.5933591723442078
+15175,neutral,Info Synthesis,"('English',)",model_a,sonar-pro,sonar-reasoning,2,0.42779964208602905,0.42779964208602905,0.2861001491546631
+16818,engaged,Info Synthesis,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,3,0.418471559882164,0.3891916126012802,0.3956681489944458
+4317,engaged,Info Synthesis,"('English',)",model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.14291933178901672,0.14291933178901672,0.42854034900665283
+11843,frustrated,Info Synthesis,"('English',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.5954576730728149,0.5954576730728149,0.20227116346359253
+19605,frustrated,Info Synthesis,"('English',)",model_b,sonar-reasoning-pro,gpt-4o-search-preview,8,0.3313665049416678,0.15677600460393087,0.6198055148124695
+5608,frustrated,Info Synthesis,"('English',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,4,0.4836398164431254,0.3576449652512868,0.43951353430747986
+7670,engaged,Info Synthesis,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.3433493971824646,0.3433493971824646,0.3283253312110901
+23068,frustrated,Info Synthesis,"('English',)",model_a,sonar-reasoning-pro,sonar-reasoning-pro,2,0.23271839320659637,0.23271839320659637,0.3836408257484436
+15240,frustrated,Info Synthesis,"('English',)",model_a,sonar-reasoning,gpt-4o-mini-search-preview,5,0.2265721601434052,0.2120276428759098,0.6461403965950012
+14977,neutral,Info Synthesis,"('English',)",model_a,sonar-pro,gpt-4o-search-preview,2,0.8759742975234985,0.8759742975234985,0.062012869864702225
+4976,frustrated,Info Synthesis,"('English',)",model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.4040301740169525,0.4040301740169525,0.29798486828804016
+5185,frustrated,Info Synthesis,"('English',)",model_b,sonar,gemini-2.5-pro-exp-03-25,2,0.41623416543006897,0.41623416543006897,0.2918829023838043
+20721,frustrated,Info Synthesis,"('English',)",model_a,sonar-reasoning,gemini-2.5-pro-exp-03-25,4,0.44270361463228863,0.5662769476572672,0.38492733240127563
+14091,frustrated,Info Synthesis,"('English',)",model_a,gpt-4o-search-preview,sonar-reasoning,2,0.5123134255409241,0.5123134255409241,0.24384331703186035
+23933,neutral,Info Synthesis,"('English',)",model_a,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,2,0.2614116668701172,0.2614116668701172,0.3692941665649414
+13417,neutral,Info Synthesis,"('English',)",model_a,sonar-reasoning-pro,gemini-2.0-flash,2,0.09385839104652405,0.09385839104652405,0.45307081937789917
+13113,engaged,Info Synthesis,"('English',)",model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.79692542552948,0.79692542552948,0.1015373021364212
+22334,engaged,Info Synthesis,"('English',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.15223747491836548,0.15223747491836548,0.42388129234313965
+17326,engaged,Info Synthesis,"('English',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,2,0.21222005784511566,0.21222005784511566,0.3938899636268616
+18237,engaged,Info Synthesis,"('English',)",model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.6189165115356445,0.6189165115356445,0.19054175913333893
+16772,engaged,Info Synthesis,"('English',)",model_b,gemini-2.5-flash-preview-04-17,sonar-reasoning,2,0.48950108885765076,0.48950108885765076,0.2552494406700134
+17935,neutral,Info Synthesis,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.5886420011520386,0.5886420011520386,0.20567896962165833
+1529,frustrated,Info Synthesis,"('English',)",model_b,gpt-4o-mini-search-preview,sonar-pro,4,0.6281997511784235,0.4355192979176839,0.4593784809112549
+15588,engaged,Info Synthesis,"('English',)",model_a,sonar-pro,sonar-reasoning-pro,2,0.3993779718875885,0.3993779718875885,0.30031102895736694
+15343,engaged,Info Synthesis,"('English',)",model_b,gemini-2.0-flash,sonar-reasoning,2,0.131650909781456,0.131650909781456,0.4341745674610138
+22186,neutral,Info Synthesis,"('English',)",model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.21554765105247498,0.21554765105247498,0.3922262191772461
+21439,frustrated,Info Synthesis,"('English',)",model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.26926228404045105,0.26926228404045105,0.3653688430786133
+1722,engaged,Info Synthesis,"('English',)",model_b,sonar,sonar-reasoning,2,0.19981259107589722,0.19981259107589722,0.4000937044620514
+17517,engaged,Info Synthesis,"('Russian',)",model_b,gpt-4o-mini-search-preview,gemini-2.5-flash-preview-04-17,2,0.8811360001564026,0.8811360001564026,0.059431999921798706
+5119,frustrated,Info Synthesis,"('French', 'English')",model_a,sonar-pro,sonar-reasoning,3,0.6014551892876625,0.6060752421617508,0.3485523760318756
+16113,engaged,Info Synthesis,"('Chinese', 'English', 'Italian')",model_a,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.2332795411348343,0.2332795411348343,0.38336023688316345
+14857,engaged,Info Synthesis,"('Vietnamese',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,5,0.7695806473493576,0.6996907740831375,0.2055143415927887
+997,frustrated,Info Synthesis,"('English', 'Spanish')",model_b,sonar,sonar-reasoning,2,0.3461397588253021,0.3461397588253021,0.32693010568618774
+13329,frustrated,Info Synthesis,"('Hungarian',)",model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.39732271432876587,0.39732271432876587,0.30133867263793945
+14078,frustrated,Info Synthesis,"('Russian',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.2551308274269104,0.2551308274269104,0.3724346160888672
+16640,engaged,Info Synthesis,"('Chinese',)",model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.2951614558696747,0.2951614558696747,0.35241928696632385
+809,engaged,Info Synthesis,"('Chinese', 'Japanese')",model_b,gpt-4o-search-preview,sonar-pro,3,0.49837081134319305,0.4824197441339493,0.33434271812438965
+10745,engaged,Info Synthesis,"('Chinese',)",model_b,sonar-reasoning-pro,sonar-reasoning-pro,2,0.3439633250236511,0.3439633250236511,0.3280183672904968
+20422,engaged,Info Synthesis,"('Polish',)",model_a,gemini-2.0-flash,gpt-4o-search-preview,3,0.21481971442699432,0.17321479320526123,0.5366067290306091
+8123,engaged,Info Synthesis,"('Russian',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.5214777588844299,0.5214777588844299,0.23926115036010742
+14512,engaged,Info Synthesis,"('Japanese',)",model_a,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,2,0.5444127321243286,0.5444127321243286,0.22779366374015808
+7568,engaged,Info Synthesis,"('Spanish', 'English')",model_b,sonar,gemini-2.5-pro-exp-03-25,2,0.2743830680847168,0.2743830680847168,0.3628084659576416
+15741,engaged,Info Synthesis,"('Romanian',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.33616578578948975,0.33616578578948975,0.3319171369075775
+18913,engaged,Info Synthesis,"('Russian',)",model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.2066519856452942,0.2066519856452942,0.3966740369796753
+4845,engaged,Info Synthesis,"('Chinese', 'Japanese')",model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.9988077878952026,0.9988077878952026,0.0005960403941571712
+8320,neutral,Info Synthesis,"('Chinese',)",model_a,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,4,0.231907586256663,0.2181087334950765,0.635003924369812
+12554,engaged,Info Synthesis,"('Russian', 'Spanish')",model_a,gemini-2.5-pro-exp-03-25,sonar,2,0.2986717224121094,0.2986717224121094,0.3506641387939453
+3906,engaged,Info Synthesis,"('Russian',)",model_a,sonar-pro,gpt-4o-search-preview,3,-0.0003299005329608917,0.2886182926595211,0.542565107345581
+9992,frustrated,Info Synthesis,"('Spanish',)",model_a,sonar-reasoning-pro,sonar-reasoning-pro,3,0.4134419709444046,0.3455471470952034,0.43831005692481995
+14523,engaged,Info Synthesis,"('Japanese',)",model_b,sonar-reasoning,gemini-2.5-pro-exp-03-25,2,0.5958739519119263,0.5958739519119263,0.20206299424171448
+209,neutral,Info Synthesis,"('Czech',)",model_a,sonar-reasoning,sonar,7,0.2536881019671758,0.23049955318371454,0.6355236768722534
+5781,frustrated,Info Synthesis,"('French',)",model_a,sonar,gemini-2.5-pro-exp-03-25,2,0.27260929346084595,0.27260929346084595,0.36369532346725464
+11365,engaged,Recommendation,"('Vietnamese',)",model_b,gpt-4o-mini-search-preview,gemini-2.5-pro-exp-03-25,2,0.3781012296676636,0.3781012296676636,0.3109494149684906
+12617,frustrated,Recommendation,"('English',)",model_b,gpt-4o-search-preview,sonar,2,0.5510855913162231,0.5510855913162231,0.22445723414421082
+23052,engaged,Recommendation,"('English',)",model_a,sonar-pro,gpt-4o-search-preview,2,0.4101639986038208,0.4101639986038208,0.2949180006980896
+23938,engaged,Recommendation,"('English',)",model_a,gpt-4o-search-preview,sonar-pro,2,0.5697709321975708,0.5697709321975708,0.215114563703537
+539,frustrated,Recommendation,"('English',)",model_a,sonar,gpt-4o-mini-search-preview,3,0.11333023756742477,0.30571001023054123,0.4907345473766327
+23678,frustrated,Recommendation,"('English',)",model_b,sonar-pro,gpt-4o-search-preview,3,0.2761685438454151,0.0977238118648529,0.5248530507087708
+12590,engaged,Recommendation,"('English',)",model_b,gpt-4o-search-preview,sonar-reasoning,4,0.44729267060756683,0.45916275680065155,0.3862259089946747
+11463,neutral,Recommendation,"('English',)",model_a,sonar-reasoning,gemini-2.0-flash,2,0.11014224588871002,0.11014224588871002,0.4449288547039032
+17800,engaged,Recommendation,"('English',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,3,0.42193153500556946,0.2693246752023697,0.4321884214878082
+9582,engaged,Recommendation,"('English',)",model_a,sonar-reasoning,gemini-2.5-pro-exp-03-25,2,0.2984375059604645,0.2984375059604645,0.35078126192092896
+12005,engaged,Recommendation,"('English',)",model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.34510868787765503,0.34510868787765503,0.3274456262588501
+13879,engaged,Recommendation,"('English',)",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.053999148309230804,0.053999148309230804,0.47300049662590027
+13317,engaged,Recommendation,"('English',)",model_a,sonar-reasoning-pro,sonar-reasoning-pro,3,0.4320652037858963,0.34992216527462006,0.428079754114151
+13803,frustrated,Recommendation,"('English',)",model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.5108318328857422,0.5108318328857422,0.2445840984582901
+15215,engaged,Recommendation,"('English',)",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.3439185619354248,0.3439185619354248,0.3280407190322876
+16334,neutral,Recommendation,"('English',)",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.38688838481903076,0.38688838481903076,0.3065558075904846
+21858,engaged,Recommendation,"('English',)",model_b,gpt-4o-search-preview,sonar-pro,3,0.6369189321994781,0.6740138828754425,0.2767462432384491
+19876,frustrated,Recommendation,"('English',)",model_b,gemini-2.0-flash,sonar-pro,2,0.346902072429657,0.346902072429657,0.3265489339828491
+5786,engaged,Recommendation,"('English',)",model_b,sonar,gemini-2.5-pro-exp-03-25,2,0.5445395708084106,0.5445395708084106,0.22773024439811707
+20828,frustrated,Recommendation,"('English',)",model_b,sonar,gemini-2.5-flash-preview-04-17,2,0.6623095273971558,0.6623095273971558,0.16884522140026093
+3562,neutral,Recommendation,"('English',)",model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,5,0.2447233349084854,0.2351028434932232,0.6041271686553955
+18277,engaged,Recommendation,"('English',)",model_b,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.15733474493026733,0.15733474493026733,0.4213326573371887
+21594,engaged,Recommendation,"('English',)",model_a,gemini-2.5-flash-preview-04-17,gemini-2.5-pro-exp-03-25,3,0.5423167645931244,0.40827105939388275,0.36553215980529785
+16283,engaged,Recommendation,"('English',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.6400270760059357,0.52609783411026,0.2857927083969116
+2437,engaged,Recommendation,"('Portuguese',)",model_b,sonar-pro,sonar-pro,3,0.34405170381069183,0.34413766860961914,0.4503467381000519
+7061,engaged,Recommendation,"('Vietnamese',)",model_a,sonar,gpt-4o-search-preview,6,0.5917018949985504,0.6081025779247284,0.34820258617401123
+9775,engaged,Recommendation,"('Portuguese', 'Galician')",model_b,gpt-4o-search-preview,sonar-reasoning-pro,5,0.3331930600106716,0.2047177404165268,0.5982640385627747
+22910,frustrated,Recommendation,"('Spanish',)",model_b,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.9045461416244507,0.9045461416244507,0.047726936638355255
+22682,engaged,Recommendation,"('Russian',)",model_b,gemini-2.5-pro-exp-03-25,gemini-2.5-flash-preview-04-17,2,0.5013328790664673,0.5013328790664673,0.24933353066444397
+20519,engaged,Recommendation,"('French',)",model_a,gemini-2.5-pro-exp-03-25,gemini-2.5-pro-exp-03-25,2,0.1642310917377472,0.1642310917377472,0.4178844094276428
+9947,engaged,Recommendation,"('Vietnamese',)",model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,5,0.5606384798884392,0.4073331654071808,0.4389798045158386
+21561,frustrated,Recommendation,"('Russian',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,3,0.6074477136135101,0.6523861885070801,0.25207316875457764
+11028,neutral,Recommendation,"('Vietnamese',)",model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.5992234945297241,0.5992234945297241,0.20038825273513794
+21831,engaged,Recommendation,"('Italian',)",model_b,sonar-reasoning-pro,sonar-pro,2,0.628542423248291,0.628542423248291,0.1857287883758545
+4448,frustrated,Creative Generation,"('Russian',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,4,0.40880600611368817,0.5177202026049296,0.3888019323348999
+4659,frustrated,Creative Generation,"('English',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.6392253041267395,0.6392253041267395,0.18038734793663025
+2805,engaged,Creative Generation,"('English',)",model_b,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.42749977111816406,0.42749977111816406,0.28625011444091797
+15927,engaged,Creative Generation,"('English',)",model_a,gemini-2.0-flash,sonar-reasoning-pro,3,0.4612196236848831,0.5184831321239471,0.37933549284935
+21060,frustrated,Creative Generation,"('English',)",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.11900074779987335,0.11900074779987335,0.44049960374832153
+14062,frustrated,Creative Generation,"('English',)",model_a,gemini-2.0-flash,gpt-4o-search-preview,3,0.7509797215461731,0.7892434597015381,0.17664456367492676
+11925,engaged,Creative Generation,"('English',)",model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.5265623927116394,0.5265623927116394,0.2367187887430191
+15585,neutral,Creative Generation,"('English',)",model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.513609766960144,0.513609766960144,0.2431950867176056
+2876,neutral,Creative Generation,"('English',)",model_b,sonar-pro,sonar,2,0.16766615211963654,0.16766615211963654,0.4161669611930847
+11853,engaged,Creative Generation,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,4,0.6497874061266581,0.637641837199529,0.3575342893600464
+16150,engaged,Creative Generation,"('English',)",model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.2403738647699356,0.2403738647699356,0.3798130750656128
+11528,engaged,Creative Generation,"('English',)",model_a,sonar-reasoning,gpt-4o-search-preview,5,0.8958837240934372,0.905693843960762,0.08208239078521729
+22939,frustrated,Creative Generation,"('Italian',)",model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,4,0.5599320232868195,0.5115862588087717,0.379164457321167
+8089,engaged,Creative Generation,"('Chinese',)",model_a,gpt-4o-search-preview,sonar-pro,4,0.32591258982817334,0.2583782523870468,0.5334858298301697
+22584,engaged,Creative Generation,"('Russian',)",model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.16592206805944443,0.5217847302556038,0.3934359550476074
+1688,frustrated,Creative Generation,"('German',)",model_b,gpt-4o-search-preview,gpt-4o-search-preview,3,0.3794976770877838,0.2967832088470459,0.4619910717010498
+22002,engaged,Creative Generation,"('Chinese', 'Japanese')",model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.38574637472629547,0.29667195677757263,0.444190114736557
+12786,engaged,Other,"('English',)",model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.059709031134843826,0.059709031134843826,0.4701455235481262
+11059,neutral,Other,"('English',)",model_a,gemini-2.0-flash,sonar-reasoning,2,0.257524311542511,0.257524311542511,0.3712378740310669
+11968,neutral,Other,"('English',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.39368873834609985,0.39368873834609985,0.3031556010246277
+8023,frustrated,Other,"('English',)",model_a,sonar-pro,sonar-reasoning,2,0.815167248249054,0.815167248249054,0.09241639077663422
+19071,engaged,Other,"('English',)",model_b,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,2,0.22679506242275238,0.22679506242275238,0.38660240173339844
+6341,frustrated,Other,"('English',)",model_b,gpt-4o-search-preview,sonar-reasoning,7,0.3084569536149502,0.14935249648988247,0.7050990462303162
+13682,neutral,Other,"('English',)",model_a,sonar-reasoning-pro,sonar-pro,2,0.2429077923297882,0.2429077923297882,0.3785461187362671
+8452,engaged,Other,"('English',)",model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.48213350772857666,0.48213350772857666,0.25893324613571167
+8984,engaged,Other,"('English',)",model_b,sonar,gpt-4o-search-preview,2,0.3309863209724426,0.3309863209724426,0.3345068097114563
+18256,engaged,Other,"('English',)",model_a,sonar,gpt-4o-search-preview,4,0.40560491879781085,0.13485185615718365,0.5532056093215942
+10382,neutral,Other,"('Arabic',)",model_b,gemini-2.0-flash,sonar-pro,2,0.5828834772109985,0.5828834772109985,0.20855826139450073
+10294,frustrated,Other,"('English', 'Italian')",model_a,gemini-2.5-pro-exp-03-25,gemini-2.5-pro-exp-03-25,3,0.18634362798184156,0.036971610970795155,0.5700281858444214
+4732,neutral,Other,"('Chinese', 'Japanese')",model_b,gpt-4o-search-preview,sonar-reasoning,2,0.13268817961215973,0.13268817961215973,0.43365585803985596
+14271,engaged,Other,"('English', 'Japanese')",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.5937195420265198,0.5937195420265198,0.2031402736902237
+12607,neutral,Other,"('Chinese',)",model_b,sonar,sonar-reasoning-pro,2,0.05469145625829697,0.05469145625829697,0.4726543128490448
+6441,neutral,Other,"('French', 'Russian')",model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.7021796703338623,0.7021796703338623,0.14891016483306885
+4347,neutral,Other,"('Japanese', 'English')",model_b,gpt-4o-mini-search-preview,gemini-2.5-pro-exp-03-25,3,0.35069289803504944,0.09069682843983173,0.4992171823978424
+4617,engaged,Other,"('Chinese',)",model_b,sonar,gemini-2.5-pro-exp-03-25,2,-0.003926536999642849,-0.003926536999642849,0.5019633173942566
+22509,engaged,Other,"('German',)",model_a,sonar-reasoning-pro,gpt-4o-search-preview,4,0.5052944421768188,0.3811167577902476,0.48227930068969727
+20786,engaged,Other,"('Russian',)",model_b,gemini-2.0-flash,gemini-2.5-flash-preview-04-17,2,0.27557796239852905,0.27557796239852905,0.36221110820770264
+17040,frustrated,Other,"('Japanese', 'English')",model_b,gemini-2.0-flash,gpt-4o-search-preview,8,0.3683580756187439,0.09945229760238103,0.6742218136787415
+21009,engaged,Guidance,"('English',)",model_a,gemini-2.5-flash-preview-04-17,sonar-pro,3,0.7238426506519318,0.6124081611633301,0.24989543855190277
+22161,frustrated,Guidance,"('Japanese',)",model_b,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,3,0.4282284677028656,0.3845771998167038,0.38424935936927795
+23480,frustrated,Guidance,"('English',)",model_b,gpt-4o-search-preview,gpt-4o-search-preview,5,0.14453713037073612,0.26053657196462154,0.6774348020553589
+16303,frustrated,Guidance,"('English',)",model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.38006827235221863,0.38006827235221863,0.30996590852737427
+2585,engaged,Guidance,"('English',)",model_b,sonar,sonar-pro,2,0.5002375245094299,0.5002375245094299,0.24988122284412384
+11437,engaged,Guidance,"('English',)",model_b,sonar-reasoning-pro,gpt-4o-search-preview,3,0.3779316693544388,0.407701700925827,0.38022327423095703
+19866,engaged,Guidance,"('English',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.12241342663764954,0.12241342663764954,0.43879324197769165
+13565,frustrated,Guidance,"('English',)",model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.15360482037067413,0.15360482037067413,0.42319756746292114
+5740,neutral,Guidance,"('English',)",model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.1155451238155365,0.1155451238155365,0.44222742319107056
+14608,engaged,Guidance,"('English',)",model_a,gpt-4o-search-preview,sonar-pro,2,0.23559537529945374,0.23559537529945374,0.3822023272514343
+5134,neutral,Guidance,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,4,0.14569076026479402,0.10281933223207791,0.6730661988258362
+10356,engaged,Guidance,"('English',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,3,0.26772400736808777,0.3105277717113495,0.46779313683509827
+9638,engaged,Guidance,"('English',)",model_a,sonar-reasoning-pro,sonar-pro,2,0.31283167004585266,0.31283167004585266,0.34358417987823486
+9354,frustrated,Guidance,"('English',)",model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.2209082990884781,0.2209082990884781,0.3895457983016968
+20161,frustrated,Guidance,"('English',)",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.18063177168369293,0.18063177168369293,0.40968412160873413
+2564,engaged,Guidance,"('English',)",model_a,sonar-pro,sonar,4,0.34617602328459424,0.09223620966076851,0.5875027179718018
+9371,engaged,Guidance,"('English',)",model_b,gpt-4o-search-preview,sonar-reasoning,2,0.4363090395927429,0.4363090395927429,0.28184545040130615
+2339,frustrated,Guidance,"('English',)",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.5023786425590515,0.5023786425590515,0.24881067872047424
+12345,engaged,Guidance,"('French',)",model_a,gemini-2.0-flash,sonar-reasoning-pro,2,0.011923226527869701,0.011923226527869701,0.49403834342956543
+12366,engaged,Guidance,"('Japanese', 'German')",model_b,sonar-reasoning-pro,sonar-pro,2,0.4183051586151123,0.4183051586151123,0.29084742069244385
+10914,engaged,Guidance,"('Hungarian',)",model_a,sonar-pro,sonar-reasoning-pro,5,0.3047396019101143,0.3864191398024559,0.5541670322418213
+22455,frustrated,Guidance,"('Russian',)",model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-flash-preview-04-17,3,0.6005076467990875,0.6770410239696503,0.26006901264190674
+12558,frustrated,Guidance,"('Spanish',)",model_b,gpt-4o-search-preview,sonar-reasoning-pro,3,0.6804780811071396,0.5577408224344254,0.21717239916324615
+19037,neutral,Guidance,"('Persian',)",model_a,sonar-reasoning,sonar,4,0.27315450211366016,0.2975266749660174,0.5750004649162292
+13172,neutral,Guidance,"('Vietnamese',)",model_a,sonar-reasoning-pro,gpt-4o-mini-search-preview,2,0.24702873826026917,0.24702873826026917,0.3764856457710266
+18922,engaged,Guidance,"('Spanish',)",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,4,0.21196730434894562,0.28752443691094715,0.5595386028289795
+23380,engaged,Guidance,"('Russian',)",model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,3,0.41089217364788055,0.42142176628112793,0.3807283937931061
+20296,frustrated,Guidance,"('Korean',)",model_a,sonar-pro,gpt-4o-search-preview,6,0.5523014605045319,0.2634242746978998,0.5867285132408142
+4918,frustrated,Guidance,"('Chinese', 'Spanish')",model_a,sonar-pro,gemini-2.0-flash,2,0.2941818833351135,0.2941818833351135,0.35290902853012085
+5262,engaged,Guidance,"('Chinese', 'German')",model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.02776222676038742,0.02776222676038742,0.4861188530921936
+18748,engaged,Guidance,"('Russian',)",model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,4,0.4927683373292287,0.37281888723373413,0.4336834251880646
+15468,neutral,Text Processing,"('English',)",model_b,sonar-pro,sonar-reasoning-pro,2,0.11781933903694153,0.11781933903694153,0.4410903751850128
+4182,frustrated,Text Processing,"('English',)",model_b,gpt-4o-search-preview,gemini-2.0-flash,4,0.598504014313221,0.07484915107488632,0.4099617302417755
+5833,engaged,Text Processing,"('English',)",model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,4,0.10074246923128764,0.26026622330149013,0.6183074712753296
+6401,frustrated,Text Processing,"('English', 'Portuguese')",model_b,gemini-2.0-flash,sonar-pro,3,0.5623228475451469,0.5623228475451469,0.3890463411808014
+11722,engaged,Text Processing,"('Russian',)",model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.55154949426651,0.55154949426651,0.224225252866745
+18414,frustrated,Text Processing,"('German',)",model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-pro-exp-03-25,3,0.25093410164117813,0.3020019009709358,0.47226682305336
+23582,engaged,Text Processing,"('Portuguese', 'English')",model_b,gpt-4o-search-preview,sonar-pro,4,0.3791574438412984,0.2159301017721494,0.5763033032417297
+11326,engaged,Analysis,"('English',)",model_a,sonar-pro,gpt-4o-search-preview,2,0.3215898275375366,0.3215898275375366,0.3392050862312317
+14218,engaged,Analysis,"('English',)",model_a,sonar-reasoning,gpt-4o-search-preview,3,0.4332803338766098,0.3973791152238846,0.37381109595298767
+18307,engaged,Analysis,"('English',)",model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.36520129442214966,0.36520129442214966,0.31739938259124756
+6248,neutral,Analysis,"('English',)",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.8134416341781616,0.8134416341781616,0.0932791531085968
+14458,engaged,Analysis,"('English',)",model_b,sonar-pro,sonar-reasoning-pro,5,0.3895096629858017,0.3071637749671936,0.569547712802887
+8848,engaged,Analysis,"('English',)",model_b,sonar-pro,gemini-2.0-flash,2,0.1775890737771988,0.1775890737771988,0.4112055003643036
+19584,engaged,Analysis,"('English',)",model_a,sonar-pro,gpt-4o-search-preview,3,0.41610655188560486,0.3423827439546585,0.41901612281799316
+14147,frustrated,Analysis,"('English',)",model_a,sonar-pro,gemini-2.5-pro-exp-03-25,10,0.26252418228735525,0.2835316237890058,0.6845492720603943
+7817,engaged,Analysis,"('English',)",model_a,sonar-pro,gpt-4o-search-preview,3,0.39376749098300934,0.439433217048645,0.39411067962646484
+13882,engaged,Analysis,"('English',)",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,3,0.4002837538719177,0.4912552535533905,0.3620568513870239
+4718,engaged,Analysis,"('English',)",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.5405573844909668,0.5405573844909668,0.2297213077545166
+13034,neutral,Analysis,"('English',)",model_a,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.05466578155755997,0.05466578155755997,0.4726671278476715
+12609,engaged,Analysis,"('English',)",model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.22343337535858154,0.22343337535858154,0.38828325271606445
+23717,engaged,Analysis,"('English',)",model_a,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.20828083157539368,0.20828083157539368,0.3958595395088196
+7799,engaged,Analysis,"('English',)",model_b,gemini-2.0-flash,sonar-pro,3,0.3867567628622055,0.4418969452381134,0.3930157423019409
+2010,frustrated,Analysis,"('English',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.1503351330757141,0.1503351330757141,0.42483240365982056
+6290,engaged,Analysis,"('English',)",model_a,gpt-4o-search-preview,gpt-4o-search-preview,4,0.5782899657885233,0.5944217840830485,0.3335316777229309
+19427,engaged,Analysis,"('English',)",model_a,sonar-reasoning,sonar-reasoning-pro,2,0.6154096126556396,0.6154096126556396,0.19229522347450256
+5707,frustrated,Analysis,"('English',)",model_b,gpt-4o-search-preview,sonar-pro,4,0.44326802094777423,0.5768880297740301,0.3517962694168091
+18431,engaged,Analysis,"('English',)",model_a,sonar-reasoning,gemini-2.5-flash-preview-04-17,3,0.3983525186777115,0.3145623356103897,0.4549126625061035
+14798,neutral,Analysis,"('English',)",model_b,gpt-4o-mini-search-preview,sonar-pro,2,1.0000001192092896,1.0000001192092896,0.0
+20557,engaged,Analysis,"('English',)",model_b,gpt-4o-mini-search-preview,sonar,6,0.5018154203891754,0.5027949512004852,0.42441606521606445
+10909,frustrated,Analysis,"('English',)",model_a,gpt-4o-search-preview,sonar-reasoning-pro,2,0.33929237723350525,0.33929237723350525,0.33035382628440857
+10935,engaged,Analysis,"('Russian',)",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.5595024824142456,0.5595024824142456,0.220248743891716
+12084,neutral,Analysis,"('Korean',)",model_a,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,2,0.82851642370224,0.82851642370224,0.08574178814888
+5337,frustrated,Analysis,"('Chinese',)",model_a,gemini-2.0-flash,gpt-4o-mini-search-preview,2,1.0000001192092896,1.0000001192092896,0.0
+21778,frustrated,Analysis,"('Vietnamese',)",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.6855583190917969,0.6855583190917969,0.15722081065177917
+9394,neutral,Analysis,"('Vietnamese',)",model_b,gpt-4o-search-preview,sonar-pro,2,0.4687942862510681,0.4687942862510681,0.26560288667678833
+17014,neutral,Analysis,"('Portuguese',)",model_a,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,3,0.39181719720363617,0.305083304643631,0.4306718409061432
+17191,engaged,Analysis,"('Chinese', 'English')",model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.17447680234909058,0.17447680234909058,0.4127615988254547
+23053,frustrated,Analysis,"('Russian',)",model_b,gpt-4o-search-preview,sonar-pro,9,0.3653332553803921,0.020763397682458162,0.650542140007019
+18340,frustrated,Analysis,"('Japanese', 'Chinese')",model_a,gpt-4o-search-preview,gpt-4o-search-preview,4,0.2067324568827947,0.26019473870595294,0.5595302581787109
+75,frustrated,Factual Lookup,"['Chinese', 'English', 'Portuguese']",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.9199566841125488,0.9199566841125488,0.04002167284488678
+92,frustrated,Explanation,['English'],model_b,gpt-4o-search-preview,sonar-reasoning,11,0.2839010817930102,0.26692901104688643,0.6641119122505188
+200,neutral,Factual Lookup,['Czech'],model_b,sonar-reasoning,sonar-pro,2,0.28531569242477417,0.28531569242477417,0.3573421537876129
+226,neutral,Factual Lookup,['English'],model_a,sonar-pro,sonar-reasoning,2,0.16434623301029205,0.16434623301029205,0.41782689094543457
+232,neutral,Info Synthesis,['Czech'],model_a,gpt-4o-search-preview,sonar-pro,7,0.2722251260032256,0.290910263856252,0.654138445854187
+239,engaged,Info Synthesis,['Russian'],model_a,sonar,gpt-4o-search-preview,2,0.30388522148132324,0.30388522148132324,0.3480573892593384
+269,frustrated,Factual Lookup,['Arabic'],model_b,gpt-4o-search-preview,sonar-pro,2,0.6667782068252563,0.6667782068252563,0.16661083698272705
+271,neutral,Recommendation,['English'],model_a,gpt-4o-mini-search-preview,sonar,2,0.3050934672355652,0.3050934672355652,0.347453236579895
+411,neutral,Creative Generation,['English'],model_a,sonar-pro,sonar-reasoning,3,0.27016474306583405,0.20304295420646667,0.5020313858985901
+493,engaged,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar,2,0.27021557092666626,0.27021557092666626,0.36489221453666687
+495,frustrated,Explanation,"['Chinese', 'Wu Chinese']",model_b,gpt-4o-search-preview,sonar-reasoning,2,1.0,1.0,0.0
+507,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.5288181900978088,0.5288181900978088,0.23559096455574036
+568,engaged,Factual Lookup,['Chinese'],model_b,sonar-pro,sonar,2,0.13294671475887299,0.13294671475887299,0.4335266351699829
+635,neutral,Other,['Czech'],model_a,sonar,gpt-4o-search-preview,2,0.37542030215263367,0.37542030215263367,0.31228989362716675
+636,neutral,Factual Lookup,['Russian'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.003867838531732559,0.003867838531732559,0.4980660676956177
+656,engaged,Guidance,['English'],model_b,gpt-4o-search-preview,sonar,2,0.5940307974815369,0.5940307974815369,0.20298466086387634
+658,engaged,Info Synthesis,['English'],model_b,sonar-reasoning,sonar-pro,2,0.23660120368003845,0.23660120368003845,0.3816993832588196
+718,neutral,Factual Lookup,['English'],model_a,sonar-reasoning,sonar-pro,3,-0.007108815014362335,0.052036333829164505,0.6594067811965942
+757,frustrated,Info Synthesis,['Chinese'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.9999999403953552,0.9999999403953552,0.0
+798,engaged,Explanation,"['English', 'French']",model_b,sonar,gpt-4o-search-preview,2,0.5988131761550903,0.5988131761550903,0.20059341192245483
+817,engaged,Recommendation,['English'],model_a,sonar,gpt-4o-search-preview,4,0.6047554413477579,0.6025660435358683,0.3024619221687317
+820,frustrated,Other,['English'],model_a,sonar-pro,sonar-reasoning,2,0.5140289068222046,0.5140289068222046,0.24298548698425293
+821,frustrated,Other,['English'],model_b,sonar-reasoning,sonar,2,0.5140289068222046,0.5140289068222046,0.24298548698425293
+832,frustrated,Info Synthesis,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.687271237373352,0.687271237373352,0.15636442601680756
+846,neutral,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.08061033487319946,0.08061033487319946,0.4596948027610779
+881,engaged,Text Processing,['English'],model_a,sonar-pro,sonar,3,0.6689088046550751,0.6744460016489029,0.2816225588321686
+986,frustrated,Info Synthesis,['English'],model_a,sonar,sonar-pro,2,0.17445474863052368,0.17445474863052368,0.41277259588241577
+1005,frustrated,Creative Generation,"['Chinese', 'Japanese']",model_a,gpt-4o-search-preview,sonar,3,0.8024240732192993,0.6048482656478882,0.17562298476696014
+1017,engaged,Recommendation,['English'],model_a,sonar,sonar-reasoning,2,0.14061230421066284,0.14061230421066284,0.4296938180923462
+1089,engaged,Info Synthesis,['Russian'],model_b,gpt-4o-mini-search-preview,sonar-pro,2,0.4023430645465851,0.4023430645465851,0.29882848262786865
+1109,frustrated,Info Synthesis,['Russian'],model_a,sonar,gpt-4o-search-preview,2,0.28619280457496643,0.28619280457496643,0.356903612613678
+1166,engaged,Explanation,"['English', 'Polish']",model_a,sonar-reasoning,gpt-4o-mini-search-preview,2,0.40778273344039917,0.40778273344039917,0.296108603477478
+1193,engaged,Creative Generation,['English'],model_a,sonar-pro,sonar,2,0.34282422065734863,0.34282422065734863,0.3285878300666809
+1234,frustrated,Info Synthesis,['English'],model_a,sonar-pro,sonar-reasoning,2,0.711898684501648,0.711898684501648,0.14405065774917603
+1282,engaged,Explanation,['English'],model_b,sonar-pro,sonar-reasoning,2,0.5186700820922852,0.5186700820922852,0.24066492915153503
+1313,engaged,Analysis,['English'],model_a,sonar-pro,sonar-pro,5,0.5486199259757996,0.5321687310934067,0.3530367314815521
+1317,neutral,Guidance,['English'],model_b,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,-0.02188762277364731,-0.02188762277364731,0.5109437704086304
+1358,frustrated,Guidance,['English'],model_b,sonar-pro,gpt-4o-mini-search-preview,12,0.569831215522506,0.5832025706768036,0.4743083417415619
+1359,engaged,Explanation,['English'],model_a,gpt-4o-search-preview,sonar-pro,4,0.23183209945758185,0.10664434482653935,0.6287180185317993
+1402,engaged,Analysis,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.46596893668174744,0.46596893668174744,0.2670155167579651
+1487,frustrated,Other,['English'],model_b,sonar-pro,gpt-4o-mini-search-preview,2,0.6427123546600342,0.6427123546600342,0.1786438524723053
+1507,engaged,Other,"['Esperanto', 'Spanish']",model_b,sonar-reasoning,gpt-4o-search-preview,3,0.12120338901877403,0.17753317207098007,0.5755376219749451
+1517,engaged,Info Synthesis,['English'],model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.149491548538208,0.149491548538208,0.425254225730896
+1522,frustrated,Info Synthesis,['English'],model_a,sonar-pro,sonar-pro,3,0.2610691785812378,0.253543958067894,0.5035886764526367
+1564,engaged,Recommendation,['English'],model_b,sonar-pro,gpt-4o-search-preview,2,0.12963376939296722,0.12963376939296722,0.43518316745758057
+1582,engaged,Info Synthesis,['Russian'],model_a,sonar-reasoning,sonar,2,0.43551310896873474,0.43551310896873474,0.2822434604167938
+1599,engaged,Guidance,['German'],model_a,sonar-pro,sonar-pro,3,0.5752083361148834,0.6460408568382263,0.25361180305480957
+1604,frustrated,Guidance,['German'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,3,0.1429377868771553,0.38686729222536087,0.4780411720275879
+1655,engaged,Guidance,['English'],model_a,sonar,gpt-4o-search-preview,2,0.5807498097419739,0.5807498097419739,0.20962509512901306
+1677,frustrated,Info Synthesis,['Russian'],model_b,sonar-pro,sonar-reasoning,2,0.715512216091156,0.715512216091156,0.14224395155906677
+1692,frustrated,Factual Lookup,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,5,0.3865506500005722,0.3580191656947136,0.5294870138168335
+1705,frustrated,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-pro,3,0.21146874129772186,0.15434642136096954,0.5288136005401611
+1714,engaged,Info Synthesis,['English'],model_a,sonar,sonar-reasoning,2,0.19428732991218567,0.19428732991218567,0.40285634994506836
+1719,engaged,Factual Lookup,['English'],model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,3,0.5511907041072845,0.37308308482170105,0.3455120325088501
+1723,engaged,Factual Lookup,['English'],model_b,sonar-pro,sonar-pro,3,0.1848641186952591,0.19803470373153687,0.5501297116279602
+1747,neutral,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.015859849750995636,0.015859849750995636,0.4920700490474701
+1754,engaged,Factual Lookup,['English'],model_a,sonar-pro,sonar-pro,2,0.10040207952260971,0.10040207952260971,0.4497990012168884
+1821,engaged,Factual Lookup,['English'],model_b,sonar-pro,sonar-reasoning,2,0.14860625565052032,0.14860625565052032,0.4256969094276428
+1870,engaged,Guidance,['English'],model_b,gpt-4o-mini-search-preview,sonar-pro,3,0.8044053018093109,0.7127194404602051,0.15539313852787018
+1922,neutral,Other,['English'],model_b,gpt-4o-search-preview,sonar,2,0.30277711153030396,0.30277711153030396,0.348611444234848
+1946,frustrated,Info Synthesis,['Russian'],model_a,sonar-reasoning,sonar-pro,2,0.9945658445358276,0.9945658445358276,0.0027171126566827297
+1961,engaged,Explanation,['Russian'],model_b,sonar,gpt-4o-mini-search-preview,2,0.5136728286743164,0.5136728286743164,0.24316361546516418
+1974,engaged,Creative Generation,['Chinese'],model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,5,0.31119027361273766,0.32128216698765755,0.587785542011261
+2011,engaged,Explanation,['Russian'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,3,0.6509842872619629,0.6748120784759521,0.2212398797273636
+2014,engaged,Other,['Chinese'],model_a,gpt-4o-mini-search-preview,sonar-pro,2,0.568753182888031,0.568753182888031,0.2156234085559845
+2058,frustrated,Recommendation,['English'],model_b,gpt-4o-mini-search-preview,sonar-pro,2,0.19089972972869873,0.19089972972869873,0.40455013513565063
+2060,engaged,Creative Generation,['English'],model_a,sonar,gpt-4o-mini-search-preview,2,0.2503628134727478,0.2503628134727478,0.3748186230659485
+2083,engaged,Info Synthesis,"['Japanese', 'Chinese']",model_b,gpt-4o-mini-search-preview,sonar-pro,3,0.23277224600315094,0.1884128451347351,0.5418282747268677
+2087,frustrated,Guidance,['English'],model_b,gpt-4o-search-preview,sonar,2,0.019964324310421944,0.019964324310421944,0.4900178909301758
+2145,engaged,Factual Lookup,['English'],model_a,sonar-pro,sonar,2,0.4172498881816864,0.4172498881816864,0.2913751006126404
+2153,frustrated,Analysis,['English'],model_b,sonar,gpt-4o-mini-search-preview,3,0.43989118933677673,0.3616587594151497,0.4164748191833496
+2165,frustrated,Factual Lookup,['English'],model_a,gpt-4o-search-preview,sonar-pro,2,1.0,1.0,0.0
+2212,engaged,Guidance,['Spanish'],model_b,sonar-pro,sonar-reasoning,3,0.669464498758316,0.512312114238739,0.29435476660728455
+2229,engaged,Creative Generation,['Chinese'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.4263384938240051,0.4263384938240051,0.28683072328567505
+2235,neutral,Explanation,"['English', 'Chinese']",model_b,sonar,sonar-reasoning,2,0.06015394255518913,0.06015394255518913,0.4699230194091797
+2264,frustrated,Info Synthesis,['English'],model_a,gpt-4o-mini-search-preview,sonar-pro,4,0.3099609116713206,0.19675392657518387,0.541627824306488
+2266,engaged,Info Synthesis,['Chinese'],model_b,sonar-pro,gpt-4o-search-preview,4,0.610853354136149,0.48379159967104596,0.3305833637714386
+2277,engaged,Info Synthesis,['English'],model_b,sonar-reasoning,gpt-4o-search-preview,2,0.16483888030052185,0.16483888030052185,0.4175805449485779
+2330,frustrated,Text Processing,['English'],model_b,sonar-reasoning,sonar-pro,2,0.3473365902900696,0.3473365902900696,0.32633164525032043
+2354,frustrated,Factual Lookup,['English'],model_b,sonar-pro,sonar-pro,2,0.9999998807907104,0.9999998807907104,0.0
+2380,engaged,Creative Generation,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.07585009932518005,0.07585009932518005,0.46207499504089355
+2392,engaged,Explanation,['English'],model_b,sonar,sonar-pro,3,0.32446107268333435,0.28799770772457123,0.48093053698539734
+2435,frustrated,Info Synthesis,"['Chinese', 'Japanese']",model_a,sonar-reasoning,gpt-4o-mini-search-preview,2,0.376071035861969,0.376071035861969,0.3119644820690155
+2449,frustrated,Info Synthesis,['English'],model_b,sonar,sonar-reasoning,2,0.2559264302253723,0.2559264302253723,0.37203678488731384
+2482,frustrated,Recommendation,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,8,0.3016376197338104,0.30272032746246885,0.6013237237930298
+2501,frustrated,Info Synthesis,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,4,0.4819486488898595,0.07046801410615444,0.47874242067337036
+2554,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,sonar,2,0.8424434065818787,0.8424434065818787,0.07877829670906067
+2557,frustrated,Factual Lookup,['Italian'],model_b,sonar,sonar-reasoning,3,0.66042760014534,0.66042760014534,0.30184206366539
+2581,neutral,Explanation,['English'],model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,3,0.364857729524374,0.3545978292822838,0.4897707998752594
+2584,engaged,Factual Lookup,['English'],model_a,sonar-reasoning,gpt-4o-mini-search-preview,3,0.5130252540111542,0.49149657785892487,0.3914779722690582
+2599,frustrated,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar,2,0.6828545928001404,0.6828545928001404,0.1585727334022522
+2600,neutral,Info Synthesis,['English'],model_a,gpt-4o-search-preview,sonar-pro,2,0.1808931976556778,0.1808931976556778,0.4095534086227417
+2620,frustrated,Explanation,['English'],model_a,sonar,sonar-pro,3,0.48256929218769073,0.41347233951091766,0.3083864450454712
+2644,frustrated,Factual Lookup,['Korean'],model_b,sonar,sonar-pro,2,0.9714586734771729,0.9714586734771729,0.014270689338445663
+2693,frustrated,Guidance,['English'],model_a,sonar,sonar-pro,3,0.5637236163020134,0.5414666160941124,0.3878672122955322
+2807,engaged,Creative Generation,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.19352903962135315,0.19352903962135315,0.4032354950904846
+2836,engaged,Info Synthesis,['English'],model_b,sonar-pro,sonar,2,0.7444748878479004,0.7444748878479004,0.1277625560760498
+2838,engaged,Recommendation,['Russian'],model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.4944581091403961,0.4944581091403961,0.25277090072631836
+2884,frustrated,Analysis,['English'],model_b,gpt-4o-mini-search-preview,sonar,2,0.6805070638656616,0.6805070638656616,0.1597464680671692
+2890,engaged,Explanation,['English'],model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,5,0.3852137550711632,0.21021557599306107,0.5705386400222778
+3085,frustrated,Factual Lookup,['Japanese'],model_b,sonar,gpt-4o-search-preview,7,0.5402736514806747,0.60383141040802,0.4027518630027771
+3105,frustrated,Factual Lookup,"['Chinese', 'English', 'German']",model_a,sonar-reasoning,gpt-4o-search-preview,6,0.24667186178267003,0.21135301031172277,0.6075036525726318
+3114,engaged,Factual Lookup,['Chinese'],model_a,gpt-4o-search-preview,sonar-pro,2,-0.012479801662266254,-0.012479801662266254,0.5062398910522461
+3215,engaged,Recommendation,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.48074871301651,0.48074871301651,0.259625643491745
+3251,frustrated,Text Processing,['English'],model_b,sonar-pro,gpt-4o-search-preview,2,0.003892417997121811,0.003892417997121811,0.49805378913879395
+3252,engaged,Text Processing,['French'],model_b,sonar-pro,gpt-4o-search-preview,2,0.33159106969833374,0.33159106969833374,0.3342044949531555
+3284,neutral,Other,"['English', 'Spanish']",model_b,gpt-4o-search-preview,sonar-pro,3,0.3280377835035324,0.38374467194080353,0.42899003624916077
+3347,frustrated,Factual Lookup,['English'],model_a,sonar,gpt-4o-mini-search-preview,2,0.01650412008166313,0.01650412008166313,0.4917479157447815
+3455,engaged,Factual Lookup,['English'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,2,0.6179764866828918,0.6179764866828918,0.1910117268562317
+3491,frustrated,Recommendation,['English'],model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,7,0.39931829770406085,0.2650401070713997,0.576093852519989
+3525,engaged,Info Synthesis,['Czech'],model_b,sonar,sonar-pro,3,0.6276372969150543,0.5337014496326447,0.29858922958374023
+3527,frustrated,Factual Lookup,['French'],model_a,sonar-pro,gpt-4o-search-preview,2,0.11956232786178589,0.11956232786178589,0.44021880626678467
+3556,engaged,Recommendation,['English'],model_a,sonar,gpt-4o-mini-search-preview,2,0.42731407284736633,0.42731407284736633,0.28634294867515564
+3561,neutral,Recommendation,['Russian'],model_a,gpt-4o-mini-search-preview,sonar-pro,2,0.3902984857559204,0.3902984857559204,0.3048507571220398
+3564,engaged,Factual Lookup,['Italian'],model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,2,0.37704938650131226,0.37704938650131226,0.31147539615631104
+3575,engaged,Explanation,"['Japanese', 'Chinese']",model_a,gpt-4o-search-preview,sonar-pro,2,0.4437374472618103,0.4437374472618103,0.27813127636909485
+3659,engaged,Info Synthesis,['Russian'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,4,0.5059181104103724,0.45378320167462033,0.47300297021865845
+3696,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,3,0.2476358488202095,0.4257068336009979,0.43153610825538635
+3721,neutral,Explanation,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.2586861848831177,0.2586861848831177,0.37065693736076355
+3765,engaged,Info Synthesis,['English'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,3,0.564593032002449,0.5954891592264175,0.2618202269077301
+3774,neutral,Explanation,"['Spanish', 'Welsh']",model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.04031142592430115,0.04031142592430115,0.47984427213668823
+3832,engaged,Factual Lookup,['English'],model_a,gpt-4o-mini-search-preview,gpt-4o-mini-search-preview,2,0.37857624888420105,0.37857624888420105,0.3107118606567383
+3870,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.254362016916275,0.254362016916275,0.3728189766407013
+3925,frustrated,Factual Lookup,['English'],model_b,sonar-reasoning,sonar-pro,2,0.3157562017440796,0.3157562017440796,0.3421218991279602
+3981,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,9,0.35739168152213097,0.3576656002551317,0.5512454509735107
+4062,frustrated,Other,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.22581741213798523,0.22581741213798523,0.3870912790298462
+4107,neutral,Guidance,['English'],model_a,gemini-2.0-flash,gpt-4o-mini-search-preview,4,0.6693720618883768,0.4322816729545593,0.29647383093833923
+4143,frustrated,Guidance,['English'],model_a,gemini-2.0-flash,gpt-4o-search-preview,12,0.45262626897205005,0.41631028191609815,0.5343456864356995
+4150,neutral,Creative Generation,['Korean'],model_b,gpt-4o-mini-search-preview,gpt-4o-mini-search-preview,6,0.3746338069438934,0.283463728427887,0.5153840184211731
+4172,engaged,Info Synthesis,['English'],model_b,gpt-4o-mini-search-preview,sonar-pro,2,0.5554434657096863,0.5554434657096863,0.22227828204631805
+4193,frustrated,Text Processing,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,3,0.16254420205950737,0.2708738297224045,0.5242391228675842
+4225,engaged,Other,['English'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.7488260865211487,0.7488260865211487,0.12558695673942566
+4255,neutral,Recommendation,['English'],model_a,sonar-pro,gemini-2.0-flash,2,0.03626275062561035,0.03626275062561035,0.4818686246871948
+4266,neutral,Factual Lookup,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.20175909996032715,0.20175909996032715,0.3991205096244812
+4324,engaged,Other,"['English', 'French']",model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.2193358838558197,0.2193358838558197,0.39033207297325134
+4335,frustrated,Recommendation,['English'],model_b,gemini-2.0-flash,gemini-2.0-flash,3,0.5705764889717102,0.7110690176486969,0.2546662986278534
+4408,engaged,Factual Lookup,['Japanese'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.15058143436908722,0.15058143436908722,0.4247092604637146
+4419,engaged,Factual Lookup,['Japanese'],model_b,gemini-2.0-flash,gpt-4o-mini-search-preview,2,0.15058143436908722,0.15058143436908722,0.4247092604637146
+4420,engaged,Factual Lookup,['Japanese'],model_a,gpt-4o-search-preview,sonar-pro,2,0.15058143436908722,0.15058143436908722,0.4247092604637146
+4425,engaged,Factual Lookup,['Japanese'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.15058143436908722,0.15058143436908722,0.4247092604637146
+4430,engaged,Factual Lookup,['Japanese'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.15058143436908722,0.15058143436908722,0.4247092604637146
+4442,engaged,Guidance,['English'],model_b,sonar,gemini-2.5-pro-exp-03-25,2,0.12273415923118591,0.12273415923118591,0.43863290548324585
+4445,engaged,Info Synthesis,['English'],model_a,sonar-reasoning,gpt-4o-mini-search-preview,2,0.5956417322158813,0.5956417322158813,0.20217911899089813
+4495,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.2023547887802124,0.2023547887802124,0.3988226056098938
+4528,frustrated,Analysis,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,3,0.2899445444345474,0.37351448833942413,0.4424513876438141
+4580,neutral,Other,"['Japanese', 'English']",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.1528501957654953,0.1528501957654953,0.42357492446899414
+4601,engaged,Factual Lookup,['English'],model_a,gemini-2.0-flash,gemini-2.0-flash,2,0.6008666753768921,0.6008666753768921,0.19956666231155396
+4616,engaged,Guidance,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,3,0.46148060262203217,0.4508187919855118,0.37593913078308105
+4702,engaged,Info Synthesis,['English'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.7129592895507812,0.7129592895507812,0.1435202807188034
+4724,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.6047806739807129,0.6047806739807129,0.19760966300964355
+4735,engaged,Recommendation,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.6285939812660217,0.6285939812660217,0.18570300936698914
+4741,frustrated,Other,['English'],model_b,sonar,gpt-4o-search-preview,16,0.39046161572138466,0.30055330544710157,0.6462792158126831
+4743,neutral,Other,['English'],model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.793298602104187,0.793298602104187,0.1033506914973259
+4852,engaged,Explanation,['English'],model_a,sonar-reasoning,gemini-2.0-flash,2,0.30071598291397095,0.30071598291397095,0.3496420383453369
+4865,frustrated,Info Synthesis,['Korean'],model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.5323919057846069,0.5323919057846069,0.23380407691001892
+4880,engaged,Info Synthesis,['English'],model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.0475492998957634,0.0475492998957634,0.476225346326828
+4883,engaged,Explanation,['Russian'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.42986589670181274,0.42986589670181274,0.285067081451416
+4907,frustrated,Text Processing,"['English', 'Catalan']",model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.6279351115226746,0.8139675259590149,0.1653621643781662
+4922,frustrated,Guidance,"['Chinese', 'Italian']",model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.543538510799408,0.543538510799408,0.22823071479797363
+5009,frustrated,Guidance,['Russian'],model_a,gemini-2.0-flash,sonar-pro,6,0.4286059856414795,0.30317934826016424,0.5639700293540955
+5173,frustrated,Creative Generation,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.30397969484329224,0.30397969484329224,0.3480101525783539
+5180,engaged,Creative Generation,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,8,0.5624845964568002,0.5850578376225063,0.40204405784606934
+5204,engaged,Factual Lookup,['Czech'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,3,0.6518835127353668,0.6399486511945724,0.2795906960964203
+5256,neutral,Factual Lookup,['Dutch'],model_a,sonar,gpt-4o-search-preview,6,0.2327160805463791,0.2507189393043518,0.6498163342475891
+5264,engaged,Guidance,['Russian'],model_a,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,5,0.7067487984895706,0.5518781095743179,0.29271700978279114
+5276,frustrated,Other,['Spanish'],model_a,gpt-4o-search-preview,sonar-reasoning,4,0.9581745862960815,0.9596285422643026,0.04481867700815201
+5332,frustrated,Factual Lookup,['English'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.24093584716320038,0.24093584716320038,0.3795320987701416
+5363,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.8404166102409363,0.8404166102409363,0.07979170233011246
+5420,engaged,Analysis,['German'],model_b,gpt-4o-mini-search-preview,sonar-pro,4,0.5249064564704895,0.3793315589427948,0.42623549699783325
+5423,engaged,Info Synthesis,['German'],model_b,gemini-2.5-pro-exp-03-25,sonar,2,0.24093028903007507,0.24093028903007507,0.37953484058380127
+5475,engaged,Analysis,['German'],model_b,gpt-4o-search-preview,gemini-2.0-flash,3,0.05904846079647541,0.250227564945817,0.5405267477035522
+5491,neutral,Factual Lookup,['Russian'],model_a,gpt-4o-mini-search-preview,gemini-2.0-flash,3,0.13250930234789848,0.0683007687330246,0.5946968197822571
+5602,neutral,Info Synthesis,['English'],model_b,sonar-pro,sonar-reasoning,2,0.7844687700271606,0.7844687700271606,0.10776558518409729
+5607,engaged,Info Synthesis,"['English', 'French']",model_a,gemini-2.0-flash,sonar-pro,2,0.529607355594635,0.529607355594635,0.2351963222026825
+5650,engaged,Recommendation,"['English', 'Chinese']",model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.7276184558868408,0.7276184558868408,0.1361907720565796
+5658,engaged,Info Synthesis,['English'],model_a,gemini-2.0-flash,sonar-pro,2,0.5130373239517212,0.5130373239517212,0.2434813380241394
+5666,frustrated,Recommendation,['English'],model_a,sonar,gpt-4o-mini-search-preview,2,0.85297691822052,0.85297691822052,0.07351155579090118
+5678,engaged,Guidance,"['Japanese', 'Chinese']",model_a,sonar-pro,gpt-4o-search-preview,2,0.8052842617034912,0.8052842617034912,0.09735788404941559
+5695,engaged,Factual Lookup,['English'],model_b,sonar-reasoning,gpt-4o-search-preview,2,0.6544049978256226,0.6544049978256226,0.1727975308895111
+5699,engaged,Guidance,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.40351444482803345,0.40351444482803345,0.2982427477836609
+5719,engaged,Info Synthesis,['English'],model_b,sonar-reasoning,gemini-2.5-pro-exp-03-25,2,0.1278640329837799,0.1278640329837799,0.43606793880462646
+5750,frustrated,Factual Lookup,['English'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,3,0.17672891169786453,0.43793729692697525,0.4089754521846771
+5798,neutral,Factual Lookup,['Russian'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.5166264176368713,0.5166264176368713,0.2416868358850479
+5846,frustrated,Info Synthesis,['Russian'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.4954606294631958,0.4954606294631958,0.2522696852684021
+5899,engaged,Factual Lookup,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.5203157067298889,0.5203157067298889,0.23984216153621674
+5925,frustrated,Text Processing,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.9627096652984619,0.9627096652984619,0.018645182251930237
+6016,frustrated,Info Synthesis,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.7253618240356445,0.7253618240356445,0.13731908798217773
+6065,engaged,Explanation,['English'],model_b,gpt-4o-mini-search-preview,gemini-2.0-flash,3,0.30947360396385193,0.3428998291492462,0.43065276741981506
+6075,neutral,Other,"['English', 'Spanish']",model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.33782243728637695,0.33782243728637695,0.3310888409614563
+6111,engaged,Explanation,"['English', 'Chinese']",model_b,sonar-pro,sonar,2,0.19525466859340668,0.19525466859340668,0.40237268805503845
+6158,engaged,Factual Lookup,['German'],model_b,sonar-reasoning,sonar-pro,4,0.28205256660779315,0.34280600150426227,0.5128443241119385
+6159,engaged,Info Synthesis,['Vietnamese'],model_a,sonar-reasoning,gpt-4o-mini-search-preview,2,0.7572923898696899,0.7572923898696899,0.12135379016399384
+6186,engaged,Analysis,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.04915269464254379,0.04915269464254379,0.475423663854599
+6212,engaged,Info Synthesis,['Russian'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.5576691031455994,0.5576691031455994,0.22116544842720032
+6214,engaged,Factual Lookup,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.1102960854768753,0.1102960854768753,0.44485193490982056
+6230,engaged,Analysis,"['English', 'Spanish']",model_a,gemini-2.0-flash,gpt-4o-mini-search-preview,4,0.4482634862263997,0.266920102139314,0.4819863736629486
+6236,engaged,Factual Lookup,"['Chinese', 'Japanese']",model_b,gemini-2.0-flash,sonar-pro,3,0.3161693513393402,0.5134308040142059,0.3572204113006592
+6260,engaged,Text Processing,['French'],model_b,sonar-pro,gemini-2.0-flash,2,0.1888536810874939,0.1888536810874939,0.40557315945625305
+6289,engaged,Recommendation,['Japanese'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,2,0.12367308139801025,0.12367308139801025,0.4381634593009949
+6374,frustrated,Guidance,"['Spanish', 'Portuguese']",model_b,gpt-4o-search-preview,gpt-4o-search-preview,5,0.34328742092475295,0.271411856636405,0.5987275242805481
+6464,frustrated,Recommendation,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,8,0.25122714574847904,0.38863408139773775,0.624839723110199
+6483,engaged,Analysis,['Spanish'],model_a,gpt-4o-mini-search-preview,sonar-reasoning,2,0.7862618565559387,0.7862618565559387,0.10686908662319183
+6503,frustrated,Explanation,['Vietnamese'],model_b,gpt-4o-search-preview,gemini-2.0-flash,3,0.59055395424366,0.6008982360363007,0.30413079261779785
+6558,engaged,Explanation,['Spanish'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.7084205150604248,0.7084205150604248,0.1457897424697876
+6561,engaged,Factual Lookup,['Arabic'],model_a,gemini-2.0-flash,gpt-4o-search-preview,3,0.28665318340063095,0.26209706999361515,0.5343190431594849
+6571,neutral,Other,['Arabic'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.7532345056533813,0.7532345056533813,0.1233828067779541
+6585,engaged,Factual Lookup,"['Chinese', 'Japanese']",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.24188600480556488,0.44102996587753296,0.4216787815093994
+6607,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.40319472551345825,0.40319472551345825,0.2984026372432709
+6649,engaged,Other,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.19886405766010284,0.19886405766010284,0.4005679488182068
+6664,neutral,Other,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.21708892285823822,0.21708892285823822,0.3914554715156555
+6670,engaged,Explanation,['English'],model_b,sonar-pro,sonar-pro,4,0.1852186918258667,0.12388499267399311,0.6436740159988403
+6675,frustrated,Info Synthesis,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.1356697976589203,0.2254825383424759,0.5326157212257385
+6689,neutral,Other,['English'],model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.4969586431980133,0.4969586431980133,0.25152063369750977
+6785,engaged,Guidance,"['Chinese', 'English']",model_a,sonar-pro,sonar,2,0.09511563181877136,0.09511563181877136,0.4524421691894531
+6804,neutral,Info Synthesis,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.40220361948013306,0.40220361948013306,0.2988981604576111
+6820,engaged,Analysis,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.06334936618804932,0.06334936618804932,0.46832534670829773
+6838,engaged,Recommendation,['English'],model_a,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,2,0.5495039224624634,0.5495039224624634,0.22524797916412354
+6846,frustrated,Analysis,['English'],model_b,sonar-pro,sonar-pro,7,0.48641328513622284,0.48629312713940936,0.43554452061653137
+6847,frustrated,Factual Lookup,"['Italian', 'Wu Chinese', 'Chinese']",model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,1.0,1.0,0.0
+6875,engaged,Recommendation,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.40295764803886414,0.40295764803886414,0.29852116107940674
+6887,engaged,Info Synthesis,['English'],model_a,sonar-reasoning,sonar-reasoning,3,0.5951698422431946,0.28355543315410614,0.3698395788669586
+6897,engaged,Info Synthesis,['Finnish'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.04870082437992096,0.04870082437992096,0.4756495952606201
+6908,engaged,Explanation,['German'],model_b,sonar-reasoning,gpt-4o-mini-search-preview,2,0.0981316938996315,0.0981316938996315,0.45093417167663574
+6936,engaged,Factual Lookup,['English'],model_b,sonar-pro,gpt-4o-search-preview,2,-0.05106101185083389,-0.05106101185083389,0.5255304574966431
+7009,engaged,Other,['Chinese'],model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.16988146305084229,0.16988146305084229,0.41505926847457886
+7135,frustrated,Info Synthesis,"['Chinese', 'Spanish']",model_a,gemini-2.0-flash,gemini-2.0-flash,4,0.43998638292153675,0.5213196277618408,0.4279326796531677
+7139,frustrated,Recommendation,"['Chinese', 'Japanese']",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,5,0.48404915630817413,0.5556735321879387,0.3882998824119568
+7248,engaged,Recommendation,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.3359581232070923,0.3359581232070923,0.33202093839645386
+7280,frustrated,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,4,0.5046893755594889,0.2852933357159297,0.4303692877292633
+7320,frustrated,Analysis,"['Italian', 'English']",model_a,gemini-2.0-flash,gpt-4o-search-preview,3,0.6272036284208298,0.6272036284208298,0.33137452602386475
+7330,neutral,Factual Lookup,['Russian'],model_b,gpt-4o-search-preview,sonar,2,0.37361299991607666,0.37361299991607666,0.3131934404373169
+7356,neutral,Other,"['Spanish', 'Italian']",model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.9999998807907104,0.9999998807907104,0.0
+7368,engaged,Explanation,['Japanese'],model_b,gpt-4o-search-preview,sonar-pro,5,0.6108916699886322,0.5988824740052223,0.3188457489013672
+7410,neutral,Info Synthesis,['Spanish'],model_b,sonar,sonar,2,0.4271825850009918,0.4271825850009918,0.28640875220298767
+7413,frustrated,Info Synthesis,['Russian'],model_b,sonar-pro,sonar-reasoning,2,0.5296404957771301,0.5296404957771301,0.2351798117160797
+7431,frustrated,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-pro,4,0.6562442183494568,0.26045359174410504,0.364920437335968
+7443,engaged,Guidance,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.6355782747268677,0.6355782747268677,0.18221086263656616
+7472,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.41300857067108154,0.41300857067108154,0.29349571466445923
+7586,engaged,Recommendation,['English'],model_b,sonar-pro,gpt-4o-search-preview,3,0.22605367749929428,0.29056107997894287,0.4955061376094818
+7652,frustrated,Explanation,['Chinese'],model_b,gemini-2.0-flash,sonar-reasoning,2,0.994239091873169,0.994239091873169,0.0028804538305848837
+7779,engaged,Analysis,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,19,0.6685406466325124,0.6383228898048401,0.33966466784477234
+7787,frustrated,Guidance,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,3,0.832647979259491,0.832647979259491,0.14875738322734833
+7838,frustrated,Info Synthesis,['Polish'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,3,0.24718963541090488,0.4366301894187927,0.4680776298046112
+7853,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-pro,4,0.6025865177313486,0.46789758404095966,0.3539485037326813
+7856,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,4,0.6025865177313486,0.46789758404095966,0.3539485037326813
+7860,frustrated,Factual Lookup,"['Swedish', 'Cebuano']",model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.880894124507904,0.880894124507904,0.05955295264720917
+7876,engaged,Creative Generation,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.4547879099845886,0.4547879099845886,0.2726060748100281
+7884,frustrated,Factual Lookup,['Russian'],model_b,sonar-reasoning,gemini-2.0-flash,2,0.8834210634231567,0.8834210634231567,0.05828949064016342
+7946,frustrated,Recommendation,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,3,0.287973016500473,0.3569815903902054,0.43951722979545593
+8008,engaged,Factual Lookup,['English'],model_b,gpt-4o-mini-search-preview,gemini-2.0-flash,2,0.23313379287719727,0.23313379287719727,0.38343313336372375
+8126,neutral,Factual Lookup,['English'],model_b,sonar-pro,gpt-4o-mini-search-preview,2,0.6877604722976685,0.6877604722976685,0.15611979365348816
+8142,engaged,Explanation,['German'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.3340999484062195,0.3340999484062195,0.33295002579689026
+8147,frustrated,Info Synthesis,['English'],model_a,sonar-pro,gpt-4o-search-preview,7,0.6192276105284691,0.5031318068504333,0.46990251541137695
+8225,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,gemini-2.0-flash,5,0.32623100467026234,0.19668393582105637,0.6160567998886108
+8231,frustrated,Analysis,['German'],model_a,sonar,gpt-4o-search-preview,3,0.45108985900878906,0.5378222912549973,0.3648771345615387
+8242,engaged,Info Synthesis,['English'],model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.7452327013015747,0.7452327013015747,0.12738364934921265
+8296,engaged,Analysis,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.3394659757614136,0.3394659757614136,0.3302670121192932
+8345,engaged,Explanation,['Portuguese'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.8882726430892944,0.8882726430892944,0.05586369335651398
+8392,engaged,Guidance,['Russian'],model_a,gpt-4o-search-preview,sonar-pro,3,0.34555883705616,0.4986211657524109,0.3699549734592438
+8435,engaged,Info Synthesis,"['English', 'Polish']",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.42450249195098877,0.42450249195098877,0.2877487540245056
+8463,engaged,Analysis,"['Portuguese', 'Galician']",model_b,sonar-pro,gemini-2.0-flash,2,0.4929574728012085,0.4929574728012085,0.2535213232040405
+8475,frustrated,Analysis,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,4,0.4379608432451884,0.4124371608098348,0.44463372230529785
+8554,engaged,Info Synthesis,['Russian'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.26082664728164673,0.26082664728164673,0.369586706161499
+8575,frustrated,Factual Lookup,['English'],model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,2,1.0,1.0,0.0
+8579,frustrated,Explanation,"['English', 'Spanish']",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.6540112495422363,0.6540112495422363,0.17299431562423706
+8726,engaged,Explanation,['English'],model_a,sonar-pro,sonar-reasoning,2,0.452136367559433,0.452136367559433,0.27393174171447754
+8802,engaged,Factual Lookup,['German'],model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.3839240074157715,0.3839240074157715,0.30803802609443665
+8815,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.20507316291332245,0.20507316291332245,0.39746344089508057
+8854,engaged,Explanation,['English'],model_b,gpt-4o-mini-search-preview,sonar-pro,2,0.13077041506767273,0.13077041506767273,0.43461477756500244
+8963,engaged,Factual Lookup,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,-0.037495940923690796,-0.037495940923690796,0.5187479853630066
+8975,engaged,Analysis,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.2965766489505768,0.2965766489505768,0.3517116904258728
+8989,frustrated,Guidance,['English'],model_b,gpt-4o-search-preview,sonar-pro,3,0.4356596767902374,0.30754849314689636,0.4081310033798218
+9016,engaged,Recommendation,['English'],model_b,gemini-2.0-flash,gpt-4o-search-preview,3,0.4373777359724045,0.3618236184120178,0.4188021421432495
+9052,engaged,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.31239229440689087,0.31239229440689087,0.3438038229942322
+9097,engaged,Factual Lookup,"['Indonesian', 'English']",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.4398422837257385,0.4398422837257385,0.28007885813713074
+9113,frustrated,Guidance,['Russian'],model_b,gemini-2.0-flash,gpt-4o-search-preview,2,0.29750168323516846,0.29750168323516846,0.35124915838241577
+9180,engaged,Factual Lookup,['Polish'],model_a,sonar-reasoning,gemini-2.5-pro-exp-03-25,2,0.5063745975494385,0.5063745975494385,0.24681267142295837
+9185,frustrated,Guidance,['French'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,5,0.37948461435735226,0.25862746499478817,0.5168228149414062
+9218,engaged,Factual Lookup,['German'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.45174792408943176,0.45174792408943176,0.2741260528564453
+9256,engaged,Other,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.11984804272651672,0.11984804272651672,0.44007599353790283
+9278,neutral,Factual Lookup,['English'],model_b,sonar-pro,sonar,2,0.6327134370803833,0.6327134370803833,0.18364328145980835
+9294,neutral,Factual Lookup,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar,2,0.33696597814559937,0.33696597814559937,0.33151698112487793
+9296,engaged,Info Synthesis,['English'],model_b,gpt-4o-mini-search-preview,gpt-4o-search-preview,4,0.12261064102252324,0.2698326011498769,0.6036053895950317
+9322,engaged,Other,"['English', 'Portuguese']",model_a,gemini-2.0-flash,gpt-4o-search-preview,5,0.40133823454380035,0.12287061009556055,0.5931727290153503
+9350,engaged,Info Synthesis,['Russian'],model_a,sonar-pro,gpt-4o-search-preview,2,0.41083335876464844,0.41083335876464844,0.2945832908153534
+9390,engaged,Text Processing,['Chinese'],model_b,sonar-reasoning,gemini-2.5-pro-exp-03-25,2,0.4508425295352936,0.4508425295352936,0.2745787799358368
+9534,engaged,Creative Generation,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.3342288136482239,0.3342288136482239,0.33288559317588806
+9646,engaged,Info Synthesis,['Chinese'],model_a,sonar-reasoning-pro,sonar,2,0.7644365429878235,0.7644365429878235,0.11778175830841064
+9650,engaged,Analysis,['English'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.6235744953155518,0.6235744953155518,0.18821270763874054
+9652,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar-reasoning,3,0.48813697695732117,0.5962779223918915,0.29452207684516907
+9655,neutral,Factual Lookup,['English'],model_a,sonar-reasoning-pro,sonar-pro,2,0.11528632044792175,0.11528632044792175,0.4423568844795227
+9663,engaged,Explanation,['English'],model_b,gpt-4o-mini-search-preview,sonar-reasoning-pro,3,0.3520486354827881,0.22803279012441635,0.4558151662349701
+9689,neutral,Explanation,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.10393770039081573,0.10393770039081573,0.4480311870574951
+9719,engaged,Text Processing,['Polish'],model_a,sonar-pro,gpt-4o-search-preview,2,0.48910510540008545,0.48910510540008545,0.2554474472999573
+9730,engaged,Analysis,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,3,0.30795954167842865,0.3027649223804474,0.46020445227622986
+9789,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.22776904702186584,0.22776904702186584,0.38611552119255066
+9844,engaged,Factual Lookup,['English'],model_a,sonar-pro,sonar-pro,2,0.25672993063926697,0.25672993063926697,0.3716350197792053
+9845,engaged,Factual Lookup,['German'],model_b,gemini-2.0-flash,gemini-2.0-flash,2,0.22785153985023499,0.22785153985023499,0.3860742151737213
+9856,engaged,Analysis,['English'],model_a,sonar-reasoning-pro,sonar,2,0.5469006299972534,0.5469006299972534,0.2265496551990509
+9882,engaged,Other,['Chinese'],model_b,sonar-reasoning,sonar,4,0.255325049161911,0.2724233865737915,0.5697108507156372
+9906,frustrated,Other,['Chinese'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,22,0.4121873222646259,0.23803849660214924,0.7100198864936829
+9937,engaged,Factual Lookup,['German'],model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.6068882942199707,0.6068882942199707,0.19655588269233704
+9954,frustrated,Factual Lookup,['Chinese'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.1588740050792694,0.1588740050792694,0.4205629825592041
+9956,engaged,Other,['Vietnamese'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.3567659556865692,0.3567659556865692,0.321617066860199
+10030,engaged,Factual Lookup,['Russian'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.26216548681259155,0.26216548681259155,0.3689172863960266
+10051,engaged,Recommendation,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.37579345703125,0.37579345703125,0.312103271484375
+10077,engaged,Info Synthesis,"['Slovenian', 'Malayalam']",model_a,sonar-reasoning,gpt-4o-search-preview,3,0.5791759788990021,0.4549230933189392,0.31342557072639465
+10115,engaged,Factual Lookup,['French'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,2,0.11760924756526947,0.11760924756526947,0.4411953389644623
+10288,frustrated,Info Synthesis,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.7124619483947754,0.7124619483947754,0.14376899600028992
+10346,engaged,Factual Lookup,['Thai'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,2,0.3028407692909241,0.3028407692909241,0.3485795855522156
+10359,engaged,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,-0.019444413483142853,-0.019444413483142853,0.5097222328186035
+10463,engaged,Factual Lookup,['English'],model_b,sonar-pro,sonar-reasoning-pro,2,0.11847236007452011,0.11847236007452011,0.44076380133628845
+10476,engaged,Factual Lookup,['English'],model_b,sonar-reasoning,sonar-pro,2,0.4257734715938568,0.4257734715938568,0.2871133089065552
+10491,engaged,Recommendation,['English'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,3,0.2781243920326233,0.3617255389690399,0.4749029576778412
+10493,frustrated,Creative Generation,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,6,0.279656995087862,0.10863056760281324,0.6790333390235901
+10527,frustrated,Recommendation,['French'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.3675990700721741,0.3675990700721741,0.31620046496391296
+10544,engaged,Analysis,['English'],model_b,sonar-reasoning-pro,sonar-pro,3,0.4103421769104898,-0.025339609477669,0.4966382086277008
+10613,neutral,Factual Lookup,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.07675903290510178,0.07675903290510178,0.4616204500198364
+10642,engaged,Factual Lookup,['English'],model_a,sonar-pro,sonar-reasoning-pro,2,0.19020602107048035,0.19020602107048035,0.40489697456359863
+10656,neutral,Info Synthesis,"['English', 'Portuguese']",model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.1367301195859909,0.1367301195859909,0.43163496255874634
+10702,engaged,Info Synthesis,['English'],model_a,sonar-reasoning-pro,sonar-pro,2,0.45734360814094543,0.45734360814094543,0.2713282108306885
+10717,frustrated,Other,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar,3,0.4043758362531662,0.5887483954429626,0.32317790389060974
+10748,engaged,Analysis,['Vietnamese'],model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.32707667350769043,0.32707667350769043,0.3364616632461548
+10764,engaged,Analysis,['English'],model_b,sonar-reasoning-pro,sonar,6,0.3293079912662506,0.4182630658149719,0.5511148571968079
+10776,engaged,Creative Generation,"['English', 'Japanese']",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,2,0.5621572732925415,0.5621572732925415,0.21892133355140686
+10787,engaged,Guidance,"['Iloko', 'Chinese', 'Korean']",model_b,sonar,gemini-2.5-pro-exp-03-25,2,0.754214882850647,0.754214882850647,0.12289254367351532
+10813,engaged,Analysis,['Korean'],model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.24825695157051086,0.24825695157051086,0.37587153911590576
+10867,neutral,Factual Lookup,['Chinese'],model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.4489997923374176,0.4489997923374176,0.2755001187324524
+10893,engaged,Explanation,['Chinese'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.3838540315628052,0.3838540315628052,0.3080729842185974
+10897,engaged,Analysis,['Japanese'],model_b,gpt-4o-mini-search-preview,gemini-2.5-pro-exp-03-25,2,0.2620016932487488,0.2620016932487488,0.3689991235733032
+10906,frustrated,Factual Lookup,['German'],model_b,sonar,gpt-4o-search-preview,2,0.9201405048370361,0.9201405048370361,0.039929695427417755
+10950,neutral,Explanation,['Chinese'],model_b,gpt-4o-search-preview,sonar-pro,3,0.8113367557525635,0.6324391961097717,0.16690994799137115
+10954,engaged,Factual Lookup,"['Arabic', 'Spanish']",model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.24364688992500305,0.14098524674773216,0.537878692150116
+10984,neutral,Recommendation,['Czech'],model_b,gpt-4o-search-preview,sonar-pro,2,0.028921322897076607,0.028921322897076607,0.48553937673568726
+11003,frustrated,Factual Lookup,['German'],model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.08386128395795822,0.08386128395795822,0.4580693244934082
+11011,neutral,Explanation,"['Chinese', 'Japanese']",model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.250744491815567,0.250744491815567,0.3746277093887329
+11055,engaged,Factual Lookup,"['Chinese', 'Spanish']",model_b,sonar-reasoning-pro,sonar,2,0.04783710837364197,0.04783710837364197,0.4760814905166626
+11117,engaged,Text Processing,"['English', 'French']",model_a,sonar-pro,gemini-2.0-flash,2,0.3251207172870636,0.3251207172870636,0.3374396562576294
+11123,engaged,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.40440499782562256,0.40440499782562256,0.2977975010871887
+11167,engaged,Info Synthesis,['English'],model_b,sonar-reasoning-pro,sonar,4,0.35769233107566833,0.37913380066553753,0.49394872784614563
+11227,neutral,Creative Generation,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.9182595014572144,0.9182595014572144,0.04087022691965103
+11261,frustrated,Info Synthesis,['English'],model_a,sonar-reasoning-pro,gemini-2.0-flash,3,0.16714022308588028,0.09252224490046501,0.5763441920280457
+11285,engaged,Analysis,['Russian'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,3,0.3280404657125473,0.23160584643483162,0.4974297285079956
+11335,engaged,Recommendation,['English'],model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.18614161014556885,0.18614161014556885,0.4069291949272156
+11336,engaged,Explanation,['English'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,2,0.6397826075553894,0.6397826075553894,0.1801086813211441
+11339,frustrated,Info Synthesis,['English'],model_a,sonar-reasoning-pro,sonar-pro,2,0.3023337721824646,0.3023337721824646,0.3488331437110901
+11441,frustrated,Explanation,['English'],model_a,sonar-pro,sonar-reasoning,2,0.0013712719082832336,0.0013712719082832336,0.4993143677711487
+11444,frustrated,Info Synthesis,['English'],model_a,sonar-reasoning,sonar-pro,2,0.32984158396720886,0.32984158396720886,0.3350791931152344
+11466,frustrated,Creative Generation,['Vietnamese'],model_a,sonar-pro,gpt-4o-search-preview,3,0.9861352145671844,0.9722704887390137,0.012324221432209015
+11557,engaged,Factual Lookup,['English'],model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.020723504945635796,0.020723504945635796,0.4896382689476013
+11572,frustrated,Guidance,['English'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.632513165473938,0.632513165473938,0.183743417263031
+11573,neutral,Factual Lookup,['Czech'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,5,0.21504991315305233,0.0553389023989439,0.6499074101448059
+11598,engaged,Other,['Chinese'],model_a,sonar-reasoning-pro,gemini-2.0-flash,3,0.4563974440097809,0.5833100378513336,0.31811168789863586
+11602,engaged,Recommendation,['Korean'],model_b,gpt-4o-search-preview,sonar,2,0.42153799533843994,0.42153799533843994,0.28923100233078003
+11610,frustrated,Factual Lookup,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.8030954599380493,0.8030954599380493,0.09845219552516937
+11631,neutral,Recommendation,['English'],model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.4138559103012085,0.4138559103012085,0.29307204484939575
+11642,frustrated,Analysis,['English'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.22023612260818481,0.22023612260818481,0.38988196849823
+11825,neutral,Analysis,"['Indonesian', 'Malay']",model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,3,0.3335486650466919,0.2392808049917221,0.45021915435791016
+11859,engaged,Info Synthesis,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.27587974071502686,0.27587974071502686,0.3620601296424866
+11959,frustrated,Recommendation,['Russian'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.7131356000900269,0.7131356000900269,0.14343221485614777
+11963,engaged,Info Synthesis,['English'],model_a,sonar-reasoning-pro,sonar-pro,2,0.04669506847858429,0.04669506847858429,0.47665247321128845
+11985,frustrated,Info Synthesis,['Russian'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.9999999403953552,0.9999999403953552,0.0
+12062,engaged,Info Synthesis,['Polish'],model_b,sonar-pro,sonar-reasoning-pro,2,0.818464457988739,0.818464457988739,0.09076779335737228
+12102,engaged,Analysis,['English'],model_b,sonar-reasoning-pro,sonar-reasoning-pro,7,0.4255066116650899,0.4874817579984665,0.4569314420223236
+12165,engaged,Recommendation,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.43027564883232117,0.43027564883232117,0.2848621904850006
+12200,engaged,Explanation,['English'],model_b,sonar-reasoning-pro,sonar-reasoning,5,0.4293891340494156,0.3131452724337578,0.471544086933136
+12228,engaged,Other,['English'],model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.3757523000240326,0.3757523000240326,0.3121238648891449
+12268,engaged,Info Synthesis,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.6831749677658081,0.6831749677658081,0.15841250121593475
+12273,engaged,Factual Lookup,['English'],model_a,gpt-4o-search-preview,sonar-pro,2,0.09068988263607025,0.09068988263607025,0.4546550512313843
+12289,engaged,Factual Lookup,['Spanish'],model_b,sonar,sonar-reasoning-pro,3,0.14602331072092056,0.07296681683510542,0.6045815348625183
+12292,engaged,Factual Lookup,['English'],model_b,sonar-reasoning-pro,gemini-2.0-flash,2,0.42219075560569763,0.42219075560569763,0.28890460729599
+12316,engaged,Recommendation,['English'],model_a,sonar-reasoning-pro,gemini-2.0-flash,2,0.5041967630386353,0.5041967630386353,0.24790164828300476
+12330,engaged,Recommendation,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.23422680795192719,0.23422680795192719,0.3828865885734558
+12363,neutral,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.11483605206012726,0.11483605206012726,0.4425819516181946
+12364,frustrated,Guidance,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.6125182509422302,0.6125182509422302,0.1937408596277237
+12381,engaged,Recommendation,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,3,0.36912019550800323,0.43507879972457886,0.3768292963504791
+12493,engaged,Other,['Persian'],model_b,gemini-2.0-flash,sonar-pro,3,0.28654418885707855,0.35575300455093384,0.4566723108291626
+12496,frustrated,Explanation,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.9999999403953552,0.9999999403953552,0.0
+12555,engaged,Recommendation,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,4,0.2567640095949173,0.436234047015508,0.4814218282699585
+12569,engaged,Recommendation,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.3667891025543213,0.3667891025543213,0.31660541892051697
+12721,neutral,Recommendation,['English'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.04943195730447769,0.04943195730447769,0.47528401017189026
+12724,engaged,Info Synthesis,['English'],model_a,gpt-4o-mini-search-preview,gemini-2.0-flash,2,0.1278451830148697,0.1278451830148697,0.43607741594314575
+12745,engaged,Recommendation,['English'],model_b,sonar-reasoning-pro,sonar-reasoning,2,0.5515246391296387,0.5515246391296387,0.22423768043518066
+12760,engaged,Guidance,['Italian'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.10805875808000565,0.3208095133304596,0.4915364980697632
+12822,engaged,Factual Lookup,"['English', 'Korean']",model_a,gpt-4o-search-preview,sonar,9,0.28564229095354676,0.14473179867491126,0.71098792552948
+12828,engaged,Analysis,['English'],model_a,gpt-4o-search-preview,sonar,2,0.6122131943702698,0.6122131943702698,0.19389349222183228
+12883,frustrated,Recommendation,['English'],model_b,sonar-reasoning-pro,gemini-2.0-flash,5,0.4418773502111435,0.4828486666083336,0.46909505128860474
+12914,frustrated,Guidance,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.49893641471862793,0.5094802975654602,0.35747289657592773
+12957,frustrated,Explanation,['English'],model_b,gemini-2.0-flash,sonar,2,0.5228275060653687,0.5228275060653687,0.23858624696731567
+12986,engaged,Guidance,['English'],model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.46960943937301636,0.46960943937301636,0.2651952803134918
+13029,frustrated,Guidance,['English'],model_b,sonar-reasoning,sonar-pro,2,0.16018429398536682,0.16018429398536682,0.4199078679084778
+13051,engaged,Info Synthesis,['English'],model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.6274499893188477,0.6274499893188477,0.18627497553825378
+13092,neutral,Factual Lookup,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.09244395792484283,0.09244395792484283,0.45377805829048157
+13150,frustrated,Other,"['Japanese', 'English']",model_a,sonar-reasoning,gpt-4o-search-preview,6,0.37420626245439054,-0.020937982574105264,0.5683165788650513
+13156,engaged,Info Synthesis,['Russian'],model_b,sonar,sonar-reasoning-pro,4,0.3051043252150218,0.5203808546066284,0.4206981062889099
+13209,frustrated,Recommendation,['English'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,0.20086707174777985,0.20086707174777985,0.3995664715766907
+13215,engaged,Factual Lookup,['English'],model_a,sonar-reasoning-pro,sonar-pro,2,0.08138301223516464,0.08138301223516464,0.4593084454536438
+13219,engaged,Recommendation,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.2516328990459442,0.2516328990459442,0.3741835355758667
+13312,frustrated,Info Synthesis,"['Korean', 'English']",model_b,gpt-4o-search-preview,sonar-reasoning,2,0.3290536105632782,0.3290536105632782,0.3354731798171997
+13340,frustrated,Info Synthesis,['Persian'],model_b,sonar-reasoning-pro,sonar-reasoning-pro,2,0.21300750970840454,0.21300750970840454,0.3934962749481201
+13387,frustrated,Info Synthesis,['Spanish'],model_b,sonar-reasoning,sonar-reasoning-pro,2,0.19525425136089325,0.19525425136089325,0.40237289667129517
+13439,engaged,Recommendation,"['Slovenian', 'Serbian']",model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.7434159517288208,0.7434159517288208,0.1282920241355896
+13457,engaged,Guidance,['German'],model_a,sonar-reasoning,gpt-4o-search-preview,2,-0.08615721017122269,-0.08615721017122269,0.5430786609649658
+13467,engaged,Recommendation,['German'],model_b,sonar-reasoning,sonar-pro,3,0.49972009658813477,0.48565053939819336,0.3685561716556549
+13483,engaged,Text Processing,['English'],model_a,sonar-reasoning,sonar-reasoning-pro,2,0.2945150136947632,0.2945150136947632,0.3527424931526184
+13500,engaged,Analysis,['English'],model_b,sonar-reasoning,sonar-reasoning-pro,2,0.12652364373207092,0.12652364373207092,0.43673813343048096
+13527,frustrated,Factual Lookup,['Turkish'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,3,0.3196062594652176,0.14188848063349724,0.4989221394062042
+13536,frustrated,Guidance,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.4209127426147461,0.4209127426147461,0.2895435690879822
+13545,neutral,Recommendation,['English'],model_a,sonar-reasoning,sonar-reasoning-pro,2,0.3838435113430023,0.3838435113430023,0.30807822942733765
+13576,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.08652478456497192,0.08652478456497192,0.4567376375198364
+13590,engaged,Explanation,['German'],model_b,gemini-2.0-flash,sonar-reasoning-pro,2,0.620602011680603,0.620602011680603,0.18969905376434326
+13603,engaged,Info Synthesis,['English'],model_a,sonar-reasoning-pro,gemini-2.0-flash,2,0.5275194644927979,0.5275194644927979,0.23624032735824585
+13605,engaged,Factual Lookup,['Dutch'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.3452335000038147,0.3452335000038147,0.3273833394050598
+13620,engaged,Other,"['Russian', 'Belarusian']",model_a,sonar-reasoning,sonar-reasoning,2,0.2973833680152893,0.2973833680152893,0.35130828619003296
+13649,engaged,Creative Generation,['Russian'],model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,8,0.6048633030482701,0.3867033677441733,0.41614145040512085
+13686,frustrated,Creative Generation,['English'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,4,0.2749027609825134,0.16930794467528662,0.5839784145355225
+13804,engaged,Recommendation,['Italian'],model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.13762451708316803,0.13762451708316803,0.4311876893043518
+13842,neutral,Factual Lookup,['English'],model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.06155484914779663,0.06155484914779663,0.4692226052284241
+13858,neutral,Recommendation,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,-0.05558934807777405,-0.05558934807777405,0.5277946591377258
+13865,neutral,Guidance,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,-0.004626186564564705,-0.004626186564564705,0.5023131370544434
+13876,engaged,Analysis,['English'],model_b,gemini-2.0-flash,gpt-4o-search-preview,3,0.3961177170276642,0.4877128601074219,0.3639083802700043
+13897,frustrated,Guidance,"['English', 'Finnish']",model_b,sonar-reasoning-pro,gemini-2.0-flash,2,0.30858269333839417,0.30858269333839417,0.34570860862731934
+13905,frustrated,Guidance,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.6290178894996643,0.6290178894996643,0.18549102544784546
+13922,frustrated,Analysis,['English'],model_a,sonar-reasoning-pro,gpt-4o-mini-search-preview,2,0.9999998807907104,0.9999998807907104,0.0
+13931,neutral,Analysis,['English'],model_a,gpt-4o-mini-search-preview,gpt-4o-search-preview,2,0.23743796348571777,0.23743796348571777,0.3812810182571411
+13941,neutral,Factual Lookup,['English'],model_a,gpt-4o-search-preview,sonar-pro,6,0.3051953066140413,0.04184375591576099,0.625848114490509
+14007,neutral,Other,"['Italian', 'Portuguese']",model_a,gpt-4o-search-preview,sonar-reasoning,2,0.08346498757600784,0.08346498757600784,0.4582674503326416
+14070,frustrated,Info Synthesis,['English'],model_a,sonar,gpt-4o-search-preview,4,0.4900950988133748,0.6704815626144409,0.34147152304649353
+14093,engaged,Analysis,['English'],model_b,sonar-reasoning-pro,sonar-pro,2,0.42304763197898865,0.42304763197898865,0.28847622871398926
+14183,engaged,Analysis,['German'],model_a,sonar-reasoning,gemini-2.0-flash,2,0.48491233587265015,0.48491233587265015,0.2575438618659973
+14238,neutral,Guidance,"['English', 'Russian']",model_a,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.04565975069999695,0.04565975069999695,0.47717010974884033
+14243,engaged,Explanation,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,3,0.44498367607593536,0.24153513927012682,0.4716649055480957
+14262,engaged,Info Synthesis,['English'],model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.5723427534103394,0.5723427534103394,0.2138286530971527
+14336,engaged,Info Synthesis,['German'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.37595129013061523,0.37595129013061523,0.31202432513237
+14418,engaged,Recommendation,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,8,0.3711820138352258,0.16958153992891312,0.6197019815444946
+14474,engaged,Factual Lookup,['Russian'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.07688628137111664,0.07688628137111664,0.46155691146850586
+14538,engaged,Recommendation,['English'],model_b,sonar-pro,sonar-reasoning-pro,2,0.06314621865749359,0.06314621865749359,0.4684268832206726
+14603,engaged,Analysis,['Korean'],model_a,sonar-reasoning-pro,gemini-2.0-flash,2,0.43090540170669556,0.43090540170669556,0.2845472991466522
+14626,engaged,Guidance,['Russian'],model_a,sonar,gpt-4o-search-preview,3,0.2721888944506645,0.44332191348075867,0.46008750796318054
+14629,engaged,Factual Lookup,['Russian'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.44647663831710815,0.44647663831710815,0.2767616808414459
+14657,neutral,Explanation,['Czech'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,3,0.12742318771779537,0.22104081511497498,0.5746622681617737
+14685,engaged,Creative Generation,['English'],model_a,gpt-4o-search-preview,sonar-reasoning,2,0.184739351272583,0.184739351272583,0.4076303243637085
+14751,engaged,Guidance,['English'],model_a,gemini-2.0-flash,sonar-pro,3,0.3214997127652168,0.39434558153152466,0.4418815076351166
+14844,engaged,Recommendation,['English'],model_a,sonar-pro,sonar-reasoning,2,0.4960404634475708,0.4960404634475708,0.2519797682762146
+14845,frustrated,Explanation,['English'],model_b,gpt-4o-search-preview,sonar-pro,5,0.32535871118307114,0.3204517886042595,0.5133761167526245
+14889,engaged,Factual Lookup,['English'],model_a,sonar-reasoning-pro,gemini-2.0-flash,4,0.5270662506421407,0.2471298227707545,0.476644366979599
+14904,neutral,Guidance,['English'],model_b,sonar-reasoning,sonar-pro,2,0.1856127381324768,0.1856127381324768,0.4071936011314392
+14964,frustrated,Analysis,['Chinese'],model_a,gemini-2.0-flash,sonar-reasoning,3,0.5303263962268829,0.3666161447763443,0.34473487734794617
+15088,engaged,Text Processing,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.21790365874767303,0.21790365874767303,0.3910481333732605
+15089,frustrated,Creative Generation,['English'],model_a,sonar,sonar-pro,3,0.5152267664670944,0.27549733221530914,0.36251556873321533
+15139,engaged,Info Synthesis,['Vietnamese'],model_a,sonar-reasoning-pro,sonar-reasoning,2,0.5069791078567505,0.5069791078567505,0.24651044607162476
+15149,engaged,Explanation,['Vietnamese'],model_a,sonar-pro,gpt-4o-search-preview,2,0.6762567162513733,0.6762567162513733,0.16187159717082977
+15169,engaged,Creative Generation,['English'],model_b,gpt-4o-search-preview,sonar-pro,3,0.2178175076842308,0.45488281548023224,0.43772217631340027
+15170,frustrated,Info Synthesis,['English'],model_a,sonar-pro,gemini-2.0-flash,2,0.09263725578784943,0.09263725578784943,0.4536813497543335
+15181,engaged,Analysis,"['Indonesian', 'Malay']",model_a,sonar-reasoning,sonar,2,0.3031885623931885,0.3031885623931885,0.34840571880340576
+15207,frustrated,Info Synthesis,['French'],model_a,gemini-2.0-flash,gpt-4o-search-preview,2,0.20887190103530884,0.20887190103530884,0.3955640494823456
+15221,frustrated,Creative Generation,['English'],model_b,gpt-4o-mini-search-preview,sonar,2,0.39787817001342773,0.39787817001342773,0.30106091499328613
+15329,neutral,Factual Lookup,['Czech'],model_b,sonar,sonar-reasoning-pro,2,0.18458141386508942,0.18458141386508942,0.4077093005180359
+15394,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,sonar-pro,2,0.49086493253707886,0.49086493253707886,0.25456756353378296
+15401,frustrated,Guidance,['English'],model_b,gemini-2.0-flash,sonar-reasoning,2,0.4352676272392273,0.4352676272392273,0.28236621618270874
+15434,frustrated,Creative Generation,['English'],model_b,gemini-2.0-flash,sonar-pro,3,0.20578567683696747,0.35992531478405,0.44912460446357727
+15456,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.6020140647888184,0.6020140647888184,0.19899290800094604
+15483,frustrated,Info Synthesis,['German'],model_b,sonar-pro,sonar-pro,2,0.18321698904037476,0.18321698904037476,0.4083915054798126
+15487,engaged,Info Synthesis,"['Chinese', 'Italian']",model_a,gpt-4o-search-preview,sonar-reasoning-pro,4,0.2785084620118141,0.40648438533147174,0.5334014892578125
+15508,frustrated,Other,"['English', 'Hungarian']",model_a,sonar-reasoning,gemini-2.0-flash,2,0.6860634088516235,0.6860634088516235,0.15696832537651062
+15522,engaged,Guidance,['Russian'],model_a,gemini-2.0-flash,gpt-4o-search-preview,5,0.33475589007139206,0.22221829555928707,0.5683938264846802
+15578,engaged,Factual Lookup,['English'],model_a,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.7170733213424683,0.7170733213424683,0.14146333932876587
+15599,neutral,Info Synthesis,['Korean'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,4,0.5237757960955302,0.6445205211639404,0.2912592887878418
+15604,neutral,Other,"['English', 'Cebuano']",model_a,sonar-reasoning,gpt-4o-search-preview,2,0.3500279188156128,0.3500279188156128,0.32498598098754883
+15606,frustrated,Other,['English'],model_a,sonar-reasoning,gemini-2.5-pro-exp-03-25,39,0.3459976788512186,0.25387340058621605,0.7297471165657043
+15655,engaged,Analysis,['English'],model_b,gemini-2.0-flash,gpt-4o-search-preview,4,0.46491212646166485,0.4060741464296977,0.449798047542572
+15657,engaged,Factual Lookup,['English'],model_a,sonar-reasoning-pro,sonar-pro,2,0.3605375289916992,0.3605375289916992,0.3197311758995056
+15666,neutral,Analysis,['Korean'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,4,0.31299880643685657,0.3694853037595749,0.47236737608909607
+15699,engaged,Info Synthesis,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.3066689968109131,0.3066689968109131,0.34666556119918823
+15727,engaged,Info Synthesis,['Russian'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.7367627024650574,0.7367627024650574,0.1316186487674713
+15766,engaged,Recommendation,['Russian'],model_a,sonar-reasoning-pro,sonar-pro,2,0.14034153521060944,0.14034153521060944,0.4298292100429535
+15769,engaged,Factual Lookup,['English'],model_b,sonar-pro,gpt-4o-search-preview,2,0.5296906232833862,0.5296906232833862,0.23515473306179047
+15791,engaged,Creative Generation,['Russian'],model_a,sonar-pro,gpt-4o-mini-search-preview,9,0.3358442895114422,0.29254158958792686,0.575486421585083
+15828,engaged,Info Synthesis,['English'],model_a,sonar-pro,gpt-4o-search-preview,4,0.3778440902630488,0.1019410000493129,0.48592257499694824
+15829,engaged,Info Synthesis,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.33491450548171997,0.33491450548171997,0.3325427770614624
+15833,engaged,Other,['Vietnamese'],model_b,gemini-2.0-flash,sonar-pro,2,-0.10369402170181274,-0.10369402170181274,0.551846981048584
+15899,engaged,Guidance,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.11331874877214432,0.11331874877214432,0.44334059953689575
+15942,frustrated,Explanation,['German'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.9999998807907104,0.9999998807907104,0.0
+15967,engaged,Recommendation,['English'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.3767942190170288,0.3767942190170288,0.3116028904914856
+16044,engaged,Explanation,['English'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.3182132840156555,0.3182132840156555,0.34089332818984985
+16045,engaged,Info Synthesis,['Russian'],model_a,gemini-2.0-flash,sonar-reasoning,2,0.30796951055526733,0.30796951055526733,0.3460152745246887
+16077,engaged,Analysis,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.3683396875858307,0.4604903757572174,0.3946349620819092
+16255,neutral,Other,['English'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.3948463201522827,0.3948463201522827,0.30257678031921387
+16279,frustrated,Recommendation,['English'],model_a,sonar,gpt-4o-search-preview,3,0.4769143909215927,0.4928572326898575,0.3281874358654022
+16305,engaged,Explanation,['Russian'],model_b,gpt-4o-search-preview,sonar-reasoning,6,0.23509378135204315,0.202965965308249,0.6410931944847107
+16362,neutral,Other,['French'],model_a,sonar,gemini-2.5-pro-exp-03-25,2,-0.015335142612457275,-0.015335142612457275,0.5076675415039062
+16388,engaged,Explanation,['English'],model_b,sonar-pro,sonar-reasoning,2,0.2536136507987976,0.2536136507987976,0.3731931746006012
+16510,frustrated,Guidance,['English'],model_b,gpt-4o-mini-search-preview,sonar,2,0.32256871461868286,0.32256871461868286,0.3387156128883362
+16529,engaged,Explanation,['English'],model_b,gemini-2.0-flash,gpt-4o-search-preview,9,0.29465857800096273,0.31841625086963177,0.6307108998298645
+16538,frustrated,Info Synthesis,['German'],model_b,gpt-4o-search-preview,gemini-2.0-flash,2,1.000000238418579,1.000000238418579,0.0
+16674,neutral,Info Synthesis,['English'],model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,2,0.7480112314224243,0.7480112314224243,0.12599441409111023
+16767,neutral,Factual Lookup,['Russian'],model_b,gpt-4o-search-preview,sonar-reasoning,2,0.06358735263347626,0.06358735263347626,0.4682062864303589
+16823,engaged,Info Synthesis,['Spanish'],model_a,sonar,gemini-2.5-flash-preview-04-17,2,0.38856446743011475,0.38856446743011475,0.30571773648262024
+16833,engaged,Analysis,['Spanish'],model_a,sonar,gpt-4o-search-preview,2,0.2508171796798706,0.2508171796798706,0.3745914101600647
+16856,frustrated,Info Synthesis,['English'],model_b,gemini-2.0-flash,sonar-pro,2,0.99235999584198,0.99235999584198,0.0038200016133487225
+16876,engaged,Guidance,"['Portuguese', 'English']",model_b,sonar,gpt-4o-search-preview,2,0.020644336938858032,0.020644336938858032,0.48967787623405457
+16885,engaged,Analysis,['English'],model_a,sonar-pro,sonar,2,0.3503214120864868,0.3503214120864868,0.324839323759079
+16972,engaged,Guidance,['English'],model_a,sonar-pro,gpt-4o-mini-search-preview,2,0.2571820616722107,0.2571820616722107,0.37140899896621704
+16981,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.5217002034187317,0.5217002034187317,0.23914989829063416
+16993,engaged,Recommendation,['English'],model_b,sonar-pro,gemini-2.0-flash,2,0.11718731373548508,0.11718731373548508,0.4414063096046448
+17000,neutral,Factual Lookup,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.8133638501167297,0.8133638501167297,0.09331813454627991
+17009,engaged,Creative Generation,['Chinese'],model_a,sonar-reasoning,gemini-2.5-flash-preview-04-17,3,0.5113377273082733,0.4668828099966049,0.353163480758667
+17032,engaged,Recommendation,['Polish'],model_a,sonar,gpt-4o-search-preview,4,0.3674972156683604,0.21673056483268738,0.5224472284317017
+17045,engaged,Factual Lookup,['English'],model_b,gemini-2.0-flash,sonar-pro,3,0.46148450672626495,0.29809190332889557,0.40084338188171387
+17089,engaged,Other,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,3,0.6613852083683014,0.6536156535148621,0.2506086528301239
+17106,frustrated,Info Synthesis,"['English', 'Italian']",model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.1563727855682373,0.1563727855682373,0.42181360721588135
+17127,engaged,Info Synthesis,['English'],model_a,sonar-pro,gpt-4o-search-preview,3,0.46751707792282104,0.4924299120903015,0.3426865339279175
+17136,engaged,Guidance,['Japanese'],model_b,sonar-reasoning-pro,sonar-pro,6,0.38763447403907775,0.2865885555744171,0.5512174963951111
+17273,frustrated,Info Synthesis,['English'],model_b,gemini-2.5-pro-exp-03-25,gemini-2.0-flash,5,0.44291604310274124,0.48508570343255997,0.4619669020175934
+17340,engaged,Info Synthesis,['Swedish'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.2860383987426758,0.2860383987426758,0.3569808006286621
+17353,frustrated,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-pro,4,0.6293114622433981,0.5704677502314249,0.2979919910430908
+17380,frustrated,Recommendation,['German'],model_b,sonar-reasoning,sonar-pro,2,0.5808349847793579,0.5808349847793579,0.20958250761032104
+17400,engaged,Factual Lookup,['German'],model_a,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.6310460567474365,0.6310460567474365,0.1844770312309265
+17431,engaged,Info Synthesis,['English'],model_b,sonar,gpt-4o-search-preview,3,0.3838317394256592,0.3267960697412491,0.4011952579021454
+17463,neutral,Explanation,['English'],model_b,sonar-reasoning,sonar-reasoning-pro,2,0.4330342710018158,0.4330342710018158,0.2834828495979309
+17549,frustrated,Analysis,['English'],model_b,sonar-pro,gpt-4o-search-preview,3,0.32141995429992676,0.26641538739204407,0.46741506457328796
+17648,frustrated,Explanation,"['Chinese', 'Portuguese', 'French']",model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,3,0.5417376048862934,0.08347520977258682,0.40734434127807617
+17669,neutral,Info Synthesis,['Korean'],model_b,gemini-2.0-flash,sonar,3,0.34826673567295074,0.38719893246889114,0.47890686988830566
+17705,frustrated,Other,['English'],model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-flash-preview-04-17,2,0.9145995378494263,0.9145995378494263,0.042700186371803284
+17773,engaged,Recommendation,['English'],model_a,sonar-reasoning,gemini-2.5-pro-exp-03-25,2,0.37730586528778076,0.37730586528778076,0.3113470673561096
+17789,engaged,Info Synthesis,"['German', 'English']",model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.08566421270370483,0.08566421270370483,0.4571678936481476
+17798,engaged,Info Synthesis,"['German', 'English']",model_b,sonar-reasoning,gemini-2.5-pro-exp-03-25,3,0.37603120505809784,0.3714314252138138,0.439828485250473
+17808,engaged,Info Synthesis,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.170009583234787,0.3597980886697769,0.46695268154144287
+17814,frustrated,Recommendation,['English'],model_b,gpt-4o-search-preview,gpt-4o-mini-search-preview,3,0.25384199619293213,0.40802423655986786,0.45181453227996826
+17888,neutral,Analysis,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.10858771204948425,0.10858771204948425,0.4457061290740967
+17916,engaged,Analysis,['English'],model_a,gemini-2.5-flash-preview-04-17,sonar-pro,2,0.4343487322330475,0.4343487322330475,0.2828255891799927
+18146,engaged,Recommendation,['Vietnamese'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.6274755001068115,0.6274755001068115,0.18626224994659424
+18157,engaged,Info Synthesis,['Vietnamese'],model_b,sonar-pro,gemini-2.5-pro-exp-03-25,6,0.3325234353542328,0.29999624490737914,0.5531542897224426
+18188,frustrated,Factual Lookup,['Russian'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.9590779542922974,0.9590779542922974,0.02046101912856102
+18223,engaged,Recommendation,['English'],model_a,gemini-2.5-flash-preview-04-17,sonar-reasoning,2,0.24339595437049866,0.24339595437049866,0.37830203771591187
+18263,engaged,Explanation,['German'],model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-flash-preview-04-17,2,0.6658022999763489,0.6658022999763489,0.16709883511066437
+18280,engaged,Guidance,['Russian'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.5402117371559143,0.5402117371559143,0.22989416122436523
+18328,engaged,Guidance,['German'],model_b,gemini-2.5-pro-exp-03-25,gemini-2.5-pro-exp-03-25,2,0.458932101726532,0.458932101726532,0.2705339789390564
+18335,neutral,Info Synthesis,['English'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,-0.014569779857993126,-0.014569779857993126,0.5072848796844482
+18344,engaged,Factual Lookup,['Japanese'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning,4,0.3219996939102809,0.37959374487400055,0.4978615939617157
+18352,neutral,Other,"['Persian', 'Arabic']",model_a,gpt-4o-search-preview,gpt-4o-mini-search-preview,2,0.38301998376846313,0.38301998376846313,0.30849000811576843
+18399,engaged,Info Synthesis,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.3710014224052429,0.3710014224052429,0.3144993185997009
+18400,engaged,Explanation,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.22805571556091309,0.22805571556091309,0.38597214221954346
+18401,engaged,Factual Lookup,['English'],model_a,sonar-reasoning-pro,sonar-pro,3,0.560505598783493,0.36413833498954773,0.344956636428833
+18483,engaged,Analysis,['English'],model_b,sonar-pro,sonar-pro,2,0.2221888154745102,0.2221888154745102,0.3889056146144867
+18517,engaged,Creative Generation,['English'],model_a,gpt-4o-search-preview,sonar-reasoning,2,0.849967360496521,0.849967360496521,0.0750163197517395
+18524,engaged,Guidance,['English'],model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-pro-exp-03-25,2,0.2490176558494568,0.2490176558494568,0.3754911422729492
+18566,frustrated,Guidance,['English'],model_b,sonar-reasoning-pro,sonar-pro,2,0.5217177867889404,0.5217177867889404,0.23914110660552979
+18574,frustrated,Text Processing,['German'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning,2,0.9456440210342407,0.9456440210342407,0.027178002521395683
+18604,frustrated,Explanation,['German'],model_b,gpt-4o-search-preview,sonar,3,0.4449567198753357,0.3090677112340927,0.41198715567588806
+18638,frustrated,Explanation,['Chinese'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,2,0.5847945213317871,0.5847945213317871,0.20760273933410645
+18680,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,sonar,6,0.15850079506635667,0.2668306827545166,0.6385107636451721
+18693,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,sonar-reasoning,3,0.2899804338812828,0.4003399610519409,0.44193482398986816
+18701,engaged,Info Synthesis,['Spanish'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,5,0.5013637617230415,0.47628120332956314,0.43498992919921875
+18713,engaged,Info Synthesis,['Chinese'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.651640772819519,0.651640772819519,0.17417965829372406
+18739,engaged,Guidance,['English'],model_b,sonar-pro,sonar-reasoning,2,0.2322666347026825,0.2322666347026825,0.38386669754981995
+18842,engaged,Factual Lookup,"['English', 'Spanish']",model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,3,0.14238269859924912,0.011236234102398157,0.596634030342102
+18981,engaged,Explanation,['Polish'],model_b,gpt-4o-search-preview,gpt-4o-mini-search-preview,3,0.4385135769844055,0.5408573150634766,0.30999618768692017
+19020,engaged,Recommendation,['English'],model_b,gemini-2.0-flash,sonar-pro,4,0.35360700885454815,0.21952497710784277,0.5253231525421143
+19025,engaged,Guidance,['Thai'],model_b,sonar,sonar-reasoning-pro,2,0.7361900806427002,0.7361900806427002,0.1319049894809723
+19082,engaged,Analysis,['Russian'],model_b,gemini-2.5-flash-preview-04-17,sonar-reasoning-pro,4,0.38862056533495587,0.5091516276200613,0.4502965211868286
+19147,engaged,Analysis,['English'],model_a,sonar,gpt-4o-search-preview,4,0.4247860511144002,0.3508887489636739,0.4810635447502136
+19150,engaged,Analysis,['English'],model_b,gemini-2.5-flash-preview-04-17,sonar,5,0.4121912270784378,0.415884368121624,0.5109342336654663
+19155,engaged,Factual Lookup,['English'],model_b,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.5457149744033813,0.5457149744033813,0.22714251279830933
+19190,engaged,Explanation,['English'],model_a,sonar-pro,gpt-4o-search-preview,3,0.27892298996448517,0.37833791971206665,0.45043516159057617
+19214,engaged,Explanation,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.5767277479171753,0.5767277479171753,0.21163614094257355
+19280,neutral,Factual Lookup,['Czech'],model_a,gemini-2.5-flash-preview-04-17,sonar-reasoning-pro,2,0.0600116141140461,0.0600116141140461,0.4699941873550415
+19353,frustrated,Factual Lookup,['English'],model_a,sonar,sonar-pro,2,0.9879264831542969,0.9879264831542969,0.006036747246980667
+19410,engaged,Analysis,['English'],model_b,gemini-2.5-flash-preview-04-17,sonar-pro,3,0.5588347613811493,0.4662436544895172,0.30787429213523865
+19417,frustrated,Analysis,['English'],model_b,sonar,gemini-2.5-pro-exp-03-25,10,0.34614412983258563,0.35497233933872646,0.6316877603530884
+19418,frustrated,Recommendation,['English'],model_b,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,7,0.2521866684158643,0.21841339642802873,0.6440378427505493
+19459,engaged,Analysis,['English'],model_a,sonar-reasoning,gpt-4o-search-preview,2,0.48156070709228516,0.48156070709228516,0.2592196464538574
+19467,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,sonar-reasoning-pro,2,0.5168978571891785,0.5168978571891785,0.24155105650424957
+19478,neutral,Explanation,['Czech'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.1952483206987381,0.1952483206987381,0.40237587690353394
+19567,frustrated,Explanation,['English'],model_b,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,2,0.3401776850223541,0.3401776850223541,0.32991114258766174
+19600,neutral,Guidance,['Persian'],model_a,gemini-2.0-flash,gemini-2.5-pro-exp-03-25,4,0.3626774350802104,0.29520489772160846,0.5128202438354492
+19647,engaged,Recommendation,['Arabic'],model_b,sonar,gemini-2.5-flash-preview-04-17,3,0.7383425235748291,0.7492064833641052,0.16963057219982147
+19655,engaged,Factual Lookup,['Ukrainian'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.05601884424686432,0.05601884424686432,0.47199052572250366
+19665,engaged,Explanation,['English'],model_a,sonar-reasoning,gpt-4o-mini-search-preview,2,0.3417512774467468,0.3417512774467468,0.3291243314743042
+19731,engaged,Factual Lookup,['Chinese'],model_a,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,3,0.3920482248067856,0.3098122328519821,0.4319959580898285
+19745,engaged,Factual Lookup,"['English', 'French']",model_a,gemini-2.5-flash-preview-04-17,gpt-4o-mini-search-preview,2,0.6492189168930054,0.6492189168930054,0.17539054155349731
+19773,engaged,Analysis,['English'],model_b,sonar,sonar-reasoning,4,0.31965046127637226,0.13108985622723898,0.5796627998352051
+19780,engaged,Info Synthesis,"['Indonesian', 'Malay']",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.24174155294895172,0.4061249941587448,0.4140310287475586
+19829,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,sonar-pro,3,0.5005135610699654,0.2901678904891014,0.3617137670516968
+19832,engaged,Analysis,['English'],model_a,gpt-4o-search-preview,gemini-2.0-flash,2,0.18607574701309204,0.18607574701309204,0.40696215629577637
+19837,engaged,Guidance,['English'],model_b,sonar,sonar-reasoning-pro,2,0.09578880667686462,0.09578880667686462,0.4521055817604065
+19869,engaged,Info Synthesis,['English'],model_a,sonar-pro,sonar-reasoning-pro,8,0.3628751380102975,0.1230522697525365,0.7561179399490356
+19910,engaged,Creative Generation,['Russian'],model_b,sonar-pro,gemini-2.5-flash-preview-04-17,4,0.6055818299452463,0.48039331038792926,0.3498608469963074
+19914,engaged,Info Synthesis,['English'],model_b,sonar-pro,gemini-2.5-flash-preview-04-17,7,0.5479483405749003,0.5667096922794977,0.42313122749328613
+19991,engaged,Info Synthesis,['English'],model_b,sonar,sonar-pro,2,0.6519773006439209,0.6519773006439209,0.17401134967803955
+20004,engaged,Info Synthesis,['English'],model_b,gpt-4o-mini-search-preview,gemini-2.0-flash,2,0.46363598108291626,0.46363598108291626,0.26818200945854187
+20029,engaged,Guidance,['Spanish'],model_b,sonar,sonar,2,0.30766308307647705,0.30766308307647705,0.3461684584617615
+20031,engaged,Analysis,['English'],model_a,sonar-pro,sonar-pro,2,0.6637477874755859,0.6637477874755859,0.16812613606452942
+20034,engaged,Guidance,['Russian'],model_b,sonar-reasoning,gemini-2.5-flash-preview-04-17,2,0.29254424571990967,0.29254424571990967,0.35372787714004517
+20050,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,3,0.6359013617038727,0.6203403472900391,0.2828119993209839
+20051,frustrated,Analysis,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,3,0.39513877034187317,0.40762394666671753,0.39406195282936096
+20053,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,2,0.3339430093765259,0.3339430093765259,0.33302849531173706
+20091,engaged,Explanation,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.2156272828578949,0.37574176490306854,0.4326331615447998
+20110,neutral,Other,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar,2,0.23018383979797363,0.23018383979797363,0.3849080801010132
+20138,neutral,Other,"['Japanese', 'English']",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.22685495018959045,0.22685495018959045,0.38657253980636597
+20150,frustrated,Factual Lookup,['English'],model_b,gemini-2.0-flash,sonar-reasoning-pro,3,0.36685724556446075,0.33244656026363373,0.40011584758758545
+20163,engaged,Factual Lookup,['English'],model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-pro-exp-03-25,3,0.39418087154626846,0.16617000102996826,0.4715857207775116
+20214,frustrated,Info Synthesis,['Russian'],model_b,gpt-4o-search-preview,sonar-pro,5,0.33688541501760483,0.3118065595626831,0.5141759514808655
+20246,frustrated,Explanation,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.1002049446105957,0.1002049446105957,0.44989752769470215
+20362,engaged,Recommendation,['English'],model_b,gemini-2.0-flash,sonar-pro,2,0.29899847507476807,0.29899847507476807,0.35050076246261597
+20379,frustrated,Factual Lookup,['Spanish'],model_b,sonar-reasoning,gemini-2.5-flash-preview-04-17,4,0.680437167485555,0.6920723716417948,0.2994370460510254
+20381,engaged,Info Synthesis,['English'],model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.34339576959609985,0.4889619052410126,0.3635225296020508
+20387,engaged,Factual Lookup,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.3142530918121338,0.3142530918121338,0.3428734540939331
+20524,frustrated,Analysis,['English'],model_a,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,2,0.5845028758049011,0.5845028758049011,0.20774853229522705
+20543,frustrated,Factual Lookup,['English'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.7334163784980774,0.7334163784980774,0.1332918405532837
+20579,neutral,Info Synthesis,['English'],model_b,sonar,sonar-pro,2,0.1383238285779953,0.1383238285779953,0.43083810806274414
+20710,engaged,Guidance,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar,4,0.38799644509951275,0.3226086099942525,0.48890021443367004
+20782,engaged,Info Synthesis,['English'],model_a,sonar-pro,sonar-pro,5,0.5135691165924072,0.31809623539447784,0.4453921914100647
+20820,engaged,Factual Lookup,['Italian'],model_a,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.33823472261428833,0.33823472261428833,0.33088257908821106
+20838,frustrated,Guidance,['English'],model_b,sonar,gemini-2.5-flash-preview-04-17,3,0.4081065207719803,0.16908907890319824,0.4472919702529907
+20987,frustrated,Factual Lookup,['Spanish'],model_a,sonar-pro,gpt-4o-mini-search-preview,3,0.4668872654438019,0.35557933151721954,0.393404096364975
+21050,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,sonar-pro,10,0.6624010768201616,0.6865071455637614,0.31672972440719604
+21134,engaged,Analysis,['English'],model_b,sonar,sonar-reasoning,2,0.3018391728401184,0.3018391728401184,0.3490804135799408
+21144,neutral,Factual Lookup,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.3015487790107727,0.3015487790107727,0.3492256999015808
+21171,engaged,Factual Lookup,"['French', 'English']",model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.6355910301208496,0.6355910301208496,0.1822044551372528
+21206,neutral,Recommendation,['Polish'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-mini-search-preview,2,0.13330543041229248,0.13330543041229248,0.43334728479385376
+21272,neutral,Info Synthesis,"['German', 'Asturian']",model_a,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.3361828625202179,0.3361828625202179,0.33190858364105225
+21300,neutral,Recommendation,['English'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.03911060094833374,0.03911060094833374,0.4804447293281555
+21301,frustrated,Other,['English'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,4,0.37445370356241864,0.26470930377642315,0.5149664878845215
+21337,engaged,Recommendation,['English'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.6403030157089233,0.6403030157089233,0.17984844744205475
+21403,engaged,Creative Generation,['Korean'],model_b,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.4890754222869873,0.4890754222869873,0.2554623484611511
+21425,engaged,Analysis,['English'],model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,2,0.12483517825603485,0.12483517825603485,0.4375823736190796
+21435,engaged,Recommendation,['Russian'],model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,5,0.3721192330121994,0.059561317786574364,0.5979892611503601
+21456,engaged,Analysis,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,3,0.40740375220775604,0.44384606182575226,0.4133637845516205
+21469,engaged,Factual Lookup,"['Portuguese', 'Galician']",model_b,sonar-reasoning-pro,gemini-2.5-pro-exp-03-25,2,0.4816140830516815,0.4816140830516815,0.25919291377067566
+21490,frustrated,Creative Generation,['English'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,3,0.16833893954753876,0.5640707686543465,0.3789229094982147
+21663,engaged,Guidance,['Chinese'],model_b,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,2,0.2556501626968384,0.2556501626968384,0.3721749186515808
+21713,engaged,Guidance,['English'],model_b,gemini-2.5-flash-preview-04-17,sonar-pro,3,0.43372389674186707,0.5986605286598206,0.33525845408439636
+21798,engaged,Analysis,['English'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.3147635757923126,0.3147635757923126,0.3426181674003601
+21927,frustrated,Text Processing,['Chinese'],model_a,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,6,0.46924192309379575,0.3616450160741806,0.5540817379951477
+21957,engaged,Recommendation,['Romanian'],model_a,gemini-2.5-pro-exp-03-25,gemini-2.5-pro-exp-03-25,2,0.2153693437576294,0.2153693437576294,0.3923152983188629
+21969,engaged,Guidance,['Chinese'],model_a,gemini-2.5-pro-exp-03-25,sonar-pro,2,0.16628792881965637,0.16628792881965637,0.416856050491333
+22090,engaged,Recommendation,['Spanish'],model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-flash-preview-04-17,5,0.42683279886841774,0.43651410285383463,0.5207589864730835
+22122,neutral,Recommendation,['English'],model_b,gemini-2.5-pro-exp-03-25,sonar-reasoning-pro,2,0.048912517726421356,0.048912517726421356,0.475543737411499
+22149,neutral,Guidance,"['Czech', 'English']",model_a,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,4,0.21292028948664665,-0.025728172312180202,0.6468992233276367
+22231,neutral,Creative Generation,['English'],model_b,sonar-pro,gemini-2.5-pro-exp-03-25,2,0.18775594234466553,0.18775594234466553,0.40612202882766724
+22246,neutral,Creative Generation,['English'],model_a,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,2,0.13818824291229248,0.13818824291229248,0.430905818939209
+22278,engaged,Recommendation,['Portuguese'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,3,0.3106886027380824,0.4781567305326462,0.4560382068157196
+22336,engaged,Factual Lookup,['English'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,2,0.07561853528022766,0.07561853528022766,0.46219074726104736
+22478,engaged,Creative Generation,['English'],model_a,sonar-pro,gpt-4o-search-preview,6,0.9169694781303406,0.9000035524368286,0.07609409838914871
+22507,frustrated,Factual Lookup,['German'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,3,0.47230514883995056,0.4048767536878586,0.3612021505832672
+22537,engaged,Guidance,['English'],model_a,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,3,0.41201192140579224,0.3323759287595749,0.41160425543785095
+22539,engaged,Analysis,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,3,0.4105740934610367,0.476107656955719,0.37362757325172424
+22588,frustrated,Explanation,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.6810209155082703,0.6810209155082703,0.15948951244354248
+22654,frustrated,Text Processing,"['Spanish', 'English']",model_b,sonar-reasoning-pro,gpt-4o-search-preview,2,0.10375390946865082,0.10375390946865082,0.4481230080127716
+22661,frustrated,Text Processing,['Spanish'],model_b,gemini-2.5-pro-exp-03-25,gpt-4o-search-preview,3,0.22925128042697906,0.2063768208026886,0.5443153381347656
+22738,engaged,Guidance,['English'],model_a,sonar-reasoning-pro,sonar-pro,3,0.2704295441508293,0.22939922101795673,0.5435675978660583
+22747,frustrated,Recommendation,['English'],model_a,sonar-pro,sonar-reasoning-pro,2,0.5232506990432739,0.5232506990432739,0.23837462067604065
+22748,frustrated,Info Synthesis,['English'],model_a,gpt-4o-search-preview,gemini-2.5-pro-exp-03-25,2,0.5357600450515747,0.5357600450515747,0.23211997747421265
+22770,engaged,Analysis,['Chinese'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.23574742674827576,0.23574742674827576,0.3821263015270233
+22776,engaged,Creative Generation,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.5413522124290466,0.5413522124290466,0.22932392358779907
+22839,frustrated,Factual Lookup,['German'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,2,0.20607009530067444,0.20607009530067444,0.396964967250824
+22902,engaged,Guidance,['English'],model_b,sonar-pro,sonar-pro,6,0.391722134873271,0.24355430006980897,0.6307650208473206
+22927,neutral,Info Synthesis,['German'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.407901406288147,0.407901406288147,0.29604923725128174
+23018,engaged,Creative Generation,['Russian'],model_a,sonar-pro,gemini-2.5-flash-preview-04-17,5,0.5997065305709839,0.632785975933075,0.3834467828273773
+23132,engaged,Explanation,['Japanese'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,4,0.40564119815826416,0.42164737979571026,0.44306424260139465
+23146,neutral,Factual Lookup,['English'],model_b,sonar-reasoning-pro,gpt-4o-search-preview,4,0.22503588100274405,0.23183340827624002,0.5842114686965942
+23147,frustrated,Factual Lookup,['English'],model_b,sonar-reasoning-pro,sonar-reasoning-pro,4,0.6608710090319315,0.5767943263053894,0.3033645749092102
+23264,engaged,Info Synthesis,['English'],model_b,gpt-4o-search-preview,sonar-pro,2,0.41924694180488586,0.41924694180488586,0.2903764843940735
+23309,neutral,Recommendation,['Polish'],model_b,sonar-pro,gpt-4o-search-preview,3,0.18644247949123383,0.08920487761497498,0.5478107333183289
+23316,frustrated,Factual Lookup,['Portuguese'],model_b,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,2,0.4010806679725647,0.4010806679725647,0.29945963621139526
+23399,engaged,Factual Lookup,['English'],model_a,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.3702026307582855,0.3702026307582855,0.3148987293243408
+23400,frustrated,Factual Lookup,['English'],model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,2,0.29157334566116333,0.29157334566116333,0.3542133569717407
+23409,frustrated,Creative Generation,['German'],model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,19,0.38629552846153575,0.32926453308512765,0.6607565879821777
+23427,frustrated,Analysis,['English'],model_a,sonar-pro,gpt-4o-search-preview,2,0.3905900716781616,0.3905900716781616,0.3047049641609192
+23431,neutral,Factual Lookup,['English'],model_b,gemini-2.5-flash-preview-04-17,sonar-pro,2,0.15236136317253113,0.15236136317253113,0.42381930351257324
+23434,engaged,Recommendation,['Russian'],model_b,gpt-4o-search-preview,sonar-pro,10,0.4306865922278828,0.12616235266129175,0.5733271837234497
+23449,engaged,Info Synthesis,['English'],model_b,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.8189160227775574,0.8189160227775574,0.0905420109629631
+23467,frustrated,Factual Lookup,['English'],model_b,gemini-2.5-flash-preview-04-17,gemini-2.5-flash-preview-04-17,4,0.31693756580352783,0.29894917209943134,0.5479228496551514
+23538,engaged,Info Synthesis,['Chinese'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.6015398502349854,0.6015398502349854,0.19923004508018494
+23543,frustrated,Info Synthesis,['Chinese'],model_b,gpt-4o-search-preview,gpt-4o-search-preview,2,0.27727895975112915,0.27727895975112915,0.3613605499267578
+23594,engaged,Explanation,['Portuguese'],model_b,sonar-pro,sonar-pro,2,0.5828043818473816,0.5828043818473816,0.2085978090763092
+23657,engaged,Info Synthesis,['English'],model_a,sonar-reasoning-pro,sonar-reasoning-pro,4,0.6354387601216634,0.41009704271952313,0.3204631209373474
+23670,frustrated,Guidance,['English'],model_a,gpt-4o-search-preview,sonar-reasoning-pro,2,0.556361973285675,0.556361973285675,0.22181901335716248
+23730,neutral,Creative Generation,['English'],model_a,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.12942776083946228,0.12942776083946228,0.43528610467910767
+23731,neutral,Creative Generation,['English'],model_a,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,2,0.1743151992559433,0.1743151992559433,0.41284239292144775
+23755,engaged,Info Synthesis,['English'],model_a,sonar-pro,gemini-2.5-flash-preview-04-17,6,0.4848456263542175,0.5425493836402893,0.4659919738769531
+23775,frustrated,Factual Lookup,['German'],model_b,sonar-reasoning-pro,gemini-2.5-flash-preview-04-17,2,0.16296470165252686,0.16296470165252686,0.4185176491737366
+23885,engaged,Info Synthesis,['Russian'],model_a,sonar-pro,gemini-2.5-flash-preview-04-17,2,0.12077240645885468,0.12077240645885468,0.43961381912231445
+23953,engaged,Guidance,['Russian'],model_a,gemini-2.5-flash-preview-04-17,gpt-4o-search-preview,2,0.49555322527885437,0.49555322527885437,0.252223402261734
+23967,engaged,Guidance,['English'],model_a,gpt-4o-search-preview,gpt-4o-search-preview,2,0.11069595813751221,0.11069595813751221,0.4446520209312439
+23987,engaged,Factual Lookup,['Polish'],model_a,sonar-reasoning-pro,gpt-4o-search-preview,2,0.42153751850128174,0.42153751850128174,0.28923121094703674
+24035,engaged,Info Synthesis,['English'],model_a,gemini-2.5-flash-preview-04-17,sonar-reasoning-pro,2,0.151012122631073,0.151012122631073,0.4244939684867859
+24064,engaged,Guidance,['English'],model_b,gpt-4o-search-preview,gemini-2.5-flash-preview-04-17,3,0.6930076777935028,0.6680024564266205,0.20301906764507294

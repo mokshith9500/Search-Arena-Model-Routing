@@ -1,0 +1,4 @@
+signal,outcome,group_a,group_b,p_a,p_b,diff,ci_lo,ci_hi,p,significant,n_a,n_b,zero_variance,correlation
+keyword_classifier,both_bad,frustrated,engaged,0.0,0.0,0.0,0.0,0.0,1.0,False,279,556.0,True,
+keyword_classifier,tie_good,frustrated,engaged,0.0,0.0,0.0,0.0,0.0,1.0,False,279,556.0,True,
+embedding_metric,both_bad_correlation,all_986,,0.0,,,,,,,986,,True,

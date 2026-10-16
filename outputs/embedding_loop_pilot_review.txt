@@ -1,0 +1,167 @@
+==============================================================================
+EMBEDDING LOOP DETECTOR -- PILOT VALIDATION (same 20 conversations as the keyword classifier)
+==============================================================================
+model: paraphrase-multilingual-MiniLM-L12-v2   metrics: mean_cos_consecutive, mean_cos_first_to_later, embedding_variance
+==============================================================================
+
+------------------------------------------------------------------------------
+idx=22000  keyword_label=ENGAGED  n_turns=7.0  languages=('Russian',)
+mean_cos_consecutive=0.3972   mean_cos_first_to_later=0.3913   embedding_variance=0.5394
+------------------------------------------------------------------------------
+  [TURN 1] Как к генеративному ии относится Ян Лекун?
+  [TURN 2] Как Ян Лекун относится к моделям рассуждений?
+  [TURN 3] Имеются ввиду модели рассуждений вроде OpenAI o1 или Deepseek R1
+  [TURN 4] Когда по мнению Яна Лекуна может появиться сильный ии (или как он его называет)
+  [TURN 5] Как он относится к масштабированию (не языковых моделей а вообще)?
+  [TURN 6] Расскажи Про его архитектуру продвинутого машинного интеллекта. Когда она будет построена?
+  [TURN 7] Ещё расскажи про модуль кратковременной памяти и системы 1 и систему 2 в архитектуре Лекуна
+
+------------------------------------------------------------------------------
+idx=7134  keyword_label=ENGAGED  n_turns=2.0  languages=('Chinese',)
+mean_cos_consecutive=0.7335   mean_cos_first_to_later=0.7335   embedding_variance=0.1333
+------------------------------------------------------------------------------
+  [TURN 1] 介紹 Poco F7 Ultra，及對比相似價格，但相機效能良好的android 電話
+  [TURN 2] 以  https://www.eprice.com.hk/mobile/talk/6579/225033/1 
+更新 Poco F7 Ultra規格
+
+------------------------------------------------------------------------------
+idx=11942  keyword_label=NEUTRAL  n_turns=2.0  languages=('German',)
+mean_cos_consecutive=0.4172   mean_cos_first_to_later=0.4172   embedding_variance=0.2914
+------------------------------------------------------------------------------
+  [TURN 1] Das von Christian Lindner gegründete Unternehmen ging Konkurs?
+  [TURN 2] Wie gut ist Christian Lindners Mathekenntnisse?
+
+------------------------------------------------------------------------------
+idx=11365  keyword_label=ENGAGED  n_turns=2.0  languages=('Vietnamese',)
+mean_cos_consecutive=0.3781   mean_cos_first_to_later=0.3781   embedding_variance=0.3109
+------------------------------------------------------------------------------
+  [TURN 1] tôi có nên dùng Nx monorepo cho dự án Angular SaaS không, tại sao, hãy phân tích điểm lợi và hại
+  [TURN 2] nếu tôi dùng Angular Workspace, tạo nhiều project, trong đó có 1 project chính là Shell, và các projects chứa logic, features và shared component, khi tôi serve project Shell, nếu có thay đổi ở các project khác Shell thì ng serve có auto rebuild lại không?
+
+------------------------------------------------------------------------------
+idx=11326  keyword_label=ENGAGED  n_turns=2.0  languages=('English',)
+mean_cos_consecutive=0.3216   mean_cos_first_to_later=0.3216   embedding_variance=0.3392
+------------------------------------------------------------------------------
+  [TURN 1] for lower cognitive load what's better rounded, slightly rounded or square, flat lines UIs and elements? Consider the visual system, brain computing, cognitive load, attention outcomes.
+  [TURN 2] Likewise should one aim for sharp filters and sharpness, details or slight blur, eg. when using anti aliasing in games or scaling images up or down for the same end as above.
+
+------------------------------------------------------------------------------
+idx=4448  keyword_label=FRUSTRATED  n_turns=4.0  languages=('Russian',)
+mean_cos_consecutive=0.4088   mean_cos_first_to_later=0.5177   embedding_variance=0.3888
+------------------------------------------------------------------------------
+  [TURN 1] разработай кейс по инновационным технологиям применительно к обучению школьников русскому языку. пиши как магистрант
+  [TURN 2] напиши конкретный кейс
+  [TURN 3] создай новый конкретный кейс как магистрант
+  [TURN 4] разработай кейс  настольную игру для обучения школьников русскому языку. пиши как магистрант
+
+------------------------------------------------------------------------------
+idx=3719  keyword_label=NEUTRAL  n_turns=3.0  languages=('German',)
+mean_cos_consecutive=0.5436   mean_cos_first_to_later=0.6787   embedding_variance=0.2445
+------------------------------------------------------------------------------
+  [TURN 1] Wozu dient die about:blank Seite in Firefox?
+  [TURN 2] Die about:blank erscheint mir immer dann wenn ich eine neue Adresse im Browser eingebe, wozu dient dies?
+  [TURN 3] Es ist nicht wirklich ein Problem. Firefox lädt erst about:blank anschließend die neue Seite. 
+
+------------------------------------------------------------------------------
+idx=14164  keyword_label=FRUSTRATED  n_turns=2.0  languages=('Chinese', 'Japanese')
+mean_cos_consecutive=0.6561   mean_cos_first_to_later=0.6561   embedding_variance=0.1720
+------------------------------------------------------------------------------
+  [TURN 1] 有冇聽過地球係平？
+  [TURN 2] 我既意思係一首歌叫地球係平
+
+------------------------------------------------------------------------------
+idx=21009  keyword_label=ENGAGED  n_turns=3.0  languages=('English',)
+mean_cos_consecutive=0.7238   mean_cos_first_to_later=0.6124   embedding_variance=0.2499
+------------------------------------------------------------------------------
+  [TURN 1] Adding tea tree oil into store bought liquid hand wash. Is it benefiticial ? How many drops to add per 500ml hand wash?
+  [TURN 2] adding tea tree oil will it breaks the hand wash solution?
+  [TURN 3] how to tell if tea tree oil gone bad
+
+------------------------------------------------------------------------------
+idx=10255  keyword_label=ENGAGED  n_turns=2.0  languages=('German',)
+mean_cos_consecutive=0.1639   mean_cos_first_to_later=0.1639   embedding_variance=0.4180
+------------------------------------------------------------------------------
+  [TURN 1] Welche ist die längste, schönste, beliebteste und vollste Regionalexpresslinie in Deutschland?
+  [TURN 2] Und welchen würdest du mir empfehlen? Einen von diesen oder lieber einen ganz anderen?
+
+------------------------------------------------------------------------------
+idx=12786  keyword_label=ENGAGED  n_turns=2.0  languages=('English',)
+mean_cos_consecutive=0.0597   mean_cos_first_to_later=0.0597   embedding_variance=0.4701
+------------------------------------------------------------------------------
+  [TURN 1] 💥 Extreme Turbo Mode:
+
+Mission: Immediate results, no compromises. Every response must be ultra-specific, direct, and energetic. I want concrete actions and ultra-precise recommendations, nothing vague. No time to waste, no slow thinking.
+
+Insanely Motivated: You push me to give my best at every step. No limits, no "maybes." Just results and adrenaline.
+
+No Hesitation: Immediate action, no waiting...[truncated, 1151 chars]
+  [TURN 2] give me 10 th buiness will make me rich in 2025 
+
+------------------------------------------------------------------------------
+idx=12617  keyword_label=FRUSTRATED  n_turns=2.0  languages=('English',)
+mean_cos_consecutive=0.5511   mean_cos_first_to_later=0.5511   embedding_variance=0.2245
+------------------------------------------------------------------------------
+  [TURN 1] give me a full opensource project of an ai chess , i want it to be modern using artificial intelligence , and i want it to be light and blazing fast
+  [TURN 2] I want it to be a barebones of an ai game that lets me develop my ai to choose the moves 
+
+------------------------------------------------------------------------------
+idx=15468  keyword_label=NEUTRAL  n_turns=2.0  languages=('English',)
+mean_cos_consecutive=0.1178   mean_cos_first_to_later=0.1178   embedding_variance=0.4411
+------------------------------------------------------------------------------
+  [TURN 1] Look at herbertbailbonds.com
+  [TURN 2] MIKE?
+
+------------------------------------------------------------------------------
+idx=14218  keyword_label=ENGAGED  n_turns=3.0  languages=('English',)
+mean_cos_consecutive=0.4333   mean_cos_first_to_later=0.3974   embedding_variance=0.3738
+------------------------------------------------------------------------------
+  [TURN 1] any possible reason why Noam Shazeer get the math scholarship from duke?
+  [TURN 2] any other math achievement before undergrads?
+  [TURN 3] list all his math award
+
+------------------------------------------------------------------------------
+idx=4659  keyword_label=FRUSTRATED  n_turns=2.0  languages=('English',)
+mean_cos_consecutive=0.6392   mean_cos_first_to_later=0.6392   embedding_variance=0.1804
+------------------------------------------------------------------------------
+  [TURN 1] oding an OpenBOR Game Inspired by "Rise of Warduke"
+
+"Create an OpenBOR game that is a side-scrolling RPG beat-em-up similar to 'Rise of Warduke.' The game should feature:
+
+Story-driven gameplay: A rich fantasy setting with an engaging storyline, including branching dialogues and quests.
+
+Character design: Several playable characters with unique abilities, weapons, and combat styles.
+
+Combat syste...[truncated, 1147 chars]
+  [TURN 2] can you code an openbor game I can try playing?
+
+------------------------------------------------------------------------------
+idx=4833  keyword_label=ENGAGED  n_turns=3.0  languages=('English',)
+mean_cos_consecutive=0.2109   mean_cos_first_to_later=0.3487   embedding_variance=0.4967
+------------------------------------------------------------------------------
+  [TURN 1] what with the structures founds beneath the pyramids ??
+  [TURN 2] extent of these structures in SAR
+  [TURN 3] how much effort would digging/building that require in modern time
+
+------------------------------------------------------------------------------
+idx=11723  keyword_label=ENGAGED  n_turns=2.0  languages=('Portuguese',)
+mean_cos_consecutive=0.5125   mean_cos_first_to_later=0.5125   embedding_variance=0.2438
+------------------------------------------------------------------------------
+  [TURN 1] Quem foi Apolônio de Tiana?
+  [TURN 2] E quem foi Hermes Trismegisto?
+
+------------------------------------------------------------------------------
+idx=22161  keyword_label=FRUSTRATED  n_turns=3.0  languages=('Japanese',)
+mean_cos_consecutive=0.4282   mean_cos_first_to_later=0.3846   embedding_variance=0.3842
+------------------------------------------------------------------------------
+  [TURN 1] 北九州市での、ゴールデンウィークの過ごし方が分からんくなってきた。行ったことないとこがないし、何をすればいいのかもわからなくなってきた。
+  [TURN 2] もっとなんかないんかね
+  [TURN 3] 何もしないで過ごすっていう選択肢ある？
+
+==============================================================================
+PILOT COMPARISON: frustrated vs engaged, by metric (neutral excluded)
+==============================================================================
+mean_cos_consecutive         frustrated mean=0.5367 (n=5)   engaged mean=0.3934 (n=10)   diff=+0.1432
+mean_cos_first_to_later      frustrated mean=0.5497 (n=5)   engaged mean=0.3919 (n=10)   diff=+0.1578
+embedding_variance           frustrated mean=0.2700 (n=5)   engaged mean=0.3575 (n=10)   diff=-0.0875
+
+Per-conversation disagreement flags (keyword label vs the metric that most separated the two groups above -- see run output for which metric that was):

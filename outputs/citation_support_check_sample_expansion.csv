@@ -1,0 +1,93 @@
+,group,winner_side,winner_model,winner_length,winner_citations,primary_intent,winner
+8711,short_light,a,gpt-4o-mini-search-preview,935,1,Analysis,model_a
+2549,short_light,b,sonar-pro,968,1,Factual Lookup,model_b
+2702,short_light,a,gpt-4o-mini-search-preview,270,2,Factual Lookup,model_a
+12292,short_light,b,gemini-2.0-flash,488,2,Factual Lookup,model_b
+2030,short_light,b,gpt-4o-search-preview,1024,2,Explanation,model_b
+2189,short_light,b,sonar-pro,953,2,Factual Lookup,model_b
+10179,short_light,a,gpt-4o-search-preview,885,1,Text Processing,model_a
+4573,short_light,b,sonar-reasoning,778,2,Explanation,model_b
+19421,short_light,a,gemini-2.0-flash,931,2,Factual Lookup,model_a
+6654,short_light,a,gpt-4o-search-preview,707,1,Factual Lookup,model_a
+2379,short_light,b,gpt-4o-search-preview,776,2,Explanation,model_b
+2042,short_light,a,gpt-4o-search-preview,443,2,Guidance,model_a
+12190,short_light,b,gpt-4o-search-preview,249,1,Factual Lookup,model_b
+555,short_light,a,gpt-4o-search-preview,768,2,Recommendation,model_a
+314,short_light,a,sonar-reasoning,892,2,Factual Lookup,model_a
+15469,short_light,b,gpt-4o-search-preview,1092,2,Info Synthesis,model_b
+13082,short_light,b,gpt-4o-search-preview,189,1,Factual Lookup,model_b
+10323,short_light,b,sonar-pro,492,1,Factual Lookup,model_b
+561,short_light,b,sonar,662,2,Explanation,model_b
+1063,short_light,a,sonar-pro,1061,1,Factual Lookup,model_a
+21707,short_light,b,gemini-2.5-flash-preview-04-17,279,1,Other,model_b
+7011,short_light,a,sonar-pro,877,2,Recommendation,model_a
+19071,short_light,b,gemini-2.0-flash,904,2,Other,model_b
+11328,short_light,a,gpt-4o-search-preview,92,1,Creative Generation,model_a
+7127,short_light,b,gpt-4o-search-preview,758,2,Factual Lookup,model_b
+13038,short_light,a,gpt-4o-search-preview,525,1,Factual Lookup,model_a
+903,short_light,a,gpt-4o-search-preview,319,2,Factual Lookup,model_a
+14858,short_light,b,gpt-4o-search-preview,779,2,Explanation,model_b
+4012,short_light,b,gpt-4o-mini-search-preview,209,1,Factual Lookup,model_b
+1791,short_light,a,sonar-pro,1193,1,Other,model_a
+4402,short_light,a,sonar,374,2,Factual Lookup,model_a
+17510,short_light,b,gpt-4o-search-preview,1035,1,Explanation,model_b
+5935,short_light,a,gpt-4o-search-preview,763,1,Factual Lookup,model_a
+12998,short_light,a,sonar-pro,107,2,Factual Lookup,model_a
+9368,short_light,b,gemini-2.0-flash,350,2,Factual Lookup,model_b
+10848,short_light,a,sonar-reasoning-pro,510,2,Info Synthesis,model_a
+15649,short_light,b,gpt-4o-search-preview,1189,1,Factual Lookup,model_b
+23321,short_light,b,gpt-4o-search-preview,1082,2,Factual Lookup,model_b
+6943,short_light,b,gpt-4o-search-preview,354,2,Factual Lookup,model_b
+9988,short_light,b,gpt-4o-search-preview,490,2,Factual Lookup,model_b
+8984,short_light,b,gpt-4o-search-preview,695,2,Other,model_b
+10474,short_light,b,sonar-reasoning-pro,892,1,Factual Lookup,model_b
+3684,short_light,a,gpt-4o-search-preview,908,1,Factual Lookup,model_a
+17247,short_light,b,gpt-4o-search-preview,1026,1,Info Synthesis,model_b
+5829,short_light,b,gpt-4o-mini-search-preview,971,2,Factual Lookup,model_b
+3934,short_light,a,gpt-4o-mini-search-preview,391,1,Factual Lookup,model_a
+9900,short_light,a,gpt-4o-search-preview,568,1,Other,model_a
+13706,short_light,a,gemini-2.0-flash,144,1,Factual Lookup,model_a
+7255,short_light,a,gpt-4o-search-preview,157,1,Factual Lookup,model_a
+3427,short_light,a,sonar-pro,1015,2,Factual Lookup,model_a
+11412,short_light,b,gemini-2.0-flash,848,1,Info Synthesis,model_b
+10857,short_light,a,sonar-reasoning-pro,1168,1,Text Processing,model_a
+11508,short_light,b,gemini-2.5-pro-exp-03-25,568,1,Factual Lookup,model_b
+4234,short_light,a,gemini-2.5-pro-exp-03-25,337,2,Recommendation,model_a
+14376,short_light,b,sonar,518,2,Factual Lookup,model_b
+387,short_light,b,sonar-reasoning,640,1,Factual Lookup,model_b
+4676,short_light,a,gemini-2.0-flash,110,1,Factual Lookup,model_a
+9520,short_light,a,gpt-4o-mini-search-preview,364,1,Factual Lookup,model_a
+13764,short_light,b,gpt-4o-search-preview,880,1,Info Synthesis,model_b
+6863,short_light,b,gpt-4o-search-preview,195,1,Factual Lookup,model_b
+135,short_light,a,sonar,979,2,Factual Lookup,model_a
+3558,short_light,a,gpt-4o-mini-search-preview,736,1,Other,model_a
+17537,short_light,a,gemini-2.5-flash-preview-04-17,773,1,Factual Lookup,model_a
+1457,short_light,a,gpt-4o-search-preview,1168,1,Factual Lookup,model_a
+4326,short_light,a,gpt-4o-search-preview,121,1,Factual Lookup,model_a
+18976,short_light,a,gpt-4o-search-preview,732,2,Factual Lookup,model_a
+6510,short_light,a,gpt-4o-search-preview,750,1,Factual Lookup,model_a
+12194,short_light,b,sonar-pro,485,1,Factual Lookup,model_b
+2281,short_light,b,sonar-pro,1012,1,Factual Lookup,model_b
+23334,short_light,b,sonar-reasoning-pro,349,1,Factual Lookup,model_b
+10846,short_light,b,sonar-pro,713,2,Explanation,model_b
+797,short_light,a,sonar-reasoning,560,2,Factual Lookup,model_a
+895,short_light,b,gpt-4o-search-preview,826,1,Factual Lookup,model_b
+4419,short_light,b,gpt-4o-mini-search-preview,1140,1,Factual Lookup,model_b
+8169,short_light,a,gpt-4o-search-preview,475,2,Analysis,model_a
+600,short_light,b,sonar,1018,2,Factual Lookup,model_b
+995,short_light,a,gpt-4o-search-preview,1152,1,Factual Lookup,model_a
+17672,short_light,a,sonar-pro,557,1,Factual Lookup,model_a
+897,short_light,a,gpt-4o-search-preview,712,1,Factual Lookup,model_a
+374,short_light,a,gpt-4o-search-preview,811,1,Guidance,model_a
+5580,short_light,a,gemini-2.0-flash,406,2,Explanation,model_a
+4236,short_light,b,gemini-2.5-pro-exp-03-25,1021,2,Recommendation,model_b
+7040,short_light,a,gpt-4o-search-preview,458,1,Factual Lookup,model_a
+896,short_light,b,gpt-4o-search-preview,703,1,Factual Lookup,model_b
+9182,short_light,b,gpt-4o-search-preview,227,1,Factual Lookup,model_b
+1410,short_light,a,sonar,330,2,Factual Lookup,model_a
+1354,short_light,b,gpt-4o-search-preview,226,1,Factual Lookup,model_b
+3230,short_light,a,gpt-4o-mini-search-preview,414,2,Factual Lookup,model_a
+7,short_light,b,sonar-pro,825,2,Factual Lookup,model_b
+19444,short_light,b,gpt-4o-search-preview,402,2,Other,model_b
+3176,short_light,a,gpt-4o-search-preview,166,1,Factual Lookup,model_a
+8015,short_light,b,gpt-4o-mini-search-preview,1015,2,Factual Lookup,model_b

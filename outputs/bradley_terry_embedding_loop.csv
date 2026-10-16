@@ -1,0 +1,2 @@
+test,metric,n,metric_coef,metric_ci_lo,metric_ci_hi,metric_boot_p,metric_significant,beta_citation,cit_ci_lo,cit_ci_hi,cit_boot_p,cit_significant,beta_length,len_ci_lo,len_ci_hi,len_boot_p,len_significant,converged,n_boot_failed
+loop_similarity_direct_effect_on_outcome,mean_cos_consecutive,986,0.04345715279304083,-0.09183187103655853,0.17005314703669513,0.488,False,0.22232599833047176,0.1058910695443225,0.360544721894081,0.0,True,0.3688166207724931,0.21431132151690727,0.5436059507329465,0.0,True,True,0
