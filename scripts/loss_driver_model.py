@@ -47,6 +47,20 @@ Factual Lookup than within Guidance" -- exactly Step 6's question). If
 `primary_intent` showed a large permutation importance on its own, that
 would be a red flag worth investigating, not a feature behaving as
 expected.
+
+AUDIT FIX (join-key bug): outputs/loss_driver_features.csv used to be saved
+with `index=False` and no identifier column at all. The dataframe's pandas
+index at save time IS the original train.jsonl line number (traced through
+every .copy()/.map()/.reindex() between load_decisive() and the save -- none
+of them resets or reorders it), but that fact was never written down
+anywhere -- the only way to recover it was to assume this file's row order
+matches train.jsonl's line order, which only holds because train.jsonl
+currently has zero blank lines (load_full_table() in final_analysis.py
+silently `continue`s past a blank line, which would shift every later row
+out of alignment with no error). `conversation_idx` (added right before the
+save in main()) makes that index a real, visible column instead of an
+unstated positional contract, so a future blank line or a change to that
+skip logic becomes a visibly wrong join, not a silently wrong one.
 """
 
 import json
@@ -628,6 +642,13 @@ def main():
     df = load_proven_features()
     text_df = extract_raw_texts(df)
     df = build_new_features(df, text_df)
+
+    # Fix for a previously-silent join-key bug (see module docstring):
+    # df.index here is the original train.jsonl line number, unbroken since
+    # load_decisive(). Captured as an explicit column -- not reconstructed
+    # later, not left as an implicit row-order assumption -- before the
+    # index itself is discarded by to_csv(index=False) below.
+    df["conversation_idx"] = df.index
 
     df.to_csv(OUT_FEATURES_CSV, index=False)
     print(f"\n[saved] {OUT_FEATURES_CSV}")
