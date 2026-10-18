@@ -225,10 +225,4 @@ Human-readable samples used to validate the automated measures rather than trust
   checked coefficients held their significance status; see "English-Only Replication"
   in the summary.
 
-## A note on coordinating with collaborators before pushing
 
-GitHub currently has an upload from a teammate (**itsAvester**) that has not been
-pulled into this local project, including a file called `ZeroCitationInvestigation.ipynb`
-that does not exist in this local checkout. **Coordinate with that teammate before
-pushing** so their work isn't silently overwritten — pull first, or keep this
-reorganized version as a separate branch/folder rather than force-pushing over it.

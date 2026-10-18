@@ -1,0 +1,571 @@
+scope,predictor_1,predictor_2,pearson_r,high_abs_correlation
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.10781807515729801,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.025798362641407235,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.1536054089099831,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.04057166498472307,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.09004259050681324,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.021370650599554643,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.10119901936629133,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.26683459301818463,False
+pooled_model_identity,theta[gemini-2.5-flash-preview-04-17],beta_length,0.07447350326165951,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.07678643225862167,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.20293962409724195,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.08122703720400862,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.12333084949362359,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.09563260049148264,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.12699773809767867,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.05118305323421337,False
+pooled_model_identity,theta[gemini-2.5-pro-exp-03-25],beta_length,0.2376663904827301,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.13328923013774882,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],theta[sonar],-0.11056476270849055,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.13542470209310165,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.12508088218447982,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.06925779860793255,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],beta_citation,-0.13501147150498305,False
+pooled_model_identity,theta[gpt-4o-mini-search-preview],beta_length,-0.08288509666876591,False
+pooled_model_identity,theta[gpt-4o-search-preview],theta[sonar],-0.1769207718529817,False
+pooled_model_identity,theta[gpt-4o-search-preview],theta[sonar-pro],-0.29895149010584077,False
+pooled_model_identity,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.20273960649289977,False
+pooled_model_identity,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.23512973936415826,False
+pooled_model_identity,theta[gpt-4o-search-preview],beta_citation,-0.3975805181698371,False
+pooled_model_identity,theta[gpt-4o-search-preview],beta_length,-0.27163819948434037,False
+pooled_model_identity,theta[sonar],theta[sonar-pro],-0.12934386221896868,False
+pooled_model_identity,theta[sonar],theta[sonar-reasoning],-0.1123640537607264,False
+pooled_model_identity,theta[sonar],theta[sonar-reasoning-pro],-0.07170623062560451,False
+pooled_model_identity,theta[sonar],beta_citation,0.0699003826584439,False
+pooled_model_identity,theta[sonar],beta_length,0.011353964698664034,False
+pooled_model_identity,theta[sonar-pro],theta[sonar-reasoning],-0.15410965555643527,False
+pooled_model_identity,theta[sonar-pro],theta[sonar-reasoning-pro],-0.12352233566021906,False
+pooled_model_identity,theta[sonar-pro],beta_citation,0.11179524557243913,False
+pooled_model_identity,theta[sonar-pro],beta_length,0.048435688652217396,False
+pooled_model_identity,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.07838285891292468,False
+pooled_model_identity,theta[sonar-reasoning],beta_citation,0.14878779366782105,False
+pooled_model_identity,theta[sonar-reasoning],beta_length,-0.024745869747217566,False
+pooled_model_identity,theta[sonar-reasoning-pro],beta_citation,0.1483064728713159,False
+pooled_model_identity,theta[sonar-reasoning-pro],beta_length,0.14741935918598095,False
+pooled_model_identity,beta_citation,beta_length,0.3345488176919218,False
+pooled_cost_tier,tier[mid] vs cheap,tier[expensive] vs cheap,-0.5520525343819972,False
+pooled_cost_tier,tier[mid] vs cheap,beta_citation,0.27548593065892246,False
+pooled_cost_tier,tier[mid] vs cheap,beta_length,0.02144076937787862,False
+pooled_cost_tier,tier[expensive] vs cheap,beta_citation,-0.16837071153778954,False
+pooled_cost_tier,tier[expensive] vs cheap,beta_length,0.019028481477792677,False
+pooled_cost_tier,beta_citation,beta_length,0.3345488176919218,False
+pooled_model_family,family[openai] vs gemini,family[sonar] vs gemini,-0.6687804426588652,False
+pooled_model_family,family[openai] vs gemini,beta_citation,-0.4394964436832417,False
+pooled_model_family,family[openai] vs gemini,beta_length,-0.2956396494591491,False
+pooled_model_family,family[sonar] vs gemini,beta_citation,0.29335595793117264,False
+pooled_model_family,family[sonar] vs gemini,beta_length,0.11520661580663367,False
+pooled_model_family,beta_citation,beta_length,0.3345488176919218,False
+pooled_tier_plus_family,tier[mid] vs cheap,tier[expensive] vs cheap,-0.5520525343819972,False
+pooled_tier_plus_family,tier[mid] vs cheap,family[openai] vs gemini,-0.29951450935980545,False
+pooled_tier_plus_family,tier[mid] vs cheap,family[sonar] vs gemini,0.21027512878332624,False
+pooled_tier_plus_family,tier[mid] vs cheap,beta_citation,0.27548593065892246,False
+pooled_tier_plus_family,tier[mid] vs cheap,beta_length,0.02144076937787862,False
+pooled_tier_plus_family,tier[expensive] vs cheap,family[openai] vs gemini,0.2602434540269534,False
+pooled_tier_plus_family,tier[expensive] vs cheap,family[sonar] vs gemini,-0.04675065588298163,False
+pooled_tier_plus_family,tier[expensive] vs cheap,beta_citation,-0.16837071153778954,False
+pooled_tier_plus_family,tier[expensive] vs cheap,beta_length,0.019028481477792677,False
+pooled_tier_plus_family,family[openai] vs gemini,family[sonar] vs gemini,-0.6687804426588652,False
+pooled_tier_plus_family,family[openai] vs gemini,beta_citation,-0.4394964436832417,False
+pooled_tier_plus_family,family[openai] vs gemini,beta_length,-0.2956396494591491,False
+pooled_tier_plus_family,family[sonar] vs gemini,beta_citation,0.29335595793117264,False
+pooled_tier_plus_family,family[sonar] vs gemini,beta_length,0.11520661580663367,False
+pooled_tier_plus_family,beta_citation,beta_length,0.3345488176919218,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.09913962287185132,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.023846108226326903,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.17083515762195498,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.025461908628323104,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.07093355351427877,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.024355593587511087,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.11523996382330966,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.22688990012279847,False
+intent_Factual Lookup,theta[gemini-2.5-flash-preview-04-17],beta_length,0.0465063097331575,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.046735133597856755,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.19392627671588716,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.08258935093909145,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.12823885880974287,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.11553931682872319,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.13802666031635713,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.12405542824924672,False
+intent_Factual Lookup,theta[gemini-2.5-pro-exp-03-25],beta_length,0.24264538969656155,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.13553702511129911,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],theta[sonar],-0.1427270055501338,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.13777886059787434,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.12903299332613466,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.07793071150021393,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],beta_citation,-0.13463551531972182,False
+intent_Factual Lookup,theta[gpt-4o-mini-search-preview],beta_length,-0.08756609461642045,False
+intent_Factual Lookup,theta[gpt-4o-search-preview],theta[sonar],-0.19078444362493327,False
+intent_Factual Lookup,theta[gpt-4o-search-preview],theta[sonar-pro],-0.29088758460873876,False
+intent_Factual Lookup,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.22031245375630554,False
+intent_Factual Lookup,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.23812968270076293,False
+intent_Factual Lookup,theta[gpt-4o-search-preview],beta_citation,-0.4089308090793611,False
+intent_Factual Lookup,theta[gpt-4o-search-preview],beta_length,-0.2540859892247908,False
+intent_Factual Lookup,theta[sonar],theta[sonar-pro],-0.12397752946972936,False
+intent_Factual Lookup,theta[sonar],theta[sonar-reasoning],-0.11436556552538904,False
+intent_Factual Lookup,theta[sonar],theta[sonar-reasoning-pro],-0.06816592752189671,False
+intent_Factual Lookup,theta[sonar],beta_citation,0.09254906417406064,False
+intent_Factual Lookup,theta[sonar],beta_length,0.023590513150828354,False
+intent_Factual Lookup,theta[sonar-pro],theta[sonar-reasoning],-0.1460078243468036,False
+intent_Factual Lookup,theta[sonar-pro],theta[sonar-reasoning-pro],-0.1151689497391267,False
+intent_Factual Lookup,theta[sonar-pro],beta_citation,0.06663894523773399,False
+intent_Factual Lookup,theta[sonar-pro],beta_length,0.03194164459462942,False
+intent_Factual Lookup,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.05782580703353394,False
+intent_Factual Lookup,theta[sonar-reasoning],beta_citation,0.19705977891858284,False
+intent_Factual Lookup,theta[sonar-reasoning],beta_length,0.07750160760202507,False
+intent_Factual Lookup,theta[sonar-reasoning-pro],beta_citation,0.16758825661090682,False
+intent_Factual Lookup,theta[sonar-reasoning-pro],beta_length,0.22184432600370602,False
+intent_Factual Lookup,beta_citation,beta_length,0.5593780725434354,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.04455389237351498,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],0.0036396859901734204,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.14745223772968566,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.007706041168625576,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.03360516629160403,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.00958199968165724,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.15470880977094825,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.11242953302519978,False
+intent_Text Processing,theta[gemini-2.5-flash-preview-04-17],beta_length,0.08334010383317347,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.14414709128118808,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.2782972823942908,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.11173187572019234,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.08264786306212005,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.15233929371366964,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.08457334830445451,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.041164304762858005,False
+intent_Text Processing,theta[gemini-2.5-pro-exp-03-25],beta_length,0.13057776126458984,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.06297444607589543,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],theta[sonar],-0.046659136227849736,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.14457592745671646,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.0501683635938119,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],0.0016413517826536685,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],beta_citation,-0.010128163167338092,False
+intent_Text Processing,theta[gpt-4o-mini-search-preview],beta_length,-0.01843558797606032,False
+intent_Text Processing,theta[gpt-4o-search-preview],theta[sonar],-0.2336536906787427,False
+intent_Text Processing,theta[gpt-4o-search-preview],theta[sonar-pro],-0.3922769728665717,False
+intent_Text Processing,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.11370891606773395,False
+intent_Text Processing,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.21737609725953733,False
+intent_Text Processing,theta[gpt-4o-search-preview],beta_citation,-0.3784572591570932,False
+intent_Text Processing,theta[gpt-4o-search-preview],beta_length,-0.23216572619236897,False
+intent_Text Processing,theta[sonar],theta[sonar-pro],-0.10596224156455199,False
+intent_Text Processing,theta[sonar],theta[sonar-reasoning],-0.07659243447181088,False
+intent_Text Processing,theta[sonar],theta[sonar-reasoning-pro],-0.06437235321570829,False
+intent_Text Processing,theta[sonar],beta_citation,0.07436952223507405,False
+intent_Text Processing,theta[sonar],beta_length,0.052995431656571335,False
+intent_Text Processing,theta[sonar-pro],theta[sonar-reasoning],-0.13849946027064977,False
+intent_Text Processing,theta[sonar-pro],theta[sonar-reasoning-pro],-0.08540602388024994,False
+intent_Text Processing,theta[sonar-pro],beta_citation,-0.012160082561111923,False
+intent_Text Processing,theta[sonar-pro],beta_length,0.01166308485423289,False
+intent_Text Processing,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.16996310593438665,False
+intent_Text Processing,theta[sonar-reasoning],beta_citation,0.18501960738669493,False
+intent_Text Processing,theta[sonar-reasoning],beta_length,-0.007531668913132801,False
+intent_Text Processing,theta[sonar-reasoning-pro],beta_citation,0.13576222212734473,False
+intent_Text Processing,theta[sonar-reasoning-pro],beta_length,0.027844234491510952,False
+intent_Text Processing,beta_citation,beta_length,0.541382817401004,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.08953396141344983,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.003619998384477269,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.13039018032188593,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.07197821386916234,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.053122239702540874,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.019904893401234854,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.024219574723740606,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.014621479918606847,False
+intent_Other,theta[gemini-2.5-flash-preview-04-17],beta_length,-0.005151828370122739,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.062244008352845256,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.2195396138341598,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.15908689543066468,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.10088941886214002,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.08725006858884203,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.14858255717691943,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],beta_citation,-0.06018473446191507,False
+intent_Other,theta[gemini-2.5-pro-exp-03-25],beta_length,0.009433028069354603,False
+intent_Other,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.14539786225417778,False
+intent_Other,theta[gpt-4o-mini-search-preview],theta[sonar],-0.07829175355941727,False
+intent_Other,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.22214530921114928,False
+intent_Other,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.07795548273340903,False
+intent_Other,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.031222614244668743,False
+intent_Other,theta[gpt-4o-mini-search-preview],beta_citation,-0.043439292349394754,False
+intent_Other,theta[gpt-4o-mini-search-preview],beta_length,-0.058916861356872026,False
+intent_Other,theta[gpt-4o-search-preview],theta[sonar],-0.16638799109381605,False
+intent_Other,theta[gpt-4o-search-preview],theta[sonar-pro],-0.25247047949224466,False
+intent_Other,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.29260296903186644,False
+intent_Other,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.194656138486452,False
+intent_Other,theta[gpt-4o-search-preview],beta_citation,-0.2563025798463147,False
+intent_Other,theta[gpt-4o-search-preview],beta_length,-0.2159634875126836,False
+intent_Other,theta[sonar],theta[sonar-pro],-0.11481145560508559,False
+intent_Other,theta[sonar],theta[sonar-reasoning],-0.09634857642035051,False
+intent_Other,theta[sonar],theta[sonar-reasoning-pro],-0.1617650419652003,False
+intent_Other,theta[sonar],beta_citation,0.14532350987037607,False
+intent_Other,theta[sonar],beta_length,0.05276091186919274,False
+intent_Other,theta[sonar-pro],theta[sonar-reasoning],-0.1494097228669031,False
+intent_Other,theta[sonar-pro],theta[sonar-reasoning-pro],-0.1293381062839008,False
+intent_Other,theta[sonar-pro],beta_citation,0.06814549056176797,False
+intent_Other,theta[sonar-pro],beta_length,0.07661719875914524,False
+intent_Other,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.07675774982082677,False
+intent_Other,theta[sonar-reasoning],beta_citation,0.22173465219699362,False
+intent_Other,theta[sonar-reasoning],beta_length,0.1833815419444636,False
+intent_Other,theta[sonar-reasoning-pro],beta_citation,0.07832397849819829,False
+intent_Other,theta[sonar-reasoning-pro],beta_length,0.1265467525433058,False
+intent_Other,beta_citation,beta_length,0.7655518619262394,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.2083979698246434,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.015130482733754898,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.15825709188497322,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.04140665106049314,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.10200214971014734,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.016349791529541368,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.08779475557945736,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.32398984863191593,False
+intent_Explanation,theta[gemini-2.5-flash-preview-04-17],beta_length,-0.043437318015523294,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.10117832562192229,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.18877320227501065,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.05159206021642804,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.10850008364817806,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.09058533036312956,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.10139051413342905,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.024542366161150003,False
+intent_Explanation,theta[gemini-2.5-pro-exp-03-25],beta_length,0.35125687057057703,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.14028968083321933,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],theta[sonar],-0.10798444898550758,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.13690692172153154,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.12230129600215132,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.09851516609370957,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],beta_citation,-0.20461325329678207,False
+intent_Explanation,theta[gpt-4o-mini-search-preview],beta_length,-0.22047344349289794,False
+intent_Explanation,theta[gpt-4o-search-preview],theta[sonar],-0.19303714502346594,False
+intent_Explanation,theta[gpt-4o-search-preview],theta[sonar-pro],-0.27774675539598864,False
+intent_Explanation,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.22622112171883807,False
+intent_Explanation,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.23388578917865613,False
+intent_Explanation,theta[gpt-4o-search-preview],beta_citation,-0.5094952535748645,False
+intent_Explanation,theta[gpt-4o-search-preview],beta_length,-0.3713824909759575,False
+intent_Explanation,theta[sonar],theta[sonar-pro],-0.12339169089761258,False
+intent_Explanation,theta[sonar],theta[sonar-reasoning],-0.1065466107658814,False
+intent_Explanation,theta[sonar],theta[sonar-reasoning-pro],-0.03635069909164032,False
+intent_Explanation,theta[sonar],beta_citation,0.07315270775250583,False
+intent_Explanation,theta[sonar],beta_length,0.018005454529236943,False
+intent_Explanation,theta[sonar-pro],theta[sonar-reasoning],-0.19030297375697902,False
+intent_Explanation,theta[sonar-pro],theta[sonar-reasoning-pro],-0.12042095293908096,False
+intent_Explanation,theta[sonar-pro],beta_citation,0.1406342406714864,False
+intent_Explanation,theta[sonar-pro],beta_length,0.11876888716526894,False
+intent_Explanation,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.07974665394082146,False
+intent_Explanation,theta[sonar-reasoning],beta_citation,0.22179251720549248,False
+intent_Explanation,theta[sonar-reasoning],beta_length,0.004486486941297038,False
+intent_Explanation,theta[sonar-reasoning-pro],beta_citation,0.2043298854976752,False
+intent_Explanation,theta[sonar-reasoning-pro],beta_length,0.3164859242746112,False
+intent_Explanation,beta_citation,beta_length,0.39377700214867073,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.10752362916855034,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.03771292752346976,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.16253264689208952,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.02018443475806984,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.09634819989218964,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.009214863760715434,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.08430534905206234,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.35067484188935244,False
+intent_Recommendation,theta[gemini-2.5-flash-preview-04-17],beta_length,0.16154460650834257,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.0801960629588797,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.20293464116184176,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.07243868847825667,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.13346759556790683,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.0987141741685472,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.16815614792143496,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.06046729647715257,False
+intent_Recommendation,theta[gemini-2.5-pro-exp-03-25],beta_length,0.43652736186983,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.12969064504135205,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],theta[sonar],-0.08190373385071523,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.14152255194768285,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.09790579198847489,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.05877635501081613,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],beta_citation,-0.13450280131017575,False
+intent_Recommendation,theta[gpt-4o-mini-search-preview],beta_length,-0.14638722058456663,False
+intent_Recommendation,theta[gpt-4o-search-preview],theta[sonar],-0.15356647463889658,False
+intent_Recommendation,theta[gpt-4o-search-preview],theta[sonar-pro],-0.3091150113546587,False
+intent_Recommendation,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.1846288721015696,False
+intent_Recommendation,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.23266620862667214,False
+intent_Recommendation,theta[gpt-4o-search-preview],beta_citation,-0.3735699742119657,False
+intent_Recommendation,theta[gpt-4o-search-preview],beta_length,-0.44423711367103813,False
+intent_Recommendation,theta[sonar],theta[sonar-pro],-0.15621879058926214,False
+intent_Recommendation,theta[sonar],theta[sonar-reasoning],-0.06568964112632,False
+intent_Recommendation,theta[sonar],theta[sonar-reasoning-pro],-0.07677273570720186,False
+intent_Recommendation,theta[sonar],beta_citation,0.03497978274946781,False
+intent_Recommendation,theta[sonar],beta_length,0.04229042852473433,False
+intent_Recommendation,theta[sonar-pro],theta[sonar-reasoning],-0.14873406537561737,False
+intent_Recommendation,theta[sonar-pro],theta[sonar-reasoning-pro],-0.13833315124015658,False
+intent_Recommendation,theta[sonar-pro],beta_citation,0.15075122343805525,False
+intent_Recommendation,theta[sonar-pro],beta_length,0.11146853889099899,False
+intent_Recommendation,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.10593408222081545,False
+intent_Recommendation,theta[sonar-reasoning],beta_citation,0.08563640880052469,False
+intent_Recommendation,theta[sonar-reasoning],beta_length,-0.09000292504727615,False
+intent_Recommendation,theta[sonar-reasoning-pro],beta_citation,0.09361027514104583,False
+intent_Recommendation,theta[sonar-reasoning-pro],beta_length,0.14666791439866958,False
+intent_Recommendation,beta_citation,beta_length,0.3915765220665101,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.13959527285731427,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.0251244991057317,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.13787525606908363,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.04588456737094455,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.09766314073112277,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.030261164805907383,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.12341281598987747,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.3954585607229699,False
+intent_Guidance,theta[gemini-2.5-flash-preview-04-17],beta_length,0.12376415950297198,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.07092553347765981,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.19027805644805415,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.08109304515940775,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.10906664005975814,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.06989800931596404,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.1053426360914604,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],beta_citation,-0.08488930572474312,False
+intent_Guidance,theta[gemini-2.5-pro-exp-03-25],beta_length,0.3079436743904738,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.15847440137761823,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],theta[sonar],-0.12088960739649861,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.12736515686198133,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.12043812237220777,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.08190127352694299,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],beta_citation,-0.13694309163597035,False
+intent_Guidance,theta[gpt-4o-mini-search-preview],beta_length,-0.09931692409140112,False
+intent_Guidance,theta[gpt-4o-search-preview],theta[sonar],-0.18337988354608678,False
+intent_Guidance,theta[gpt-4o-search-preview],theta[sonar-pro],-0.3104441291253965,False
+intent_Guidance,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.16068551558122446,False
+intent_Guidance,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.27232437460128284,False
+intent_Guidance,theta[gpt-4o-search-preview],beta_citation,-0.43907378601653685,False
+intent_Guidance,theta[gpt-4o-search-preview],beta_length,-0.32843706620231083,False
+intent_Guidance,theta[sonar],theta[sonar-pro],-0.13391450551754924,False
+intent_Guidance,theta[sonar],theta[sonar-reasoning],-0.13200480866557507,False
+intent_Guidance,theta[sonar],theta[sonar-reasoning-pro],-0.072398735723221,False
+intent_Guidance,theta[sonar],beta_citation,0.10449623385793924,False
+intent_Guidance,theta[sonar],beta_length,-0.013085329359650373,False
+intent_Guidance,theta[sonar-pro],theta[sonar-reasoning],-0.11366749599129879,False
+intent_Guidance,theta[sonar-pro],theta[sonar-reasoning-pro],-0.11376763197579905,False
+intent_Guidance,theta[sonar-pro],beta_citation,0.17180322646389828,False
+intent_Guidance,theta[sonar-pro],beta_length,-0.03461957280705327,False
+intent_Guidance,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.056527357896271765,False
+intent_Guidance,theta[sonar-reasoning],beta_citation,0.12889805207990002,False
+intent_Guidance,theta[sonar-reasoning],beta_length,-0.14720023395856174,False
+intent_Guidance,theta[sonar-reasoning-pro],beta_citation,0.19570724678886336,False
+intent_Guidance,theta[sonar-reasoning-pro],beta_length,0.18160051687954284,False
+intent_Guidance,beta_citation,beta_length,0.24853485673499107,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.07125174787096471,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.04148371006858098,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.13224906077422555,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.06819643818518213,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.08527300884994558,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.017072118549371913,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.1173048020713113,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.32465711055276775,False
+intent_Info Synthesis,theta[gemini-2.5-flash-preview-04-17],beta_length,0.06251641099674904,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.06348755439298272,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.21644447900504388,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.08533047051953672,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.11917794815752707,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.09140112287560037,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.1082249173333837,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.14002460760924595,False
+intent_Info Synthesis,theta[gemini-2.5-pro-exp-03-25],beta_length,0.3428731636807783,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.14770496952097573,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],theta[sonar],-0.09319942822092128,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.1267547709451397,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.1444657112392789,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.06247942866338679,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],beta_citation,-0.14325424372609535,False
+intent_Info Synthesis,theta[gpt-4o-mini-search-preview],beta_length,-0.07916201313277464,False
+intent_Info Synthesis,theta[gpt-4o-search-preview],theta[sonar],-0.16208301221073756,False
+intent_Info Synthesis,theta[gpt-4o-search-preview],theta[sonar-pro],-0.32150985631084217,False
+intent_Info Synthesis,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.20127259134559516,False
+intent_Info Synthesis,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.21852212188744677,False
+intent_Info Synthesis,theta[gpt-4o-search-preview],beta_citation,-0.44237070197717665,False
+intent_Info Synthesis,theta[gpt-4o-search-preview],beta_length,-0.38167818962200617,False
+intent_Info Synthesis,theta[sonar],theta[sonar-pro],-0.12808431357678163,False
+intent_Info Synthesis,theta[sonar],theta[sonar-reasoning],-0.14708936418377833,False
+intent_Info Synthesis,theta[sonar],theta[sonar-reasoning-pro],-0.06746766210923989,False
+intent_Info Synthesis,theta[sonar],beta_citation,0.020432720930710746,False
+intent_Info Synthesis,theta[sonar],beta_length,-0.015090645975140385,False
+intent_Info Synthesis,theta[sonar-pro],theta[sonar-reasoning],-0.15526143072151266,False
+intent_Info Synthesis,theta[sonar-pro],theta[sonar-reasoning-pro],-0.12310063219639819,False
+intent_Info Synthesis,theta[sonar-pro],beta_citation,0.10503064537846976,False
+intent_Info Synthesis,theta[sonar-pro],beta_length,0.1144463287720362,False
+intent_Info Synthesis,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.0864300699230134,False
+intent_Info Synthesis,theta[sonar-reasoning],beta_citation,0.09739646844545295,False
+intent_Info Synthesis,theta[sonar-reasoning],beta_length,-0.047045782316377016,False
+intent_Info Synthesis,theta[sonar-reasoning-pro],beta_citation,0.153524853728404,False
+intent_Info Synthesis,theta[sonar-reasoning-pro],beta_length,0.21206962704649399,False
+intent_Info Synthesis,beta_citation,beta_length,0.40927844329280766,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.0813720710661609,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.021525218409454032,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.13705098834014348,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.04155630437127854,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.09272783385303617,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.04830372144685836,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.11331221071499015,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.2641865187106579,False
+intent_Analysis,theta[gemini-2.5-flash-preview-04-17],beta_length,0.09976030199858596,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.07156193366925613,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.19008618635864147,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.08961931747127008,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.10923685363055034,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.09466713140231268,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.16860152692923394,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],beta_citation,0.024417153079703602,False
+intent_Analysis,theta[gemini-2.5-pro-exp-03-25],beta_length,0.39493945502644356,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.10894668792032458,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],theta[sonar],-0.11300571062431629,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.13738832419387145,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.16404812526866008,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.0559397128731777,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],beta_citation,-0.17561318296862116,False
+intent_Analysis,theta[gpt-4o-mini-search-preview],beta_length,-0.11254966073407537,False
+intent_Analysis,theta[gpt-4o-search-preview],theta[sonar],-0.19569263822708632,False
+intent_Analysis,theta[gpt-4o-search-preview],theta[sonar-pro],-0.29792274227873483,False
+intent_Analysis,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.16531125423432314,False
+intent_Analysis,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.20148837870407044,False
+intent_Analysis,theta[gpt-4o-search-preview],beta_citation,-0.3992184198172207,False
+intent_Analysis,theta[gpt-4o-search-preview],beta_length,-0.41722262593546056,False
+intent_Analysis,theta[sonar],theta[sonar-pro],-0.13982577620501416,False
+intent_Analysis,theta[sonar],theta[sonar-reasoning],-0.08108629814843674,False
+intent_Analysis,theta[sonar],theta[sonar-reasoning-pro],-0.0803179894023379,False
+intent_Analysis,theta[sonar],beta_citation,0.09293807581651735,False
+intent_Analysis,theta[sonar],beta_length,0.015207137687317294,False
+intent_Analysis,theta[sonar-pro],theta[sonar-reasoning],-0.1711068494134931,False
+intent_Analysis,theta[sonar-pro],theta[sonar-reasoning-pro],-0.14333162008269648,False
+intent_Analysis,theta[sonar-pro],beta_citation,0.11865507685025835,False
+intent_Analysis,theta[sonar-pro],beta_length,0.12216110020136758,False
+intent_Analysis,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.07983818351124268,False
+intent_Analysis,theta[sonar-reasoning],beta_citation,0.11017502322968496,False
+intent_Analysis,theta[sonar-reasoning],beta_length,-0.05364048864895222,False
+intent_Analysis,theta[sonar-reasoning-pro],beta_citation,0.14048162517543514,False
+intent_Analysis,theta[sonar-reasoning-pro],beta_length,0.10959296567038025,False
+intent_Analysis,beta_citation,beta_length,0.3723722467748992,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.11703099838362303,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.002490058411078558,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.20222375184647545,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.027485656789520807,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.15527797581141445,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.015478948715234593,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.04987635678994412,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.16467971076514035,False
+intent_Creative Generation,theta[gemini-2.5-flash-preview-04-17],beta_length,0.12881733584088378,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.1995195118704192,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.20674733540475787,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.031579102316433016,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.18239388609593774,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.06205530264433989,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.06813549360449808,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],beta_citation,-0.06096485654637904,False
+intent_Creative Generation,theta[gemini-2.5-pro-exp-03-25],beta_length,0.1456511667097054,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.08137940206758652,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],theta[sonar],-0.13065261714748258,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.0811610769458597,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.09094407611663055,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.08173893179330369,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],beta_citation,-0.0926101582632536,False
+intent_Creative Generation,theta[gpt-4o-mini-search-preview],beta_length,-0.06570003416678485,False
+intent_Creative Generation,theta[gpt-4o-search-preview],theta[sonar],-0.1442778381005378,False
+intent_Creative Generation,theta[gpt-4o-search-preview],theta[sonar-pro],-0.26385818691962054,False
+intent_Creative Generation,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.2001720371317153,False
+intent_Creative Generation,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.3230236884441028,False
+intent_Creative Generation,theta[gpt-4o-search-preview],beta_citation,-0.30142722508711767,False
+intent_Creative Generation,theta[gpt-4o-search-preview],beta_length,-0.1892471843752742,False
+intent_Creative Generation,theta[sonar],theta[sonar-pro],-0.12272579807020022,False
+intent_Creative Generation,theta[sonar],theta[sonar-reasoning],-0.12304027849451091,False
+intent_Creative Generation,theta[sonar],theta[sonar-reasoning-pro],-0.0556673085448815,False
+intent_Creative Generation,theta[sonar],beta_citation,0.022915773189097984,False
+intent_Creative Generation,theta[sonar],beta_length,0.01464275351763521,False
+intent_Creative Generation,theta[sonar-pro],theta[sonar-reasoning],-0.1601225328690323,False
+intent_Creative Generation,theta[sonar-pro],theta[sonar-reasoning-pro],-0.11971774480411489,False
+intent_Creative Generation,theta[sonar-pro],beta_citation,0.17572962897758357,False
+intent_Creative Generation,theta[sonar-pro],beta_length,-0.02984067327093635,False
+intent_Creative Generation,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.07778218208799303,False
+intent_Creative Generation,theta[sonar-reasoning],beta_citation,0.17954659019967573,False
+intent_Creative Generation,theta[sonar-reasoning],beta_length,-0.07103324670635766,False
+intent_Creative Generation,theta[sonar-reasoning-pro],beta_citation,0.18021050171447797,False
+intent_Creative Generation,theta[sonar-reasoning-pro],beta_length,0.12427310710940126,False
+intent_Creative Generation,beta_citation,beta_length,0.16433068030520065,False
+frustration_direct_effect,frustrated_vs_engaged,beta_citation,0.012327821410640661,False
+frustration_direct_effect,frustrated_vs_engaged,beta_length,-0.021592622930230638,False
+frustration_direct_effect,beta_citation,beta_length,0.30485208873690806,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.030480138288565203,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.007897502640703226,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.1903486701749677,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.0575478397798399,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.035124855555221705,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.04185565311937683,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.14158456645688483,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.1749532680079333,False
+frustration_group_frustrated,theta[gemini-2.5-flash-preview-04-17],beta_length,0.2184868682149787,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.10172376474658863,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.2212956868989314,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.09502842818467815,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.13241887896993876,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.10047598415309227,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.0986526137136398,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],beta_citation,-0.09489340723741628,False
+frustration_group_frustrated,theta[gemini-2.5-pro-exp-03-25],beta_length,0.18254904553622506,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.1319305351556029,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],theta[sonar],-0.1873222376950429,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.16729581513530634,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.054545598417359446,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.02359680617892001,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],beta_citation,-0.08302285346381075,False
+frustration_group_frustrated,theta[gpt-4o-mini-search-preview],beta_length,-0.13705284575346555,False
+frustration_group_frustrated,theta[gpt-4o-search-preview],theta[sonar],-0.21502914745787496,False
+frustration_group_frustrated,theta[gpt-4o-search-preview],theta[sonar-pro],-0.2682193665408686,False
+frustration_group_frustrated,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.19815113150595184,False
+frustration_group_frustrated,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.26594739608330875,False
+frustration_group_frustrated,theta[gpt-4o-search-preview],beta_citation,-0.3261553052980164,False
+frustration_group_frustrated,theta[gpt-4o-search-preview],beta_length,-0.2650120390973067,False
+frustration_group_frustrated,theta[sonar],theta[sonar-pro],-0.11823270088869706,False
+frustration_group_frustrated,theta[sonar],theta[sonar-reasoning],-0.07914464806303083,False
+frustration_group_frustrated,theta[sonar],theta[sonar-reasoning-pro],-0.010850754247920726,False
+frustration_group_frustrated,theta[sonar],beta_citation,0.15108573658658564,False
+frustration_group_frustrated,theta[sonar],beta_length,0.01918705893105833,False
+frustration_group_frustrated,theta[sonar-pro],theta[sonar-reasoning],-0.23123443832948476,False
+frustration_group_frustrated,theta[sonar-pro],theta[sonar-reasoning-pro],-0.050830321016329526,False
+frustration_group_frustrated,theta[sonar-pro],beta_citation,0.1032122071188281,False
+frustration_group_frustrated,theta[sonar-pro],beta_length,0.030966926514846862,False
+frustration_group_frustrated,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.03964890527934847,False
+frustration_group_frustrated,theta[sonar-reasoning],beta_citation,0.2980906154616758,False
+frustration_group_frustrated,theta[sonar-reasoning],beta_length,0.061502002497289064,False
+frustration_group_frustrated,theta[sonar-reasoning-pro],beta_citation,0.06626634106857615,False
+frustration_group_frustrated,theta[sonar-reasoning-pro],beta_length,0.07041968137160538,False
+frustration_group_frustrated,beta_citation,beta_length,0.32896123078582606,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[gemini-2.5-pro-exp-03-25],-0.06157371538961021,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-mini-search-preview],-0.03807986903276479,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[gpt-4o-search-preview],-0.13142998136313402,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[sonar],-0.049274242971856896,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[sonar-pro],-0.1480338379221615,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning],-0.0897041638613647,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],theta[sonar-reasoning-pro],-0.06625347831697626,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],beta_citation,0.2897086753368167,False
+frustration_group_engaged,theta[gemini-2.5-flash-preview-04-17],beta_length,0.15424283679844444,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-mini-search-preview],-0.08134379489252745,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],theta[gpt-4o-search-preview],-0.19466870318534865,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],theta[sonar],-0.10298029501129644,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],theta[sonar-pro],-0.15669796400938266,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning],-0.13939251982327125,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],theta[sonar-reasoning-pro],-0.2077904202846558,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],beta_citation,-0.08579156794974713,False
+frustration_group_engaged,theta[gemini-2.5-pro-exp-03-25],beta_length,0.3744531820560253,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],theta[gpt-4o-search-preview],-0.12500251606069476,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],theta[sonar],-0.06182932880886183,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],theta[sonar-pro],-0.14993106214821375,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning],-0.09869613268346791,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],theta[sonar-reasoning-pro],-0.011380459453804172,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],beta_citation,-0.10906187469885407,False
+frustration_group_engaged,theta[gpt-4o-mini-search-preview],beta_length,-0.10674310546914181,False
+frustration_group_engaged,theta[gpt-4o-search-preview],theta[sonar],-0.1597842282956769,False
+frustration_group_engaged,theta[gpt-4o-search-preview],theta[sonar-pro],-0.2812167699909858,False
+frustration_group_engaged,theta[gpt-4o-search-preview],theta[sonar-reasoning],-0.16626557570962291,False
+frustration_group_engaged,theta[gpt-4o-search-preview],theta[sonar-reasoning-pro],-0.20831218438219756,False
+frustration_group_engaged,theta[gpt-4o-search-preview],beta_citation,-0.45719820167918807,False
+frustration_group_engaged,theta[gpt-4o-search-preview],beta_length,-0.4505219569983112,False
+frustration_group_engaged,theta[sonar],theta[sonar-pro],-0.11368408227187127,False
+frustration_group_engaged,theta[sonar],theta[sonar-reasoning],-0.12494815214419315,False
+frustration_group_engaged,theta[sonar],theta[sonar-reasoning-pro],-0.1016971488812819,False
+frustration_group_engaged,theta[sonar],beta_citation,0.07994197796947175,False
+frustration_group_engaged,theta[sonar],beta_length,0.027416746923721043,False
+frustration_group_engaged,theta[sonar-pro],theta[sonar-reasoning],-0.12672628083698512,False
+frustration_group_engaged,theta[sonar-pro],theta[sonar-reasoning-pro],-0.15544467441048296,False
+frustration_group_engaged,theta[sonar-pro],beta_citation,0.12092898089747321,False
+frustration_group_engaged,theta[sonar-pro],beta_length,0.056965390501471105,False
+frustration_group_engaged,theta[sonar-reasoning],theta[sonar-reasoning-pro],-0.06146463010295705,False
+frustration_group_engaged,theta[sonar-reasoning],beta_citation,0.21464190687846785,False
+frustration_group_engaged,theta[sonar-reasoning],beta_length,-0.07578190372600564,False
+frustration_group_engaged,theta[sonar-reasoning-pro],beta_citation,0.2467256278998904,False
+frustration_group_engaged,theta[sonar-reasoning-pro],beta_length,0.1466218506159312,False
+frustration_group_engaged,beta_citation,beta_length,0.29211140960635734,False

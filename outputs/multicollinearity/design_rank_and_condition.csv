@@ -1,0 +1,17 @@
+scope,n,p,rank,condition_number,full_rank
+pooled_model_identity,8613,10,10,4.671068089027532,True
+pooled_cost_tier,8613,4,4,1.9941998868059576,True
+pooled_model_family,8613,4,4,2.6647314333350534,True
+pooled_tier_plus_family,8613,6,6,3.0498218664980854,True
+intent_Factual Lookup,1974,10,10,5.140795384475031,True
+intent_Text Processing,184,10,10,4.326700365102542,True
+intent_Other,451,10,10,4.903290408519664,True
+intent_Explanation,901,10,10,5.28652918213458,True
+intent_Recommendation,1026,10,10,4.867993902589554,True
+intent_Guidance,680,10,10,4.7642606087585335,True
+intent_Info Synthesis,1892,10,10,4.950561114827146,True
+intent_Analysis,901,10,10,4.554158364749862,True
+intent_Creative Generation,604,10,10,4.511139975350712,True
+frustration_direct_effect,838,4,4,1.9364830523840721,True
+frustration_group_frustrated,280,10,10,4.373641459040765,True
+frustration_group_engaged,558,10,10,4.771222908238278,True
